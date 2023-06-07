@@ -1,0 +1,510 @@
+,concept_label,precision,recall,f1,support,accuracy,num_records,concept_label_group,relevance
+0,potassium_unspecified,0.000,0.000,0.000,23,0.000,47878,laboratory value,relevant
+1,unmapped,0.000,0.000,0.000,671,0.000,24050390,unmapped,irrelevant
+2,fio2_hiflow,0.000,0.000,0.000,2,0.000,5394,respiratory,relevant
+3,o2_flow_high_flow_oxygen,0.000,0.000,0.000,14,0.000,149827,respiratory,relevant
+4,lactate_dehydrogenase_unspecified,0.000,0.000,0.000,23,0.000,16100,laboratory value,relevant
+5,amylase_unspecified,0.000,0.000,0.000,3,0.000,1161,laboratory value,relevant
+6,picco_pulse_pressure_variation,0.000,0.000,0.000,6,0.000,36725,hemodynamics,relevant
+7,ultrafiltration_cvvh_measured,0.000,0.000,0.000,2,0.000,27680,renal replacement therapy,relevant
+8,access_pressure_cvvh,0.000,0.000,0.000,21,0.000,500865,renal replacement therapy,relevant
+9,return_pressure_cvvh,0.000,0.000,0.000,23,0.000,504097,renal replacement therapy,relevant
+10,crrt_duration,0.000,0.000,0.000,1,0.000,498,renal replacement therapy,relevant
+11,blood_flow_cvvh,0.000,0.000,0.000,12,0.000,114085,renal replacement therapy,relevant
+12,effluent_pressure_cvvh,0.000,0.000,0.000,17,0.000,466611,renal replacement therapy,relevant
+13,fluid_out_cvvh_dialysis_cumulative,0.000,0.000,0.000,3,0.000,95884,fluid balance,relevant
+14,ultrafiltration_cvvh_set,0.000,0.000,0.000,14,0.000,502734,renal replacement therapy,relevant
+15,substitution_volume_cvvh,0.000,0.000,0.000,4,0.000,97433,renal replacement therapy,relevant
+16,procalcitonin_unspecified,0.000,0.000,0.000,10,0.000,10589,laboratory value,relevant
+17,glucose_measured_unspecified,0.000,0.000,0.000,45,0.000,74670,laboratory value,relevant
+18,end_tidal_co2_measured,0.000,0.000,0.000,32,0.000,3716577,respiratory,relevant
+19,ph_arterial,0.000,0.000,0.000,24,0.000,63898,laboratory value,relevant
+20,po2_unspecified,0.000,0.000,0.000,8,0.000,22906,laboratory value,relevant
+21,pco2_unspecified,0.000,0.000,0.000,11,0.000,24546,laboratory value,relevant
+22,base_excess_unspecified,0.000,0.000,0.000,14,0.000,59930,laboratory value,relevant
+23,bicarbonate_actual_unspecified,0.000,0.000,0.000,15,0.000,61991,laboratory value,relevant
+24,sodium_unspecified,0.000,0.000,0.000,25,0.000,48477,laboratory value,relevant
+25,fio2_set,0.000,0.000,0.000,30,0.000,4071628,respiratory,relevant
+26,peak_inspiratory_pressure,0.000,0.000,0.000,33,0.000,4564264,respiratory,relevant
+27,tidal_volume_expiratory_measured,0.000,0.000,0.000,4,0.000,1478863,respiratory,relevant
+28,p01_measured,0.062,0.067,0.065,15,0.067,1897728,respiratory,relevant
+29,arterial_bp_diastolic,0.000,0.000,0.000,10,0.000,4031569,hemodynamics,relevant
+30,arterial_bp_mean,0.000,0.000,0.000,15,0.000,4254298,hemodynamics,relevant
+31,arterial_bp_systolic,0.000,0.000,0.000,10,0.000,4032628,hemodynamics,relevant
+32,heart_rate_unspecified,0.000,0.000,0.000,31,0.000,8476050,hemodynamics,relevant
+33,nibp_diastolic,0.000,0.000,0.000,9,0.000,29407,hemodynamics,relevant
+34,nibp_mean,0.000,0.000,0.000,16,0.000,79200,hemodynamics,relevant
+35,nibp_systolic,0.000,0.000,0.000,9,0.000,29435,hemodynamics,relevant
+36,fluid_out_urine,0.667,0.049,0.091,41,0.049,364546,fluid balance,relevant
+37,temperature_bladder,0.000,0.000,0.000,4,0.000,470064,infectiology,relevant
+38,inspiratory_pressure_above_peep,0.000,0.000,0.000,48,0.000,3846815,respiratory,relevant
+39,respiratory_rate_measured_spontaneous,0.000,0.000,0.000,10,0.000,4331935,respiratory,relevant
+40,respiratory_rate_measured_ventilator,0.000,0.000,0.000,25,0.000,3737224,respiratory,relevant
+41,peep_unspecified,0.000,0.000,0.000,4,0.000,803539,respiratory,relevant
+42,fluid_out_defecation,0.000,0.000,0.000,26,0.000,24704,fluid balance,relevant
+43,lung_compliance_unspecified,0.000,0.000,0.000,5,0.000,911018,respiratory,relevant
+44,tidal_volume_expiratory_unspecified,0.000,0.000,0.000,1,0.000,19097,respiratory,relevant
+45,inspiratory_time_perc,0.000,0.000,0.000,1,0.000,2923,respiratory,relevant
+46,tidal_volume_inspiratory_unspecified,0.000,0.000,0.000,2,0.000,22013,respiratory,relevant
+47,o2_flow_unspecified,0.000,0.000,0.000,23,0.000,46445,respiratory,relevant
+48,plateau_pressure,0.000,0.000,0.000,19,0.000,965336,respiratory,relevant
+49,saturation_o2_peripheral,0.000,0.000,0.000,20,0.000,2006933,respiratory,relevant
+50,pressure_trigger,0.000,0.000,0.000,2,0.000,616,respiratory,relevant
+51,alkaline_phosphatase_unspecified,0.000,0.000,0.000,25,0.000,16014,laboratory value,relevant
+52,asat_unspecified,0.000,0.000,0.000,21,0.000,15986,laboratory value,relevant
+53,alat_unspecified,0.000,0.000,0.000,24,0.000,19130,laboratory value,relevant
+54,albumin_unspecified,0.000,0.000,0.000,21,0.000,15219,laboratory value,relevant
+55,po2_arterial,0.000,0.000,0.000,28,0.000,82553,laboratory value,relevant
+56,bilirubin_unspecified,0.000,0.000,0.000,5,0.000,3345,laboratory value,relevant
+57,calcium_unspecified,0.000,0.000,0.000,12,0.000,8611,laboratory value,relevant
+58,calcium_ionised,0.000,0.000,0.000,12,0.000,43469,laboratory value,relevant
+59,creatine_kinase_unspecified,0.000,0.000,0.000,18,0.000,15880,laboratory value,relevant
+60,crp_unspecified,0.000,0.000,0.000,24,0.000,30239,laboratory value,relevant
+61,creatinine_unspecified,0.000,0.000,0.000,19,0.000,24182,laboratory value,relevant
+62,chloride_unspecified,0.000,0.000,0.000,16,0.000,40144,laboratory value,relevant
+63,phosphate_unspecified,0.000,0.000,0.000,21,0.000,24864,laboratory value,relevant
+64,leukocytes_unspecified,0.000,0.000,0.000,21,0.000,31375,laboratory value,relevant
+65,magnesium_unspecified,0.000,0.000,0.000,21,0.000,24952,laboratory value,relevant
+66,ureum_unspecified,0.000,0.000,0.000,23,0.000,27177,laboratory value,relevant
+67,prothrombin_time_sec,0.000,0.000,0.000,12,0.000,6322,laboratory value,relevant
+68,gamma_gt_unspecified,0.000,0.000,0.000,25,0.000,17730,laboratory value,relevant
+69,anion_gap_unspecified,0.000,0.000,0.000,6,0.000,14883,laboratory value,relevant
+70,lactate_unspecified,0.000,0.000,0.000,11,0.000,34516,laboratory value,relevant
+71,glucose_measured_whole_blood,0.000,0.000,0.000,3,0.000,18981,laboratory value,relevant
+72,sodium_bloodgas,0.000,0.000,0.000,4,0.000,6048,laboratory value,relevant
+73,potassium_bloodgas,0.500,0.250,0.333,4,0.250,6231,laboratory value,relevant
+74,calcium_ratio,0.000,0.000,0.000,3,0.000,1675,laboratory value,relevant
+75,rapid_shallow_breathing_index,0.000,0.000,0.000,9,0.000,1396732,respiratory,relevant
+76,med_dexmedetomidine,0.000,0.000,0.000,6,0.000,7037,medication,relevant
+77,med_vancomycin,0.000,0.000,0.000,5,0.000,1688,medication,relevant
+78,med_ascorbic_acid_(vit_c),0.000,0.000,0.000,1,0.000,425,medication,relevant
+79,med_sodium_chloride,0.000,0.000,0.000,2,0.000,12942,medication,relevant
+80,med_anidulafungin,0.000,0.000,0.000,1,0.000,153,medication,relevant
+81,med_amiodarone,0.000,0.000,0.000,4,0.000,942,medication,relevant
+82,med_carbohydrates,0.000,0.000,0.000,9,0.000,9892,medication,relevant
+83,med_clonidine,0.000,0.000,0.000,4,0.000,6459,medication,relevant
+84,med_enoximone,0.000,0.000,0.000,1,0.000,156,medication,relevant
+85,med_insulin_aspart,0.000,0.000,0.000,3,0.000,11167,medication,relevant
+86,med_ipratropium_bromide,0.000,0.000,0.000,1,0.000,195,medication,relevant
+87,med_lorazepam,0.000,0.000,0.000,1,0.000,199,medication,relevant
+88,med_midazolam,0.000,0.000,0.000,5,0.000,14362,medication,relevant
+89,med_remifentanil,0.000,0.000,0.000,3,0.000,14579,medication,relevant
+90,med_norepinephrine,0.000,0.000,0.000,4,0.000,23036,medication,relevant
+91,med_rocuronium_bromide,0.000,0.000,0.000,5,0.000,7013,medication,relevant
+92,med_potassium_chloride,0.000,0.000,0.000,5,0.000,4297,medication,relevant
+93,cardiac_output_continuous_unspecified,0.000,0.000,0.000,9,0.000,79527,hemodynamics,relevant
+94,temperature_blood,0.000,0.000,0.000,14,0.000,34221,infectiology,relevant
+95,stroke_volume_variation,0.000,0.000,0.000,8,0.000,77478,hemodynamics,relevant
+96,intrathoracic_blood_volume_index,0.000,0.000,0.000,3,0.000,1366,hemodynamics,relevant
+97,anti_xa_unspecified,0.000,0.000,0.000,2,0.000,1553,laboratory value,relevant
+98,reticulocytes_unspecified,0.000,0.000,0.000,3,0.000,5137,laboratory value,relevant
+99,ferritin_unspecified,0.000,0.000,0.000,13,0.000,9970,laboratory value,relevant
+100,chloride_arterial,0.000,0.000,0.000,5,0.000,15134,laboratory value,relevant
+101,vco2,0.000,0.000,0.000,10,0.000,2913372,respiratory,relevant
+102,inspiratory_time_unspecified,0.077,0.091,0.083,11,0.091,1746988,respiratory,relevant
+103,central_venous_pressure,0.000,0.000,0.000,15,0.000,2040653,hemodynamics,relevant
+104,pulmonary_artery_pressure_systolic,0.000,0.000,0.000,1,0.000,5020,hemodynamics,relevant
+105,pulmonary_artery_pressure_mean,0.000,0.000,0.000,3,0.000,17237,hemodynamics,relevant
+106,pulmonary_artery_pressure_diastolic,0.000,0.000,0.000,1,0.000,5020,hemodynamics,relevant
+107,nava_edi_peak,0.000,0.000,0.000,3,0.000,49108,respiratory,relevant
+108,fio2_measured,0.000,0.000,0.000,25,0.000,2331793,respiratory,relevant
+109,minute_volume_expiratory,0.000,0.000,0.000,27,0.000,3825607,respiratory,relevant
+110,peep_measured,0.000,0.000,0.000,32,0.000,2889834,respiratory,relevant
+111,tidal_volume_inspiratory,0.000,0.000,0.000,17,0.000,2525942,respiratory,relevant
+112,lung_compliance_dynamic,0.000,0.000,0.000,18,0.000,1532579,respiratory,relevant
+113,tidal_volume_expiratory,0.000,0.000,0.000,28,0.000,3095731,respiratory,relevant
+114,respiratory_rate_set,0.000,0.000,0.000,27,0.000,2630947,respiratory,relevant
+115,peep_set,0.000,0.000,0.000,32,0.000,4795711,respiratory,relevant
+116,o2_flow_swedish_nose,0.000,0.000,0.000,1,0.000,388,respiratory,relevant
+117,mean_airway_pressure,0.000,0.000,0.000,23,0.000,3743140,respiratory,relevant
+118,red_blood_cell_distribution_width_unspecified,0.000,0.000,0.000,12,0.000,15055,laboratory value,relevant
+119,prothrombin_time_inr,0.000,0.000,0.000,8,0.000,4254,laboratory value,relevant
+120,pain_score_vas,0.000,0.000,0.000,3,0.000,8852,clinical score,relevant
+121,predilution_flow_cvvh,0.000,0.000,0.000,10,0.000,453857,renal replacement therapy,relevant
+122,postdilution_volume_cvvh,0.000,0.000,0.000,4,0.000,477573,renal replacement therapy,relevant
+123,transmembrane_pressure_cvvh,0.000,0.000,0.000,18,0.000,499671,renal replacement therapy,relevant
+124,ultrafiltration_cvvh_total,0.000,0.000,0.000,4,0.000,437174,renal replacement therapy,relevant
+125,postdilution_flow_cvvh,0.000,0.000,0.000,6,0.000,420373,renal replacement therapy,relevant
+126,fluid_out_cvvh_dialysis,0.250,0.050,0.083,20,0.050,28027,fluid balance,relevant
+127,calcium_flow_cvvh,0.043,0.333,0.077,3,0.333,490088,renal replacement therapy,relevant
+128,citrate_dosage_cvvh,0.000,0.000,0.000,6,0.000,440858,renal replacement therapy,relevant
+129,filter_pressure_cvvh,0.000,0.000,0.000,17,0.000,496611,renal replacement therapy,relevant
+130,respiratory_rate_measured,0.000,0.000,0.000,22,0.000,2686838,respiratory,relevant
+131,tidal_volume_set,0.000,0.000,0.000,16,0.000,135897,respiratory,relevant
+132,nava_edi_min,0.000,0.000,0.000,2,0.000,47618,respiratory,relevant
+133,crrt_filter_change,0.000,0.000,0.000,1,0.000,369002,renal replacement therapy,relevant
+134,temperature_nasopharyngeal,0.000,0.000,0.000,3,0.000,12694,infectiology,relevant
+135,egfr_ckd_epi,0.000,0.000,0.000,24,0.000,21813,laboratory value,relevant
+136,sofa_score,0.000,0.000,0.000,12,0.000,9226,clinical score,relevant
+137,inspiratory_rise_time_sec,0.000,0.000,0.000,9,0.000,1158344,respiratory,relevant
+138,nava_level,0.000,0.000,0.000,2,0.000,22513,respiratory,relevant
+139,d_dimer_unspecified,0.615,0.571,0.593,14,0.571,9535,laboratory value,relevant
+140,base_excess_arterial,0.000,0.000,0.000,20,0.000,42402,laboratory value,relevant
+141,creatinine_blood,0.000,0.000,0.000,11,0.000,12356,laboratory value,relevant
+142,bilirubin_total,0.000,0.000,0.000,15,0.000,16190,laboratory value,relevant
+143,erythrocytes_unspecified,0.000,0.000,0.000,16,0.000,14618,laboratory value,relevant
+144,segmented_neutrophils_unspecified,0.000,0.000,0.000,4,0.000,2083,laboratory value,relevant
+145,bicarbonate_actual_arterial,0.000,0.000,0.000,14,0.000,38332,laboratory value,relevant
+146,lymphocytes_unspecified,0.000,0.000,0.000,11,0.000,6298,laboratory value,relevant
+147,monocytes_unspecified,0.000,0.000,0.000,12,0.000,9436,laboratory value,relevant
+148,fibrinogen_unspecified,0.000,0.000,0.000,9,0.000,3020,laboratory value,relevant
+149,glucose_arterial,0.000,0.000,0.000,8,0.000,27583,laboratory value,relevant
+150,mcv_unspecified,0.000,0.000,0.000,19,0.000,20279,laboratory value,relevant
+151,protein_total_blood,0.000,0.000,0.000,4,0.000,1317,laboratory value,relevant
+152,potassium_arterial,1.000,0.125,0.222,8,0.125,18135,laboratory value,relevant
+153,pco2_arterial,1.000,0.040,0.077,25,0.040,81242,laboratory value,relevant
+154,triglycerides_unspecified,0.000,0.000,0.000,7,0.000,6219,laboratory value,relevant
+155,sodium_arterial,0.000,0.000,0.000,6,0.000,17452,laboratory value,relevant
+156,mchc_unspecified,0.000,0.000,0.000,6,0.000,9199,laboratory value,relevant
+157,lactate_arterial,0.000,0.000,0.000,9,0.000,34852,laboratory value,relevant
+158,cardiac_index_unspecified,0.000,0.000,0.000,6,0.000,7582,hemodynamics,relevant
+159,cardiac_index_continuous_unspecified,0.000,0.000,0.000,10,0.000,10052,hemodynamics,relevant
+160,global_end_diastolic_volume_index,0.037,0.143,0.059,7,0.143,12402,hemodynamics,relevant
+161,picco_global_ejection_fraction,0.000,0.000,0.000,3,0.000,966,hemodynamics,relevant
+162,systemic_vascular_resistance,0.000,0.000,0.000,11,0.000,15325,hemodynamics,relevant
+163,cardiac_output_unspecified,0.000,0.000,0.000,6,0.000,7222,hemodynamics,relevant
+164,stroke_volume_index,0.000,0.000,0.000,7,0.000,89439,hemodynamics,relevant
+165,systemic_vascular_resistance_index,0.100,0.125,0.111,8,0.125,71734,hemodynamics,relevant
+166,troponin_t,0.000,0.000,0.000,6,0.000,1872,laboratory value,relevant
+167,med_other_mineral_products,0.000,0.000,0.000,1,0.000,24189,medication,relevant
+168,med_electrolytes,0.000,0.000,0.000,8,0.000,28842,medication,relevant
+169,med_electrolytes_with_carbohydrates,0.000,0.000,0.000,2,0.000,1441,medication,relevant
+170,med_amlodipine,0.000,0.000,0.000,1,0.000,110,medication,relevant
+171,med_dobutamine,0.000,0.000,0.000,1,0.000,558,medication,relevant
+172,med_epoprostenol,0.000,0.000,0.000,1,0.000,386,medication,relevant
+173,med_furosemide,0.000,0.000,0.000,4,0.000,2267,medication,relevant
+174,med_haloperidol,0.000,0.000,0.000,2,0.000,971,medication,relevant
+175,med_heparin,0.000,0.000,0.000,4,0.000,2475,medication,relevant
+176,med_hydrochlorothiazide,0.000,0.000,0.000,1,0.000,553,medication,relevant
+177,med_insulin_(human),0.000,0.000,0.000,3,0.000,6584,medication,relevant
+178,med_metoprolol,0.000,0.000,0.000,2,0.000,1308,medication,relevant
+179,med_milrinone,0.000,0.000,0.000,2,0.000,263,medication,relevant
+180,med_nadroparin,0.000,0.000,0.000,2,0.000,3382,medication,relevant
+181,med_prednisolone,0.000,0.000,0.000,3,0.000,439,medication,relevant
+182,med_propofol,0.000,0.000,0.000,6,0.000,18879,medication,relevant
+183,med_quetiapine,0.000,0.000,0.000,3,0.000,746,medication,relevant
+184,med_sufentanil,0.000,0.000,0.000,2,0.000,5912,medication,relevant
+185,med_voriconazole,0.000,0.000,0.000,3,0.000,867,medication,relevant
+186,med_xylometazoline,0.000,0.000,0.000,1,0.000,163,medication,relevant
+187,med_vasopressin_(argipressin),0.000,0.000,0.000,1,0.000,430,medication,relevant
+188,crrt_dialysate_solution,0.000,0.000,0.000,1,0.000,216,renal replacement therapy,relevant
+189,med_solvents_and_diluting_agents_incl_irrigating_solutions,0.000,0.000,0.000,1,0.000,1328,medication,relevant
+190,inspiratory_pressure_set,0.000,0.000,0.000,3,0.000,365098,respiratory,relevant
+191,fluid_out_emesis_retention,0.000,0.000,0.000,29,0.000,75540,fluid balance,relevant
+192,ecg_st_segment,0.000,0.000,0.000,16,0.000,6382999,hemodynamics,relevant
+193,weight_measured,0.000,0.000,0.000,14,0.000,5952,demographics,relevant
+194,insp_exp_ratio_set,0.000,0.000,0.000,9,0.000,74178,respiratory,relevant
+195,inspiratory_time_set,0.000,0.000,0.000,4,0.000,872070,respiratory,relevant
+196,inspiratory_rise_time_unspecified,0.000,0.000,0.000,3,0.000,184835,respiratory,relevant
+197,minute_volume_spontaneous,0.000,0.000,0.000,5,0.000,216123,respiratory,relevant
+198,hematocrit_unspecified,0.000,0.000,0.000,3,0.000,1603,laboratory value,relevant
+199,thrombocytes_blood,0.000,0.000,0.000,7,0.000,3871,laboratory value,relevant
+200,minute_volume_unspecified,0.000,0.000,0.000,5,0.000,807747,respiratory,relevant
+201,intrinsic_peep_measured,0.087,0.400,0.143,5,0.400,457564,respiratory,relevant
+202,flow_trigger_set,0.000,0.000,0.000,6,0.000,887081,respiratory,relevant
+203,resistance_unspecified,0.000,0.000,0.000,5,0.000,898295,respiratory,relevant
+204,fluid_in_oral,0.000,0.000,0.000,19,0.000,4723,fluid balance,relevant
+205,cpot_score,0.000,0.000,0.000,4,0.000,6559,clinical score,relevant
+206,ews_score,0.000,0.000,0.000,8,0.000,11917,clinical score,relevant
+207,peep_total,0.000,0.000,0.000,5,0.000,330463,respiratory,relevant
+208,max_pressure,0.000,0.000,0.000,6,0.000,57976,respiratory,relevant
+209,pulse_rate,0.000,0.000,0.000,14,0.000,263305,hemodynamics,relevant
+210,respiratory_rate_measured_ecg,0.000,0.000,0.000,4,0.000,32793,respiratory,relevant
+211,sofa_cardiovascular,0.000,0.000,0.000,7,0.000,5018,sofa score,relevant
+212,sofa_renal,0.000,0.000,0.000,5,0.000,4325,sofa score,relevant
+213,sofa_respiratory,0.000,0.000,0.000,6,0.000,5333,sofa score,relevant
+214,temperature_unspecified,0.000,0.000,0.000,27,0.000,959208,infectiology,relevant
+215,chloride_bloodgas,0.000,0.000,0.000,3,0.000,4960,laboratory value,relevant
+216,glucose_bloodgas,0.000,0.000,0.000,2,0.000,5594,laboratory value,relevant
+217,ph_unspecified,0.000,0.000,0.000,8,0.000,20499,laboratory value,relevant
+218,mch_unspecified,0.000,0.000,0.000,11,0.000,12506,laboratory value,relevant
+219,egfr_mdrd,0.000,0.000,0.000,8,0.000,5356,laboratory value,relevant
+220,fluid_in_other,0.000,0.000,0.000,11,0.000,6618,fluid balance,relevant
+221,fluid_out_drain,0.000,0.000,0.000,16,0.000,7498,fluid balance,relevant
+222,fluid_out_other,0.000,0.000,0.000,7,0.000,2016,fluid balance,relevant
+223,aps,0.000,0.000,0.000,4,0.000,612,clinical score,relevant
+224,bmi,0.000,0.000,0.000,5,0.000,1276,demographics,relevant
+225,dos_evening,0.000,0.000,0.000,1,0.000,163,clinical score,relevant
+226,dos_day,0.000,0.000,0.000,2,0.000,304,clinical score,relevant
+227,pressure_drop_cvvh,0.000,0.000,0.000,12,0.000,46073,renal replacement therapy,relevant
+228,heparin_speed_cvvh,0.000,0.000,0.000,2,0.000,6821,renal replacement therapy,relevant
+229,o2_flow_nasal_cannula,0.000,0.000,0.000,1,0.000,434,respiratory,relevant
+230,o2_flow_oxygen_mask,0.000,0.000,0.000,2,0.000,445,respiratory,relevant
+231,ecg_qtc_time,0.000,0.000,0.000,5,0.000,96464,hemodynamics,relevant
+232,vent_mode,0.000,0.000,0.000,4,0.000,109574,respiratory,relevant
+233,substitution_flow_cvvh,0.000,0.000,0.000,2,0.000,599,renal replacement therapy,relevant
+234,bipap_high_time,0.000,0.000,0.000,1,0.000,84686,respiratory,relevant
+235,tidal_volume_per_kg,0.000,0.000,0.000,6,0.000,1017824,respiratory,relevant
+236,temperature_rectal,0.000,0.000,0.000,2,0.000,1929,infectiology,relevant
+237,neutrophils_unspecified,0.000,0.000,0.000,7,0.000,5955,laboratory value,relevant
+238,eosinophils_unspecified,0.000,0.000,0.000,11,0.000,6857,laboratory value,relevant
+239,basophils_unspecified,0.000,0.000,0.000,9,0.000,6423,laboratory value,relevant
+240,bilirubin_direct,0.000,0.000,0.000,6,0.000,1335,laboratory value,relevant
+241,cholesterol_unspecified,0.000,0.000,0.000,1,0.000,2405,laboratory value,relevant
+242,lipase_unspecified,0.000,0.000,0.000,7,0.000,2752,laboratory value,relevant
+243,urine_specific_gravity,0.000,0.000,0.000,1,0.000,103,laboratory value,relevant
+244,calcium_corrected,0.000,0.000,0.000,4,0.000,3108,laboratory value,relevant
+245,creatine_kinase_mb_activity,0.000,0.000,0.000,1,0.000,400,laboratory value,relevant
+246,ph_blood,0.000,0.000,0.000,1,0.000,11040,laboratory value,relevant
+247,bicarbonate_standard_unspecified,0.000,0.000,0.000,2,0.000,14468,laboratory value,relevant
+248,so2_arterial,0.000,0.000,0.000,17,0.000,53156,laboratory value,relevant
+249,carboxyhemoglobin_unspecified,0.000,0.000,0.000,1,0.000,10174,laboratory value,relevant
+250,methemoglobin_unspecified,0.000,0.000,0.000,2,0.000,13756,laboratory value,relevant
+251,fluid_in_flush,0.000,0.000,0.000,5,0.000,4950,fluid balance,relevant
+252,fluid_in_tube,0.000,0.000,0.000,18,0.000,54100,fluid balance,relevant
+253,cardiac_input_continuous_unspecified,0.000,0.000,0.000,5,0.000,7167,hemodynamics,relevant
+254,driving_pressure,0.000,0.000,0.000,6,0.000,216905,respiratory,relevant
+255,intrinsic_peep_total,0.000,0.000,0.000,1,0.000,1538,respiratory,relevant
+256,vent_mechanics_mechanical_power,0.000,0.000,0.000,1,0.000,2306,respiratory,relevant
+257,temperature_peripheral_left_leg,0.000,0.000,0.000,1,0.000,3029,infectiology,relevant
+258,calcium_ionised_post_filter_cvvh,0.000,0.000,0.000,3,0.000,1003,renal replacement therapy,relevant
+259,leukocytes_urine,0.000,0.000,0.000,1,0.000,102,laboratory value,relevant
+260,eosinophils_perc_unspecified,0.000,0.000,0.000,3,0.000,3714,laboratory value,relevant
+261,anion_gap_arterial,0.000,0.000,0.000,4,0.000,14076,laboratory value,relevant
+262,calcium_ionised_arterial,0.000,0.000,0.000,8,0.000,7903,laboratory value,relevant
+263,troponin_t_hs,0.000,0.000,0.000,4,0.000,820,laboratory value,relevant
+264,ideal_body_weight,0.000,0.000,0.000,4,0.000,833995,demographics,relevant
+265,pulse_rate_monitor,0.000,0.000,0.000,1,0.000,8853,hemodynamics,relevant
+266,fluid_in_blood_products,0.000,0.000,0.000,3,0.000,577,fluid balance,relevant
+267,fio2_nice,0.000,0.000,0.000,1,0.000,6932,respiratory,relevant
+268,fluid_in_parenteral_nutrition,0.000,0.000,0.000,2,0.000,340,fluid balance,relevant
+269,fluid_in_iv_infusion_and_medications,0.000,0.000,0.000,47,0.000,189615,fluid balance,relevant
+270,minute_volume_inspiratory,0.000,0.000,0.000,10,0.000,921361,clinical score,relevant
+271,respiratory_rate_measured_ventilator_spontaneous,0.000,0.000,0.000,2,0.000,28900,respiratory,relevant
+272,ecg_ii,0.000,0.000,0.000,4,0.000,878340,hemodynamics,relevant
+273,dos_total,0.000,0.000,0.000,4,0.000,1410,clinical score,relevant
+274,break_time_set,0.000,0.000,0.000,1,0.000,115,respiratory,relevant
+275,gcs_total,0.000,0.000,0.000,10,0.000,14977,neurology,relevant
+276,peak_flow_set,0.000,0.000,0.000,2,0.000,7390,respiratory,relevant
+277,thrombocytes_unspecified,0.000,0.000,0.000,2,0.000,2533,laboratory value,relevant
+278,calcium_total,0.000,0.000,0.000,3,0.000,659,laboratory value,relevant
+279,basophils_perc_unspecified,0.000,0.000,0.000,2,0.000,2876,laboratory value,relevant
+280,basophils_absolute,0.000,0.000,0.000,4,0.000,1697,laboratory value,relevant
+281,eosinophils_absolute,0.000,0.000,0.000,6,0.000,2535,laboratory value,relevant
+282,lymphocytes_perc_unspecified,0.000,0.000,0.000,3,0.000,3026,laboratory value,relevant
+283,lymphocytes_absolute,0.071,0.200,0.105,5,0.200,2219,laboratory value,relevant
+284,monocytes_perc_unspecified,0.000,0.000,0.000,3,0.000,3027,laboratory value,relevant
+285,monocytes_absolute,0.000,0.000,0.000,4,0.000,2034,laboratory value,relevant
+286,neutrophils_perc_unspecified,0.000,0.000,0.000,2,0.000,2878,laboratory value,relevant
+287,neutrophils_absolute,0.000,0.000,0.000,3,0.000,1505,laboratory value,relevant
+288,bicarbonate_actual_bloodgas,0.000,0.000,0.000,2,0.000,5791,laboratory value,relevant
+289,backup_apnea_frequency,0.000,0.000,0.000,1,0.000,1187,respiratory,relevant
+290,oxyhemoglobin_fraction_venous,0.000,0.000,0.000,1,0.000,112,laboratory value,relevant
+291,methemoglobin_arterial,0.000,0.000,0.000,2,0.000,9842,laboratory value,relevant
+292,chloride_venous,0.000,0.000,0.000,2,0.000,362,laboratory value,relevant
+293,potassium_venous,0.000,0.000,0.000,1,0.000,144,laboratory value,relevant
+294,methemoglobin_venous,0.000,0.000,0.000,1,0.000,112,laboratory value,relevant
+295,po2_venous,0.000,0.000,0.000,3,0.000,592,laboratory value,relevant
+296,base_excess_venous,0.000,0.000,0.000,4,0.000,978,laboratory value,relevant
+297,pco2_venous,0.000,0.000,0.000,4,0.000,982,laboratory value,relevant
+298,calcium_ionised_venous,0.000,0.000,0.000,2,0.000,534,laboratory value,relevant
+299,lactate_venous,0.000,0.000,0.000,1,0.000,136,laboratory value,relevant
+300,so2_venous,0.000,0.000,0.000,4,0.000,5312,laboratory value,relevant
+301,carbon_monoxide_unspecified,0.003,1.000,0.006,2,1.000,17388,laboratory value,relevant
+302,troponin_i_hs,0.000,0.000,0.000,1,0.000,667,laboratory value,relevant
+303,ph_venous,0.000,0.000,0.000,4,0.000,979,laboratory value,relevant
+304,bicarbonate_actual_venous,0.067,0.200,0.100,5,0.200,1142,laboratory value,relevant
+305,fio2_unspecified,0.000,0.000,0.000,9,0.000,1849164,respiratory,relevant
+306,weight_unspecified,0.000,0.000,0.000,3,0.000,1142,demographics,relevant
+307,glucose_blood,0.033,0.250,0.059,4,0.250,2899,laboratory value,relevant
+308,expiratory_trigger_sensitivity,0.000,0.000,0.000,1,0.000,313556,respiratory,relevant
+309,tidal_volume_expiratory_spontaneous,0.000,0.000,0.000,1,0.000,183839,respiratory,relevant
+310,inspiratory_resistance,0.000,0.000,0.000,4,0.000,551453,respiratory,relevant
+311,expiratory_resistance,0.000,0.000,0.000,3,0.000,559115,respiratory,relevant
+312,inspiratory_flow,0.000,0.000,0.000,1,0.000,523572,respiratory,relevant
+313,rass_score,0.000,0.000,0.000,3,0.000,20032,neurology,relevant
+314,pressure_support_set,0.000,0.000,0.000,1,0.000,240321,respiratory,relevant
+315,band_neutrophils_perc_unspecified,0.000,0.000,0.000,4,0.000,1454,laboratory value,relevant
+316,apacheii_score,0.000,0.000,0.000,1,0.000,75568,clinical score,relevant
+317,inspiratory_pressure_measured,0.000,0.000,0.000,2,0.000,1012466,respiratory,relevant
+318,tidal_volume_inspiratory_measured,0.000,0.000,0.000,3,0.000,702846,respiratory,relevant
+319,expiratory_time_unspecified,0.000,0.000,0.000,4,0.000,691953,respiratory,relevant
+320,saturation_o2_peripheral_monitor,0.000,0.000,0.000,2,0.000,983756,respiratory,relevant
+321,lung_compliance_static,0.000,0.000,0.000,2,0.000,768440,respiratory,relevant
+322,hemoglobin_arterial,0.250,1.000,0.400,1,1.000,433,laboratory value,relevant
+323,pain_score_nrs,0.000,0.000,0.000,2,0.000,3005,clinical score,relevant
+324,segmented_neutrophils_blood,0.000,0.000,0.000,1,0.000,305,laboratory value,relevant
+325,tidal_volume_inspiratory_set,0.000,0.000,0.000,1,0.000,4994,respiratory,relevant
+326,bipap_inspiratory_pressure_set,0.000,0.000,0.000,1,0.000,133,respiratory,relevant
+327,calcium_suppletion_dosage_cvvh,0.000,0.000,0.000,2,0.000,55406,renal replacement therapy,relevant
+328,anti_xa_ufh,0.000,0.000,0.000,1,0.000,742,laboratory value,relevant
+329,bicarbonate_actual_blood,0.000,0.000,0.000,5,0.000,4044,laboratory value,relevant
+330,inspiratory_rise_time_set,0.071,1.000,0.133,1,1.000,16760,respiratory,relevant
+331,pre_filter_pressure_cvvh,0.000,0.000,0.000,4,0.000,35889,renal replacement therapy,relevant
+332,temperature_axillary,0.000,0.000,0.000,4,0.000,279823,infectiology,relevant
+333,ph_central_venous,0.000,0.000,0.000,1,0.000,226,laboratory value,relevant
+334,pco2_central_venous,0.000,0.000,0.000,1,0.000,225,laboratory value,relevant
+335,bicarbonate_actual_central_venous,0.000,0.000,0.000,1,0.000,226,laboratory value,relevant
+336,base_excess_central_venous,0.000,0.000,0.000,2,0.000,480,laboratory value,relevant
+337,po2_central_venous,0.000,0.000,0.000,2,0.000,388,laboratory value,relevant
+338,weight_estimated,0.000,0.000,0.000,3,0.000,7707,demographics,relevant
+339,temperature_peripheral,0.000,0.000,0.000,2,0.000,1160,infectiology,relevant
+340,med_ramipril,0.000,0.000,0.000,1,0.000,342,medication,relevant
+341,med_isoflurane,0.000,0.000,0.000,1,0.000,1047,medication,relevant
+342,med_acetazolamide,0.000,0.000,0.000,1,0.000,156,medication,relevant
+343,med_diazepam,0.000,0.000,0.000,1,0.000,109,medication,relevant
+344,med_esketamine,0.000,0.000,0.000,1,0.000,1001,medication,relevant
+345,med_ceftriaxone,0.000,0.000,0.000,1,0.000,827,medication,relevant
+346,med_etomidate,0.000,0.000,0.000,1,0.000,109,medication,relevant
+347,med_cisatracurium,0.000,0.000,0.000,1,0.000,310,medication,relevant
+348,med_flucloxacillin,0.000,0.000,0.000,2,0.000,1364,medication,relevant
+349,med_sulfamethoxazole_and_trimethoprim,0.000,0.000,0.000,1,0.000,269,medication,relevant
+350,med_morphine,0.000,0.000,0.000,2,0.000,2240,medication,relevant
+351,med_thiamine_(vit_b1),0.000,0.000,0.000,1,0.000,103,medication,relevant
+352,med_labetalol,0.000,0.000,0.000,2,0.000,242,medication,relevant
+353,med_captopril,0.000,0.000,0.000,1,0.000,124,medication,relevant
+354,med_levothyroxine_sodium,0.000,0.000,0.000,1,0.000,119,medication,relevant
+355,med_nifedipine,0.000,0.000,0.000,1,0.000,577,medication,relevant
+356,med_oxazepam,0.000,0.000,0.000,1,0.000,746,medication,relevant
+357,med_atorvastatin,0.000,0.000,0.000,1,0.000,519,medication,relevant
+358,med_zopiclone,0.000,0.000,0.000,1,0.000,205,medication,relevant
+359,med_sodium_phosphate,0.042,1.000,0.080,1,1.000,989,medication,relevant
+360,med_urapidil,0.000,0.000,0.000,1,0.000,162,medication,relevant
+361,red_blood_cell_distribution_width_sd,0.000,0.000,0.000,3,0.000,1189,laboratory value,relevant
+362,so2_bloodgas,0.000,0.000,0.000,2,0.000,8262,laboratory value,relevant
+363,carboxyhemoglobin_arterial,0.000,0.000,0.000,1,0.000,4952,laboratory value,relevant
+364,calcium_volume_cvvhd,0.000,0.000,0.000,1,0.000,11273,renal replacement therapy,relevant
+365,stroke_volume_calculated,0.000,0.000,0.000,6,0.000,81546,hemodynamics,relevant
+366,heart_rate_ecg,0.000,0.000,0.000,2,0.000,7770,hemodynamics,relevant
+367,mcv_blood,0.000,0.000,0.000,3,0.000,1464,laboratory value,relevant
+368,albumin_blood,0.000,0.000,0.000,4,0.000,1957,laboratory value,relevant
+369,plateau_time,0.000,0.000,0.000,1,0.000,469,respiratory,relevant
+370,erythrocytes_urine,0.000,0.000,0.000,1,0.000,477,laboratory value,relevant
+371,glucose_measured_blood,0.000,0.000,0.000,3,0.000,4302,laboratory value,relevant
+372,lactate_blood,0.200,0.500,0.286,2,0.500,714,laboratory value,relevant
+373,intrathoracic_blood_volume,0.000,0.000,0.000,2,0.000,824,hemodynamics,relevant
+374,extravascular_lung_water,0.000,0.000,0.000,2,0.000,824,hemodynamics,relevant
+375,extravascular_lung_water_index,0.000,0.000,0.000,5,0.000,1882,hemodynamics,relevant
+376,hemoglobin_bloodgas,0.000,0.000,0.000,3,0.000,5318,laboratory value,relevant
+377,band_neutrophils_unspecified,0.000,0.000,0.000,6,0.000,1590,laboratory value,relevant
+378,tidal_volume_measured,0.000,0.000,0.000,4,0.000,48763,respiratory,relevant
+379,vent_mechanics_ptranspulm_insp,0.000,0.000,0.000,2,0.000,356177,respiratory,relevant
+380,vent_mechanics_ptranspulm_exp,0.000,0.000,0.000,1,0.000,355079,respiratory,relevant
+381,dialysate_flow,1.000,0.500,0.667,2,0.500,4078,renal replacement therapy,relevant
+382,bilirubin_total_blood,0.000,0.000,0.000,3,0.000,1590,laboratory value,relevant
+383,sodium_blood,1.000,0.143,0.250,7,0.143,4180,laboratory value,relevant
+384,ureum_blood,0.200,0.167,0.182,6,0.167,2707,laboratory value,relevant
+385,pulmonary_artery_pressure_unspecified,0.000,0.000,0.000,2,0.000,23730,hemodynamics,relevant
+386,glucose_capillary,0.000,0.000,0.000,2,0.000,5793,laboratory value,relevant
+387,potassium_blood,0.000,0.000,0.000,9,0.000,4680,laboratory value,relevant
+388,calcium_ionised_bloodgas,0.000,0.000,0.000,2,0.000,9782,laboratory value,relevant
+389,glucose_measured_bloodgas,0.000,0.000,0.000,1,0.000,5500,laboratory value,relevant
+390,creatine_kinase_mb_mass,0.000,0.000,0.000,1,0.000,414,laboratory value,relevant
+391,temperature_oesophageal,0.000,0.000,0.000,2,0.000,233268,infectiology,relevant
+392,hemoglobin_unspecified,0.000,0.000,0.000,6,0.000,11517,laboratory value,relevant
+393,fio2_optiflow,0.000,0.000,0.000,1,0.000,506,respiratory,relevant
+394,minute_volume_set,0.000,0.000,0.000,3,0.000,15104,respiratory,relevant
+395,peak_pressure_measured,0.000,0.000,0.000,1,0.000,184305,respiratory,relevant
+396,chloride_blood,0.000,0.000,0.000,4,0.000,2545,laboratory value,relevant
+397,global_end_diastolic_volume,0.000,0.000,0.000,4,0.000,11206,hemodynamics,relevant
+398,vent_mechanics_airway_resistance,0.000,0.000,0.000,1,0.000,215,respiratory,relevant
+399,arterial_bp_unspecified,0.000,0.000,0.000,2,0.000,48411,hemodynamics,relevant
+400,inspiratory_pressure_unspecified,0.000,0.000,0.000,1,0.000,101,respiratory,relevant
+401,nibp_unspecified,0.000,0.000,0.000,3,0.000,14650,hemodynamics,relevant
+402,segmented_neutrophils_absolute,0.333,0.500,0.400,2,0.500,1580,laboratory value,relevant
+403,sedimentation_rate_unspecified,0.000,0.000,0.000,1,0.000,123,laboratory value,relevant
+404,erythroblasts_absolute,0.000,0.000,0.000,4,0.000,983,laboratory value,relevant
+405,erythroblasts_unspecified,0.000,0.000,0.000,1,0.000,115,laboratory value,relevant
+406,respiratory_rate_niv,0.000,0.000,0.000,1,0.000,988,respiratory,relevant
+407,ecg_i,0.000,0.000,0.000,3,0.000,812457,hemodynamics,relevant
+408,ecg_iii,0.000,0.000,0.000,2,0.000,813232,hemodynamics,relevant
+409,ecg_avf,0.000,0.000,0.000,2,0.000,812109,hemodynamics,relevant
+410,ecg_avl,0.000,0.000,0.000,2,0.000,843426,hemodynamics,relevant
+411,ecg_v,0.000,0.000,0.000,1,0.000,446,hemodynamics,relevant
+412,ecg_v1,0.000,0.000,0.000,2,0.000,695496,hemodynamics,relevant
+413,ecg_v2,0.000,0.000,0.000,2,0.000,779297,hemodynamics,relevant
+414,ecg_v4,0.000,0.000,0.000,2,0.000,709281,hemodynamics,relevant
+415,ecg_v5,0.000,0.000,0.000,2,0.000,777597,hemodynamics,relevant
+416,ecg_v3,0.000,0.000,0.000,2,0.000,709575,hemodynamics,relevant
+417,ecg_v6,0.000,0.000,0.000,2,0.000,696873,hemodynamics,relevant
+418,ecg_avr,0.000,0.000,0.000,2,0.000,804342,hemodynamics,relevant
+419,inspiratory_co2_measured,0.000,0.000,0.000,2,0.000,2551,respiratory,relevant
+420,med_fentanyl,0.000,0.000,0.000,1,0.000,3098,medication,relevant
+421,med_hydrocortisone,0.000,0.000,0.000,1,0.000,296,medication,relevant
+422,med_alprazolam,0.000,0.000,0.000,1,0.000,340,medication,relevant
+423,med_methylprednisolone,0.000,0.000,0.000,1,0.000,129,medication,relevant
+424,med_sodium,0.000,0.000,0.000,1,0.000,895,medication,relevant
+425,med_calcium,0.000,0.000,0.000,1,0.000,268,medication,relevant
+426,tidal_volume_spontaneous,0.000,0.000,0.000,2,0.000,3739,respiratory,relevant
+427,tracheostomy_size,0.000,0.000,0.000,3,0.000,481,respiratory,relevant
+428,carboxyhemoglobin_blood,0.000,0.000,0.000,1,0.000,3441,laboratory value,relevant
+429,chloride_whole_blood,0.000,0.000,0.000,3,0.000,17683,laboratory value,relevant
+430,potassium_whole_blood,0.000,0.000,0.000,2,0.000,18694,laboratory value,relevant
+431,sodium_whole_blood,0.000,0.000,0.000,3,0.000,20436,laboratory value,relevant
+432,temperature_core,0.000,0.000,0.000,2,0.000,10800,infectiology,relevant
+433,vent_mechanics_tidal_volume,0.000,0.000,0.000,1,0.000,589,respiratory,relevant
+434,vent_mechanics_paw_insp_occl,0.000,0.000,0.000,1,0.000,558,respiratory,relevant
+435,vent_mechanics_paw_peep_tot,0.000,0.000,0.000,1,0.000,1650,respiratory,relevant
+436,vent_mechanics_volume_end_inspiration,0.000,0.000,0.000,1,0.000,544,respiratory,relevant
+437,gcs_eye,0.000,0.000,0.000,1,0.000,1356,neurology,relevant
+438,gcs_verbal,0.000,0.000,0.000,2,0.000,2523,neurology,relevant
+439,vent_mechanics_compliance_respiratory,0.000,0.000,0.000,1,0.000,547,respiratory,relevant
+440,vent_mechanics_paw_peak,0.000,0.000,0.000,1,0.000,1625,respiratory,relevant
+441,cerebral_perfusion_pressure,0.000,0.000,0.000,1,0.000,474,hemodynamics,relevant
+442,leukocytes_manual_diff,0.000,0.000,0.000,1,0.000,257,laboratory value,relevant
+443,ph_bloodgas,0.000,0.000,0.000,1,0.000,4314,laboratory value,relevant
+444,haptoglobin_unspecified,0.000,0.000,0.000,1,0.000,781,laboratory value,relevant
+445,eosinophils_manual_diff,0.000,0.000,0.000,1,0.000,162,laboratory value,relevant
+446,lymphocytes_manual_diff,0.000,0.000,0.000,1,0.000,162,laboratory value,relevant
+447,monocytes_manual_diff,0.000,0.000,0.000,1,0.000,162,laboratory value,relevant
+448,segmented_neutrophils_manual_diff,0.000,0.000,0.000,1,0.000,162,laboratory value,relevant
+449,urine_output_24hours,0.000,0.000,0.000,1,0.000,105,fluid balance,relevant
+450,creatinine_urine,0.000,0.000,0.000,1,0.000,107,laboratory value,relevant
+451,lactate_bloodgas_unspecified,0.000,0.000,0.000,1,0.000,4160,laboratory value,relevant
+452,methemoglobin_bloodgas,0.000,0.000,0.000,1,0.000,4155,laboratory value,relevant
+453,sodium_urine,0.000,0.000,0.000,1,0.000,131,laboratory value,relevant
+454,temperature_groin,0.000,0.000,0.000,1,0.000,1460,infectiology,relevant
+455,calcium_ionised_blood,0.000,0.000,0.000,1,0.000,2120,laboratory value,relevant
+456,sofa_renal_urine,0.000,0.000,0.000,1,0.000,415,sofa score,relevant
+457,sofa_resp_fio2,0.000,0.000,0.000,2,0.000,1705,sofa score,relevant
+458,sofa_resp_pao2,0.000,0.000,0.000,1,0.000,415,sofa score,relevant
+459,sofa_renal_creat,0.000,0.000,0.000,2,0.000,1705,sofa score,relevant
+460,sofa_total,0.000,0.000,0.000,2,0.000,981,sofa score,relevant
+461,sofa_cardio_map,0.000,0.000,0.000,1,0.000,415,sofa score,relevant
+462,basophils_blood,0.000,0.000,0.000,1,0.000,105,laboratory value,relevant
+463,eosinophils_blood,0.000,0.000,0.000,1,0.000,105,laboratory value,relevant
+464,lymphocytes_blood,0.000,0.000,0.000,1,0.000,105,laboratory value,relevant
+465,monocytes_blood,0.000,0.000,0.000,2,0.000,289,laboratory value,relevant
+466,gcs_motor,0.000,0.000,0.000,1,0.000,4673,neurology,relevant
+467,fluid_out_flush,0.000,0.000,0.000,1,0.000,155,fluid balance,relevant
+468,temperature_set,0.000,0.000,0.000,2,0.000,947,infectiology,relevant
+469,sofa_nervous,0.000,0.000,0.000,1,0.000,1290,sofa score,relevant
+470,antithrombin_blood,0.000,0.000,0.000,1,0.000,644,laboratory value,relevant
+471,aptt_blood,0.000,0.000,0.000,1,0.000,654,laboratory value,relevant
+472,calcium_blood,0.000,0.000,0.000,3,0.000,701,laboratory value,relevant
+473,d_dimer_blood,0.000,0.000,0.000,1,0.000,653,laboratory value,relevant
+474,anti_xa_blood,0.000,0.000,0.000,1,0.000,256,laboratory value,relevant
+475,ferritin_blood,0.000,0.000,0.000,1,0.000,640,laboratory value,relevant
+476,fibrinogen_blood,0.000,0.000,0.000,1,0.000,644,laboratory value,relevant
+477,phosphate_blood,1.000,0.333,0.500,3,0.333,686,laboratory value,relevant
+478,microbiology,0.000,0.000,0.000,1,0.000,147,laboratory value,relevant
+479,crp_blood,0.000,0.000,0.000,3,0.000,1218,laboratory value,relevant
+480,erythrocytes_blood,0.000,0.000,0.000,2,0.000,396,laboratory value,relevant
+481,hemoglobin_blood,0.000,0.000,0.000,4,0.000,1403,laboratory value,relevant
+482,hematocrit_blood,0.000,0.000,0.000,5,0.000,1678,laboratory value,relevant
+483,leukocytes_blood,0.000,0.000,0.000,4,0.000,1403,laboratory value,relevant
+484,alat_blood,0.000,0.000,0.000,2,0.000,395,laboratory value,relevant
+485,alkaline_phosphatase_blood,0.000,0.000,0.000,2,0.000,431,laboratory value,relevant
+486,asat_blood,0.000,0.000,0.000,2,0.000,395,laboratory value,relevant
+487,magnesium_blood,0.000,0.000,0.000,3,0.000,698,laboratory value,relevant
+488,vancomycin_level,0.000,0.000,0.000,1,0.000,202,laboratory value,relevant
+489,thrombin_time_unspecified,0.000,0.000,0.000,1,0.000,106,laboratory value,relevant
+490,heart_rate_monitor,0.000,0.000,0.000,1,0.000,42843,hemodynamics,relevant
+491,ecmo_flow,0.000,0.000,0.000,3,0.000,4222,hemodynamics,relevant
+492,bipap_low_pressure,0.000,0.000,0.000,1,0.000,773,respiratory,relevant
+493,frequency_ippv,0.000,0.000,0.000,1,0.000,191,respiratory,relevant
+494,bipap_high_pressure,0.000,0.000,0.000,1,0.000,724,respiratory,relevant
+495,height_measured,0.000,0.000,0.000,1,0.000,121,demographics,relevant
+496,mews_score,0.000,0.000,0.000,1,0.000,477,clinical score,relevant
+497,peripheral_flow_index,0.000,0.000,0.000,1,0.000,20578,hemodynamics,relevant
+498,iv_fluid_24hours,0.000,0.000,0.000,1,0.000,246,fluid balance,relevant
+499,temperature_skin,0.000,0.000,0.000,1,0.000,177,infectiology,relevant
+500,inspiratory_rise_time_perc,0.000,0.000,0.000,1,0.000,365,respiratory,relevant
+501,temperature_ear,0.000,0.000,0.000,1,0.000,219,infectiology,relevant
+502,segmented_neutrophils_perc,0.000,0.000,0.000,1,0.000,151,laboratory value,relevant
+503,ph_urine,0.000,0.000,0.000,1,0.000,120,laboratory value,relevant
+504,reticulocytes_absolute,0.000,0.000,0.000,1,0.000,1267,laboratory value,relevant
+505,lactate_dehydrogenase_total,0.000,0.000,0.000,1,0.000,2238,laboratory value,relevant
+506,erythroblasts_perc_unspecified,0.000,0.000,0.000,1,0.000,2278,laboratory value,relevant
+507,med_sodium_glycerophosphate,0.000,0.000,0.000,1,0.000,188,medication,relevant
+508,med_calcium_(different_salts_in_combination),0.000,0.000,0.000,1,0.000,547,medication,relevant

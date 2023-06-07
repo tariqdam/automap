@@ -1,0 +1,4 @@
+,accuracy,precision,recall,f1,num_records,support,group_count
+zoverall,0.222,0.151,0.222,0.157,215430600,59071,1458
+relevant,0.621,0.423,0.621,0.439,151839381,21142,1457
+irrelevant,0.000,0.000,0.000,0.000,63591219,37929,1

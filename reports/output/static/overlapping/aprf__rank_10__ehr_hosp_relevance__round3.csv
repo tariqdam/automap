@@ -1,0 +1,13 @@
+ehr_name,hospital_name,relevance,accuracy,precision,recall,f1,num_records,support,group_count
+EPIC,etz,zoverall,0.002,0.001,0.002,0.002,857312,952,451
+EPIC,etz,relevant,0.002,0.001,0.002,0.002,857312,952,451
+EPIC,spaarnegasthuis,zoverall,0.001,0.001,0.001,0.001,405734,821,409
+EPIC,spaarnegasthuis,relevant,0.001,0.001,0.001,0.001,405734,821,409
+EPIC,vumc,zoverall,0.001,0.000,0.001,0.000,3252280,1460,700
+EPIC,vumc,relevant,0.001,0.000,0.001,0.000,3252280,1460,700
+HIX,franciscus,zoverall,0.000,0.000,0.000,0.000,541466,917,494
+HIX,franciscus,relevant,0.000,0.000,0.000,0.000,541466,917,494
+MV,maasstad,zoverall,0.003,0.002,0.003,0.002,26640194,373,274
+MV,maasstad,relevant,0.003,0.002,0.003,0.002,26640194,373,274
+MV,mst,zoverall,0.004,0.004,0.004,0.004,26061169,460,352
+MV,mst,relevant,0.004,0.004,0.004,0.004,26061169,460,352

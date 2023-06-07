@@ -1,0 +1,7 @@
+ehr_name,relevance,accuracy,precision,recall,f1,num_records,support,group_count
+EPIC,zoverall,0.003,0.006,0.003,0.003,4784722,3940,913
+EPIC,relevant,0.003,0.006,0.003,0.003,4784722,3940,913
+HIX,zoverall,0.005,0.006,0.005,0.005,625210,1151,537
+HIX,relevant,0.005,0.006,0.005,0.005,625210,1151,537
+MV,zoverall,0.007,0.010,0.007,0.008,53512788,858,486
+MV,relevant,0.007,0.010,0.007,0.008,53512788,858,486
