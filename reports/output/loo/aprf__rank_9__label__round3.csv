@@ -1080,7 +1080,7 @@
 1078,med_tocilizumab,0.000,0.000,0.000,10,0.000,147,medication,relevant
 1079,med_topiramate,0.000,0.000,0.000,6,0.000,82,medication,relevant
 1080,med_travoprost,0.000,0.000,0.000,3,0.000,18,medication,relevant
-1081,med_triamcinolone,0.000,0.000,0.000,12,0.000,110,medication,relevant
+1081,med_tri1inolone,0.000,0.000,0.000,12,0.000,110,medication,relevant
 1082,med_verapamil,0.000,0.000,0.000,19,0.000,109,medication,relevant
 1083,med_vildagliptin,0.000,0.000,0.000,7,0.000,49,medication,relevant
 1084,med_zofenopril,0.000,0.000,0.000,1,0.000,1,medication,relevant
@@ -1522,7 +1522,7 @@
 1520,med_atenolol_and_thiazides,0.000,0.000,0.000,1,0.000,2,medication,relevant
 1521,med_atracurium,0.000,0.000,0.000,4,0.000,95,medication,relevant
 1522,med_azelastine,0.000,0.000,0.000,1,0.000,1,medication,relevant
-1523,med_triamcinolone_and_antiinfectives,0.000,0.000,0.000,1,0.000,2,medication,relevant
+1523,med_tri1inolone_and_antiinfectives,0.000,0.000,0.000,1,0.000,2,medication,relevant
 1524,med_bevacizumab,0.000,0.000,0.000,1,0.000,1,medication,relevant
 1525,med_bicalutamide,0.000,0.000,0.000,2,0.000,4,medication,relevant
 1526,med_bromfenac,0.000,0.000,0.000,1,0.000,1,medication,relevant

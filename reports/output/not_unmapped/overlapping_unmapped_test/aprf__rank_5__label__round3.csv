@@ -827,7 +827,7 @@
 825,med_topiramate,0.000,0.000,0.000,6,0.000,82,medication,relevant
 826,med_tramadol,0.000,0.000,0.000,20,0.000,140,medication,relevant
 827,med_travoprost,0.000,0.000,0.000,3,0.000,18,medication,relevant
-828,med_triamcinolone,0.000,0.000,0.000,9,0.000,103,medication,relevant
+828,med_tri1inolone,0.000,0.000,0.000,9,0.000,103,medication,relevant
 829,med_valaciclovir,0.000,0.000,0.000,7,0.000,97,medication,relevant
 830,med_verapamil,0.000,0.000,0.000,16,0.000,102,medication,relevant
 831,med_vildagliptin,0.000,0.000,0.000,6,0.000,39,medication,relevant
@@ -1354,7 +1354,7 @@
 1352,med_atenolol_and_thiazides,0.000,0.000,0.000,1,0.000,2,medication,relevant
 1353,med_atracurium,0.000,0.000,0.000,4,0.000,95,medication,relevant
 1354,med_azelastine,0.000,0.000,0.000,1,0.000,1,medication,relevant
-1355,med_triamcinolone_and_antiinfectives,0.000,0.000,0.000,1,0.000,2,medication,relevant
+1355,med_tri1inolone_and_antiinfectives,0.000,0.000,0.000,1,0.000,2,medication,relevant
 1356,med_bevacizumab,0.000,0.000,0.000,1,0.000,1,medication,relevant
 1357,med_bicalutamide,0.000,0.000,0.000,2,0.000,4,medication,relevant
 1358,med_bromfenac,0.000,0.000,0.000,1,0.000,1,medication,relevant

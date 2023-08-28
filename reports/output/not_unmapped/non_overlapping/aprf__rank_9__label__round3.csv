@@ -651,7 +651,7 @@
 649,med_topiramate,0.000,0.000,0.000,6,0.000,82,medication,relevant
 650,med_travoprost,0.000,0.000,0.000,2,0.000,8,medication,relevant
 651,med_insulin_degludec,0.000,0.000,0.000,5,0.000,36,medication,relevant
-652,med_triamcinolone,0.000,0.000,0.000,1,0.000,21,medication,relevant
+652,med_tri1inolone,0.000,0.000,0.000,1,0.000,21,medication,relevant
 653,med_formoterol_glycopyrronium_bromide_and_beclometasone,0.000,0.000,0.000,3,0.000,64,medication,relevant
 654,med_other_emollients_and_protectives,0.000,0.000,0.000,11,0.000,199,medication,relevant
 655,med_verapamil,0.000,0.000,0.000,11,0.000,57,medication,relevant
@@ -1190,7 +1190,7 @@
 1188,sofa_renal_creat,0.000,0.000,0.000,1,0.000,1290,sofa score,relevant
 1189,med_atracurium,0.000,0.000,0.000,4,0.000,95,medication,relevant
 1190,med_azelastine,0.000,0.000,0.000,1,0.000,1,medication,relevant
-1191,med_triamcinolone_and_antiinfectives,0.000,0.000,0.000,1,0.000,2,medication,relevant
+1191,med_tri1inolone_and_antiinfectives,0.000,0.000,0.000,1,0.000,2,medication,relevant
 1192,med_bevacizumab,0.000,0.000,0.000,1,0.000,1,medication,relevant
 1193,med_bicalutamide,0.000,0.000,0.000,2,0.000,4,medication,relevant
 1194,med_bromfenac,0.000,0.000,0.000,1,0.000,1,medication,relevant

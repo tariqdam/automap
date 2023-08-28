@@ -1,0 +1,13 @@
+concept_label_group,accuracy,precision,recall,f1,num_records,support,group_count
+laboratory value,0.008,0.031,0.008,0.011,1489951,906,174
+respiratory,0.003,0.020,0.003,0.005,67955574,650,91
+unmapped,0.004,0.069,0.004,0.008,18775496,499,1
+hemodynamics,0.008,0.003,0.008,0.004,33985485,254,53
+renal replacement therapy,0.000,0.000,0.000,0.000,4177716,166,24
+fluid balance,0.006,0.021,0.006,0.010,705591,156,16
+medication,0.000,0.000,0.000,0.000,129384,99,59
+clinical score,0.000,0.000,0.000,0.000,1006414,46,11
+infectiology,0.000,0.000,0.000,0.000,461126,41,10
+sofa score,0.000,0.000,0.000,0.000,17108,23,8
+demographics,0.000,0.000,0.000,0.000,834808,12,4
+neurology,0.000,0.000,0.000,0.000,19653,11,2

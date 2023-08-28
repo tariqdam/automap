@@ -1,0 +1,1376 @@
+,concept_label,precision,recall,f1,support,accuracy,balanced_accuracy,num_records,concept_label_group,relevance
+0,unmapped,0.051,0.000,0.000,11936,0.000,0.000,7892908,unmapped,irrelevant
+1,tracheostomy_size,0.000,0.000,0.000,7,0.000,0.000,1610,respiratory,relevant
+2,gcs_motor,0.000,0.000,0.000,29,0.000,0.000,51280,neurology,relevant
+3,gcs_eye,0.000,0.000,0.000,23,0.000,0.000,48021,neurology,relevant
+4,gcs_verbal,0.000,0.000,0.000,29,0.000,0.000,50277,neurology,relevant
+5,crrt_mode,0.000,0.000,0.000,27,0.000,0.000,276852,renal replacement therapy,relevant
+6,type_administered_o2,0.000,0.000,0.000,197,0.000,0.000,53294,respiratory,relevant
+7,restrictive_policy,0.000,0.000,0.000,27,0.000,0.000,11862,admission information,relevant
+8,cam_icu_score,0.000,0.000,0.000,14,0.000,0.000,24017,clinical score,relevant
+9,citrate_dosage_cvvh,0.000,0.000,0.000,7,0.000,0.000,6592,renal replacement therapy,relevant
+10,pain_score_text,0.000,0.000,0.000,17,0.000,0.000,47212,clinical score,relevant
+11,extravascular_lung_water_index,0.000,0.000,0.000,9,0.000,0.000,165,hemodynamics,relevant
+12,global_end_diastolic_volume_index,0.000,0.000,0.000,9,0.000,0.000,154,hemodynamics,relevant
+13,ntpro_bnp_unspecified,0.000,0.000,0.000,18,0.000,0.000,429,laboratory value,relevant
+14,troponin_i_hs,0.000,0.000,0.000,6,0.000,0.000,932,laboratory value,relevant
+15,pain_score_bps,0.000,0.000,0.000,8,0.000,0.000,6377,clinical score,relevant
+16,fluid_in_flush,0.000,0.000,0.000,128,0.000,0.000,1490,fluid balance,relevant
+17,avpu_score_text,0.000,0.000,0.000,6,0.000,0.000,2176,clinical score,relevant
+18,respiratory_rate_measured,0.000,0.000,0.000,4,0.000,0.000,132,respiratory,relevant
+19,nice_covid19Status,0.000,0.000,0.000,5,0.000,0.000,2056,nice data,relevant
+20,height_measured,0.000,0.000,0.000,25,0.000,0.000,760,demographics,relevant
+21,cardiac_output_unspecified,0.000,0.000,0.000,9,0.000,0.000,267,hemodynamics,relevant
+22,central_venous_pressure,0.000,0.000,0.000,2,0.000,0.000,88,hemodynamics,relevant
+23,pulmonary_artery_pressure_diastolic,0.000,0.000,0.000,1,0.000,0.000,1,hemodynamics,relevant
+24,pulmonary_artery_pressure_systolic,0.000,0.000,0.000,1,0.000,0.000,1,hemodynamics,relevant
+25,pulmonary_artery_pressure_mean,0.000,0.000,0.000,2,0.000,0.000,65,hemodynamics,relevant
+26,pulmonary_wedge_pressure,0.000,0.000,0.000,4,0.000,0.000,65,hemodynamics,relevant
+27,heart_rhythm_text,0.000,0.000,0.000,208,0.000,0.000,119571,hemodynamics,relevant
+28,fluid_out_emesis_retention,0.250,0.018,0.033,56,0.018,0.018,1705,fluid balance,relevant
+29,systemic_vascular_resistance_index,0.000,0.000,0.000,5,0.000,0.000,89,hemodynamics,relevant
+30,systemic_vascular_resistance,0.000,0.000,0.000,6,0.000,0.000,75,hemodynamics,relevant
+31,fluid_out_cvvh_dialysis,0.000,0.000,0.000,27,0.000,0.000,215,fluid balance,relevant
+32,stroke_volume_variation,0.000,0.000,0.000,7,0.000,0.000,222,hemodynamics,relevant
+33,temperature_unspecified,0.000,0.000,0.000,25,0.000,0.000,1434,infectiology,relevant
+34,temperature_core,0.000,0.000,0.000,3,0.000,0.000,133,infectiology,relevant
+35,stroke_volume_calculated,0.000,0.000,0.000,8,0.000,0.000,89,hemodynamics,relevant
+36,stroke_volume_index,0.000,0.000,0.000,10,0.000,0.000,184,hemodynamics,relevant
+37,capillary_refill_text,0.000,0.000,0.000,15,0.000,0.000,1868,hemodynamics,relevant
+38,respiratory_rate_set,0.000,0.000,0.000,11,0.000,0.000,37912,respiratory,relevant
+39,fluid_out_defecation,0.000,0.000,0.000,42,0.000,0.000,4637,fluid balance,relevant
+40,vent_mode_manual,0.000,0.000,0.000,5,0.000,0.000,118,respiratory,relevant
+41,fluid_out_other,0.000,0.000,0.000,67,0.000,0.000,279,fluid balance,relevant
+42,vent_mode,0.000,0.000,0.000,80,0.000,0.000,6565979,respiratory,relevant
+43,pupil_reflex_left,0.000,0.000,0.000,16,0.000,0.000,39148,neurology,relevant
+44,pupil_reflex_right,0.000,0.000,0.000,10,0.000,0.000,25219,neurology,relevant
+45,fluid_out_drain,0.000,0.000,0.000,58,0.000,0.000,888,fluid balance,relevant
+46,rass_score,0.000,0.000,0.000,22,0.000,0.000,58108,neurology,relevant
+47,pain_score_vas,0.000,0.000,0.000,9,0.000,0.000,10195,clinical score,relevant
+48,fluid_out_flush,0.000,0.000,0.000,15,0.000,0.000,231,fluid balance,relevant
+49,fibrinogen_unspecified,0.000,0.000,0.000,13,0.000,0.000,313,laboratory value,relevant
+50,prothrombin_time_inr,0.000,0.000,0.000,22,0.000,0.000,435,laboratory value,relevant
+51,nice_adm_source,0.000,0.000,0.000,8,0.000,0.000,2604,nice data,relevant
+52,d_dimer_unspecified,0.000,0.000,0.000,13,0.000,0.000,576,laboratory value,relevant
+53,ammonia_unspecified,0.000,0.000,0.000,17,0.000,0.000,132,laboratory value,relevant
+54,creatine_kinase_mb_activity,0.000,0.000,0.000,14,0.000,0.000,153,laboratory value,relevant
+55,tobramycin_trough_level,0.000,0.000,0.000,6,0.000,0.000,29,laboratory value,relevant
+56,tobramycin_peak_level,0.000,0.000,0.000,5,0.000,0.000,7,laboratory value,relevant
+57,gender_text,0.000,0.000,0.000,9,0.000,0.000,3069,demographics,relevant
+58,cough_reflex_text,0.000,0.000,0.000,19,0.000,0.000,23722,respiratory,relevant
+59,so2_arterial,0.000,0.000,0.000,8,0.000,0.000,215,laboratory value,relevant
+60,po2_arterial,0.000,0.000,0.000,9,0.000,0.000,149,laboratory value,relevant
+61,ph_arterial,1.000,0.100,0.182,10,0.100,0.100,5115,laboratory value,relevant
+62,pco2_arterial,0.100,0.125,0.111,8,0.125,0.125,124,laboratory value,relevant
+63,position_text,0.000,0.000,0.000,226,0.000,0.000,75156,position,relevant
+64,cardiac_index_unspecified,0.000,0.000,0.000,17,0.000,0.000,347,hemodynamics,relevant
+65,readmission_ic,0.000,0.000,0.000,9,0.000,0.000,3086,admission information,relevant
+66,med_carbohydrates,0.000,0.000,0.000,100,0.000,0.000,26533,medication,relevant
+67,med_piritramide,0.000,0.000,0.000,13,0.000,0.000,129,medication,relevant
+68,med_midazolam,0.000,0.000,0.000,81,0.000,0.000,33125,medication,relevant
+69,med_insulin_aspart,0.000,0.000,0.000,34,0.000,0.000,22174,medication,relevant
+70,med_bisoprolol,0.017,0.033,0.022,30,0.033,0.033,360,medication,relevant
+71,med_risperidone,0.000,0.000,0.000,16,0.000,0.000,153,medication,relevant
+72,med_fluvastatin,0.000,0.000,0.000,7,0.000,0.000,43,medication,relevant
+73,med_candesartan,0.000,0.000,0.000,18,0.000,0.000,137,medication,relevant
+74,med_losartan,0.000,0.000,0.000,26,0.000,0.000,391,medication,relevant
+75,med_carbasalate_calcium,0.000,0.000,0.000,29,0.000,0.000,866,medication,relevant
+76,med_clonidine,0.000,0.000,0.000,50,0.000,0.000,4650,medication,relevant
+77,med_aciclovir,0.000,0.000,0.000,32,0.000,0.000,1111,medication,relevant
+78,med_thiamine_(vit_b1),0.000,0.000,0.000,50,0.000,0.000,2211,medication,relevant
+79,med_venlafaxine,0.000,0.000,0.000,16,0.000,0.000,188,medication,relevant
+80,med_calcium_combinations_with_vitamin_d_and/or_other_drugs,0.000,0.000,0.000,11,0.000,0.000,394,medication,relevant
+81,med_artificial_tears_and_other_indifferent_preparations,0.000,0.000,0.000,62,0.000,0.000,22203,medication,relevant
+82,med_ticagrelor,0.000,0.000,0.000,18,0.000,0.000,377,medication,relevant
+83,med_promethazine,0.000,0.000,0.000,20,0.000,0.000,405,medication,relevant
+84,med_vancomycin,0.000,0.000,0.000,22,0.000,0.000,1937,medication,relevant
+85,med_sulfonamides_and_trimethoprim,0.000,0.000,0.000,1,0.000,0.000,82,medication,relevant
+86,med_cefuroxime,0.000,0.000,0.000,26,0.000,0.000,3113,medication,relevant
+87,med_morphine,0.000,0.000,0.000,59,0.000,0.000,5040,medication,relevant
+88,med_insulins_and_analogues,0.000,0.000,0.000,1,0.000,0.000,2,medication,relevant
+89,med_metamizole_sodium,0.000,0.000,0.000,17,0.000,0.000,890,medication,relevant
+90,med_general_nutrients,0.000,0.000,0.000,41,0.000,0.000,10183,medication,relevant
+91,med_dexmedetomidine,0.000,0.000,0.000,12,0.000,0.000,8966,medication,relevant
+92,med_levofloxacin,0.000,0.000,0.000,5,0.000,0.000,21,medication,relevant
+93,med_amphotericin_b,0.000,0.000,0.000,18,0.000,0.000,3804,medication,relevant
+94,med_sodium_hypochlorite,0.000,0.000,0.000,2,0.000,0.000,68,medication,relevant
+95,med_apixaban,0.000,0.000,0.000,24,0.000,0.000,1372,medication,relevant
+96,med_vasopressin_(argipressin),0.000,0.000,0.000,4,0.000,0.000,74,medication,relevant
+97,med_colecalciferol,0.000,0.000,0.000,50,0.000,0.000,491,medication,relevant
+98,med_vitamin_b12_(cyanocobalamin_and_analogues),0.000,0.000,0.000,3,0.000,0.000,21,medication,relevant
+99,med_chloroquine,0.000,0.000,0.000,8,0.000,0.000,1743,medication,relevant
+100,med_potassium_chloride,0.000,0.000,0.000,72,0.000,0.000,8625,medication,relevant
+101,med_acetazolamide,0.000,0.000,0.000,35,0.000,0.000,705,medication,relevant
+102,med_acetylcysteine,0.000,0.000,0.000,35,0.000,0.000,2061,medication,relevant
+103,med_acetylsalicylic_acid,0.000,0.000,0.000,39,0.000,0.000,3705,medication,relevant
+104,med_alfacalcidol,0.000,0.000,0.000,17,0.000,0.000,176,medication,relevant
+105,analysis_source_bloodgas_arterial_text,0.000,0.000,0.000,6,0.000,0.000,11064,laboratory value,relevant
+106,med_allopurinol,0.000,0.000,0.000,25,0.000,0.000,507,medication,relevant
+107,med_amiodarone,0.000,0.000,0.000,43,0.000,0.000,1550,medication,relevant
+108,med_amitriptyline,0.000,0.000,0.000,25,0.000,0.000,787,medication,relevant
+109,med_amlodipine,0.000,0.000,0.000,40,0.000,0.000,3519,medication,relevant
+110,med_ascorbic_acid_(vit_c),0.000,0.000,0.000,34,0.000,0.000,1797,medication,relevant
+111,med_atorvastatin,0.000,0.000,0.000,49,0.000,0.000,1266,medication,relevant
+112,med_azithromycin,0.000,0.000,0.000,22,0.000,0.000,134,medication,relevant
+113,med_beclometasone,0.000,0.000,0.000,15,0.000,0.000,129,medication,relevant
+114,med_sodium_bicarbonate,0.000,0.000,0.000,9,0.000,0.000,93,medication,relevant
+115,med_captopril,0.000,0.000,0.000,26,0.000,0.000,583,medication,relevant
+116,med_ceftazidime,0.000,0.000,0.000,23,0.000,0.000,672,medication,relevant
+117,med_electrolytes,0.000,0.000,0.000,139,0.000,0.000,70657,medication,relevant
+118,med_sodium_chloride,0.000,0.000,0.000,12,0.000,0.000,1643,medication,relevant
+119,med_ceftriaxone,0.000,0.000,0.000,23,0.000,0.000,4801,medication,relevant
+120,med_albumin,0.000,0.000,0.000,25,0.000,0.000,1201,medication,relevant
+121,med_cetirizine,0.000,0.000,0.000,8,0.000,0.000,170,medication,relevant
+122,med_clopidogrel,0.000,0.000,0.000,31,0.000,0.000,2035,medication,relevant
+123,med_codeine,0.000,0.000,0.000,27,0.000,0.000,601,medication,relevant
+124,med_colchicine,0.000,0.000,0.000,12,0.000,0.000,363,medication,relevant
+125,med_colistin,0.000,0.000,0.000,9,0.000,0.000,357,medication,relevant
+126,med_clemastine,0.000,0.000,0.000,30,0.000,0.000,346,medication,relevant
+127,med_dalteparin,0.000,0.000,0.000,45,0.000,0.000,17232,medication,relevant
+128,med_dexamethasone,0.000,0.000,0.000,37,0.000,0.000,1863,medication,relevant
+129,med_diclofenac,0.000,0.000,0.000,36,0.000,0.000,422,medication,relevant
+130,med_digoxin,0.000,0.000,0.000,49,0.000,0.000,974,medication,relevant
+131,med_diltiazem,0.000,0.000,0.000,12,0.000,0.000,140,medication,relevant
+132,med_dipyridamole,0.000,0.000,0.000,7,0.000,0.000,36,medication,relevant
+133,med_doxazosin,0.000,0.000,0.000,12,0.000,0.000,121,medication,relevant
+134,med_doxycycline,0.000,0.000,0.000,19,0.000,0.000,186,medication,relevant
+135,med_enalapril,0.000,0.000,0.000,34,0.000,0.000,1249,medication,relevant
+136,med_erythromycin,0.000,0.000,0.000,24,0.000,0.000,4675,medication,relevant
+137,med_esketamine,0.000,0.000,0.000,35,0.000,0.000,968,medication,relevant
+138,med_etomidate,0.000,0.000,0.000,20,0.000,0.000,391,medication,relevant
+139,med_ezetimibe,0.000,0.000,0.000,17,0.000,0.000,487,medication,relevant
+140,med_fentanyl,0.000,0.000,0.000,54,0.000,0.000,9026,medication,relevant
+141,med_ferrous_fumarate,0.000,0.000,0.000,15,0.000,0.000,225,medication,relevant
+142,med_flecainide,0.000,0.000,0.000,4,0.000,0.000,92,medication,relevant
+143,med_flucloxacillin,0.000,0.000,0.000,38,0.000,0.000,1361,medication,relevant
+144,med_fluconazole,0.000,0.000,0.000,25,0.000,0.000,114,medication,relevant
+145,med_flumazenil,0.000,0.000,0.000,11,0.000,0.000,32,medication,relevant
+146,med_furosemide,0.000,0.000,0.000,59,0.000,0.000,2468,medication,relevant
+147,med_gabapentin,0.000,0.000,0.000,18,0.000,0.000,172,medication,relevant
+148,med_gliclazide,0.000,0.000,0.000,28,0.000,0.000,694,medication,relevant
+149,med_haloperidol,0.000,0.000,0.000,49,0.000,0.000,4564,medication,relevant
+150,med_heparin,0.000,0.000,0.000,31,0.000,0.000,1893,medication,relevant
+151,med_hydrochlorothiazide,0.000,0.000,0.000,41,0.000,0.000,1956,medication,relevant
+152,med_hydrocortisone,0.000,0.000,0.000,28,0.000,0.000,1478,medication,relevant
+153,med_immunoglobulins,0.000,0.000,0.000,3,0.000,0.000,8,medication,relevant
+154,med_insulin_glargine,0.000,0.000,0.000,26,0.000,0.000,491,medication,relevant
+155,med_ipratropium_bromide,0.091,0.022,0.035,46,0.022,0.022,10178,medication,relevant
+156,med_ivabradine,0.000,0.000,0.000,8,0.000,0.000,135,medication,relevant
+157,med_labetalol,0.000,0.000,0.000,30,0.000,0.000,408,medication,relevant
+158,med_letrozole,0.000,0.000,0.000,1,0.000,0.000,20,medication,relevant
+159,med_levothyroxine_sodium,0.000,0.000,0.000,62,0.000,0.000,1181,medication,relevant
+160,med_linezolid,0.000,0.000,0.000,6,0.000,0.000,82,medication,relevant
+161,med_lorazepam,0.000,0.000,0.000,48,0.000,0.000,3567,medication,relevant
+162,med_magnesium_sulfate,0.000,0.000,0.000,32,0.000,0.000,2376,medication,relevant
+163,med_mebeverine,0.000,0.000,0.000,7,0.000,0.000,87,medication,relevant
+164,med_meropenem,0.000,0.000,0.000,22,0.000,0.000,1351,medication,relevant
+165,med_metformin,0.000,0.000,0.000,54,0.000,0.000,3094,medication,relevant
+166,med_methadone,0.000,0.000,0.000,7,0.000,0.000,140,medication,relevant
+167,med_methylprednisolone,0.000,0.000,0.000,25,0.000,0.000,1324,medication,relevant
+168,med_metoclopramide,0.000,0.000,0.000,55,0.000,0.000,5604,medication,relevant
+169,med_metoprolol,1.000,0.008,0.016,124,0.008,0.008,14177,medication,relevant
+170,med_miconazole,0.000,0.000,0.000,25,0.000,0.000,910,medication,relevant
+171,med_imidazoles/triazoles_in_combination_with_corticosteroids,0.000,0.000,0.000,6,0.000,0.000,96,medication,relevant
+172,med_mirtazapine,0.000,0.000,0.000,24,0.000,0.000,503,medication,relevant
+173,med_nicardipine,0.000,0.000,0.000,9,0.000,0.000,513,medication,relevant
+174,med_nicotine,0.000,0.000,0.000,15,0.000,0.000,131,medication,relevant
+175,med_nifedipine,0.000,0.000,0.000,29,0.000,0.000,215,medication,relevant
+176,med_glyceryl_trinitrate,0.000,0.000,0.000,28,0.000,0.000,440,medication,relevant
+177,med_olanzapine,0.000,0.000,0.000,25,0.000,0.000,355,medication,relevant
+178,med_oxazepam,0.000,0.000,0.000,39,0.000,0.000,4772,medication,relevant
+179,med_oxybutynin,0.000,0.000,0.000,21,0.000,0.000,217,medication,relevant
+180,med_pantoprazole,0.000,0.000,0.000,58,0.000,0.000,16449,medication,relevant
+181,med_paracetamol,0.000,0.000,0.000,66,0.000,0.000,65590,medication,relevant
+182,med_paroxetine,0.000,0.000,0.000,15,0.000,0.000,314,medication,relevant
+183,med_perindopril,0.000,0.000,0.000,40,0.000,0.000,639,medication,relevant
+184,med_piperacillin_and_beta-lactamase_inhibitor,0.000,0.000,0.000,22,0.000,0.000,4796,medication,relevant
+185,med_polystyrene_sulfonate,0.000,0.000,0.000,42,0.000,0.000,838,medication,relevant
+186,med_pravastatin,0.000,0.000,0.000,27,0.000,0.000,262,medication,relevant
+187,med_prednisolone,0.000,0.000,0.000,89,0.000,0.000,4506,medication,relevant
+188,med_pregabalin,0.000,0.000,0.000,29,0.000,0.000,1410,medication,relevant
+189,med_quetiapine,0.000,0.000,0.000,36,0.000,0.000,2295,medication,relevant
+190,med_rosuvastatin,0.021,0.018,0.019,56,0.018,0.018,830,medication,relevant
+191,med_salbutamol,0.000,0.000,0.000,54,0.000,0.000,7663,medication,relevant
+192,med_salbutamol_and_ipratropium_bromide,0.000,0.000,0.000,21,0.000,0.000,11751,medication,relevant
+193,med_scopolamine,0.000,0.000,0.000,9,0.000,0.000,60,medication,relevant
+194,med_sertraline,0.000,0.000,0.000,9,0.000,0.000,117,medication,relevant
+195,med_sevelamer,0.000,0.000,0.000,11,0.000,0.000,353,medication,relevant
+196,med_simvastatin,0.000,0.000,0.000,46,0.000,0.000,1868,medication,relevant
+197,med_spironolactone,0.000,0.000,0.000,35,0.000,0.000,1178,medication,relevant
+198,med_sucralfate,0.000,0.000,0.000,7,0.000,0.000,885,medication,relevant
+199,med_sugammadex,0.000,0.000,0.000,13,0.000,0.000,40,medication,relevant
+200,med_temazepam,0.000,0.000,0.000,51,0.000,0.000,2147,medication,relevant
+201,med_tranexamic_acid,0.000,0.000,0.000,17,0.000,0.000,99,medication,relevant
+202,med_valsartan,0.000,0.000,0.000,17,0.000,0.000,220,medication,relevant
+203,med_vitamin_b-complex_plain,0.000,0.000,0.000,6,0.000,0.000,102,medication,relevant
+204,med_xylometazoline,0.000,0.000,0.000,11,0.000,0.000,247,medication,relevant
+205,med_zopiclone,0.000,0.000,0.000,14,0.000,0.000,1139,medication,relevant
+206,med_macrogol,0.000,0.000,0.000,17,0.000,0.000,7670,medication,relevant
+207,med_erythrocytes,1.000,0.059,0.111,17,0.059,0.059,1345,medication,relevant
+208,med_blood_plasma,0.000,0.000,0.000,14,0.000,0.000,49,medication,relevant
+209,med_thrombocytes,0.000,0.000,0.000,11,0.000,0.000,45,medication,relevant
+210,lda_canula_tracheal,0.000,0.000,0.000,68,0.000,0.000,1014,lda,relevant
+211,med_atropine,0.000,0.000,0.000,16,0.000,0.000,24,medication,relevant
+212,med_adenosine,0.000,0.000,0.000,13,0.000,0.000,36,medication,relevant
+213,med_propofol,0.000,0.000,0.000,22,0.000,0.000,12376,medication,relevant
+214,med_amoxicillin,0.000,0.000,0.000,49,0.000,0.000,2265,medication,relevant
+215,med_amoxicillin_and_beta-lactamase_inhibitor,0.000,0.000,0.000,27,0.000,0.000,1476,medication,relevant
+216,med_cefotaxime,0.000,0.000,0.000,3,0.000,0.000,37,medication,relevant
+217,med_nystatin,0.000,0.000,0.000,3,0.000,0.000,88,medication,relevant
+218,med_antibiotics,0.000,0.000,0.000,31,0.000,0.000,72318,medication,relevant
+219,fluid_in_other,0.000,0.000,0.000,127,0.000,0.000,940,fluid balance,relevant
+220,o2_flow_unspecified,0.000,0.000,0.000,112,0.000,0.000,3774,respiratory,relevant
+221,thrombocytes_citrate,0.000,0.000,0.000,12,0.000,0.000,136,laboratory value,relevant
+222,ammonia_venous,0.000,0.000,0.000,3,0.000,0.000,13,laboratory value,relevant
+223,vitamin_b12_unspecified,0.000,0.000,0.000,18,0.000,0.000,103,laboratory value,relevant
+224,haptoglobin_unspecified,0.000,0.000,0.000,20,0.000,0.000,126,laboratory value,relevant
+225,hit_screening,0.000,0.000,0.000,8,0.000,0.000,11,laboratory value,relevant
+226,voriconazol_level,0.000,0.000,0.000,14,0.000,0.000,187,laboratory value,relevant
+227,anca_unspecified,0.000,0.000,0.000,12,0.000,0.000,16,laboratory value,relevant
+228,sars_cov_2_other,0.000,0.000,0.000,10,0.000,0.000,208,infectiology,relevant
+229,heparin_speed_cvvh,0.000,0.000,0.000,8,0.000,0.000,247159,renal replacement therapy,relevant
+230,weight_estimated,0.000,0.000,0.000,15,0.000,0.000,304,demographics,relevant
+231,nava_edi_trigger,0.000,0.000,0.000,3,0.000,0.000,24859,respiratory,relevant
+232,o2_flow_oxygen_mask,0.000,0.000,0.000,23,0.000,0.000,177,respiratory,relevant
+233,temperature_rectal,0.000,0.000,0.000,10,0.000,0.000,94,infectiology,relevant
+234,plateau_pressure,0.000,0.000,0.000,6,0.000,0.000,140,respiratory,relevant
+235,ideal_body_weight,0.000,0.000,0.000,4,0.000,0.000,87,demographics,relevant
+236,o2_flow_non_rebreathing_mask,0.000,0.000,0.000,17,0.000,0.000,135,respiratory,relevant
+237,intrinsic_peep_measured,0.077,0.125,0.095,8,0.125,0.125,65,respiratory,relevant
+238,pacemaker_external,0.000,0.000,0.000,1,0.000,0.000,4,hemodynamics,relevant
+239,temperature_peripheral,0.000,0.000,0.000,5,0.000,0.000,2687,infectiology,relevant
+240,ph_venous,0.000,0.000,0.000,11,0.000,0.000,428,laboratory value,relevant
+241,so2_venous,0.000,0.000,0.000,8,0.000,0.000,259,laboratory value,relevant
+242,pupil_diameter_left,0.000,0.000,0.000,7,0.000,0.000,5860,neurology,relevant
+243,pupil_diameter_right,0.000,0.000,0.000,7,0.000,0.000,7976,neurology,relevant
+244,vent_mode_noninvasive,0.000,0.000,0.000,7,0.000,0.000,649,respiratory,relevant
+245,substitution_anticoagulants_cvvh,0.000,0.000,0.000,11,0.000,0.000,264865,renal replacement therapy,relevant
+246,predilution_volume_cvvh,0.000,0.000,0.000,4,0.000,0.000,477573,renal replacement therapy,relevant
+247,predilution_flow_cvvh,0.000,0.000,0.000,7,0.000,0.000,410349,renal replacement therapy,relevant
+248,blood_flow_cvvh,0.000,0.000,0.000,13,0.000,0.000,401500,renal replacement therapy,relevant
+249,discharge_icu_destination,0.000,0.000,0.000,9,0.000,0.000,682,admission information,relevant
+250,expiratory_trigger_sensitivity,0.000,0.000,0.000,6,0.000,0.000,203780,respiratory,relevant
+251,inspiratory_pressure_above_peep,0.000,0.000,0.000,15,0.000,0.000,1189,respiratory,relevant
+252,nice_apacheiv_diagnosis_unspecified,0.000,0.000,0.000,10,0.000,0.000,517,nice data,relevant
+253,nice_plan_adm,0.000,0.000,0.000,5,0.000,0.000,991,nice data,relevant
+254,nice_chr_renal_insuf,0.000,0.000,0.000,6,0.000,0.000,924,nice data,relevant
+255,nice_chron_dialysis,0.000,0.000,0.000,5,0.000,0.000,961,nice data,relevant
+256,nice_copd,0.000,0.000,0.000,7,0.000,0.000,1096,nice data,relevant
+257,nice_resp_insuf,0.000,0.000,0.000,7,0.000,0.000,1274,nice data,relevant
+258,nice_cardio_vasc_insuf,0.000,0.000,0.000,6,0.000,0.000,1176,nice data,relevant
+259,nice_cirrhosis,0.000,0.000,0.000,5,0.000,0.000,921,nice data,relevant
+260,nice_neoplasm,0.000,0.000,0.000,5,0.000,0.000,922,nice data,relevant
+261,nice_hem_malign,0.000,0.000,0.000,5,0.000,0.000,1085,nice data,relevant
+262,nice_aids,0.000,0.000,0.000,4,0.000,0.000,1016,nice data,relevant
+263,nice_imm_insuf,0.000,0.000,0.000,7,0.000,0.000,1094,nice data,relevant
+264,nice_cpr,0.000,0.000,0.000,4,0.000,0.000,773,nice data,relevant
+265,nice_dysrhytmia,0.000,0.000,0.000,1,0.000,0.000,105,nice data,relevant
+266,nice_gastro_bleed,0.000,0.000,0.000,4,0.000,0.000,1083,nice data,relevant
+267,nice_cva,0.000,0.000,0.000,4,0.000,0.000,564,nice data,relevant
+268,nice_intracran_mass,0.000,0.000,0.000,2,0.000,0.000,416,nice data,relevant
+269,nice_diabetes,0.000,0.000,0.000,9,0.000,0.000,1010,nice data,relevant
+270,nice_ima,0.000,0.000,0.000,3,0.000,0.000,770,nice data,relevant
+271,nice_mech_ventil_24,0.000,0.000,0.000,5,0.000,0.000,1014,nice data,relevant
+272,nice_apacheii_diagnosis_1,0.000,0.000,0.000,10,0.000,0.000,341,nice data,relevant
+273,nice_apacheii_diagnosis_2,0.000,0.000,0.000,9,0.000,0.000,182,nice data,relevant
+274,nice_apacheiv_diagnosis_1,0.000,0.000,0.000,16,0.000,0.000,1305,nice data,relevant
+275,nice_apacheiv_diagnosis_2,0.000,0.000,0.000,17,0.000,0.000,645,nice data,relevant
+276,nice_eye_24,0.000,0.000,0.000,1,0.000,0.000,104,nice data,relevant
+277,nice_eye_low,0.000,0.000,0.000,2,0.000,0.000,523,nice data,relevant
+278,nice_motor_24,0.000,0.000,0.000,1,0.000,0.000,104,nice data,relevant
+279,nice_motor_low,0.000,0.000,0.000,1,0.000,0.000,104,nice data,relevant
+280,nice_verbal_low,0.000,0.000,0.000,2,0.000,0.000,524,nice data,relevant
+281,nice_verbal_24,0.000,0.000,0.000,1,0.000,0.000,104,nice data,relevant
+282,discharge_icu_reason,0.000,0.000,0.000,5,0.000,0.000,381,admission information,relevant
+283,max_pressure,0.000,0.000,0.000,3,0.000,0.000,168268,respiratory,relevant
+284,apacheii_score,0.000,0.000,0.000,1,0.000,0.000,100,clinical score,relevant
+285,microbiology,0.008,0.001,0.002,728,0.001,0.001,13012,laboratory value,relevant
+286,ammonia_arterial,0.000,0.000,0.000,1,0.000,0.000,2,laboratory value,relevant
+287,transferrin_unspecified,0.000,0.000,0.000,18,0.000,0.000,114,laboratory value,relevant
+288,iron_blood,0.000,0.000,0.000,22,0.000,0.000,124,laboratory value,relevant
+289,base_excess_venous,0.000,0.000,0.000,11,0.000,0.000,377,laboratory value,relevant
+290,sedimentation_rate_unspecified,0.000,0.000,0.000,17,0.000,0.000,379,laboratory value,relevant
+291,bicarbonate_actual_venous,0.000,0.000,0.000,10,0.000,0.000,503,laboratory value,relevant
+292,cholesterol_unspecified,0.000,0.000,0.000,21,0.000,0.000,100,laboratory value,relevant
+293,hemoglobin_arterial,0.000,0.000,0.000,6,0.000,0.000,59,laboratory value,relevant
+294,po2_venous,0.000,0.000,0.000,11,0.000,0.000,370,laboratory value,relevant
+295,pco2_venous,0.000,0.000,0.000,12,0.000,0.000,435,laboratory value,relevant
+296,lactate_venous,0.000,0.000,0.000,5,0.000,0.000,183,laboratory value,relevant
+297,lipase_unspecified,0.000,0.000,0.000,12,0.000,0.000,262,laboratory value,relevant
+298,troponin_t,0.000,0.000,0.000,8,0.000,0.000,299,laboratory value,relevant
+299,med_remdesivir,0.000,0.000,0.000,4,0.000,0.000,280,medication,relevant
+300,med_lopinavir_and_ritonavir,0.000,0.000,0.000,12,0.000,0.000,807,medication,relevant
+301,med_ritonavir,0.000,0.000,0.000,1,0.000,0.000,311,medication,relevant
+302,med_combinations_of_vitamins,0.000,0.000,0.000,3,0.000,0.000,11,medication,relevant
+303,med_aztreonam,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+304,analysis_source_unspecified_text,0.000,0.000,0.000,8,0.000,0.000,8386,laboratory value,relevant
+305,med_epinephrine,0.000,0.000,0.000,32,0.000,0.000,189,medication,relevant
+306,med_alprazolam,0.000,0.000,0.000,6,0.000,0.000,74,medication,relevant
+307,med_bumetanide,0.000,0.000,0.000,27,0.000,0.000,476,medication,relevant
+308,med_ciprofloxacin,0.000,0.000,0.000,45,0.000,0.000,1629,medication,relevant
+309,med_clindamycin,0.000,0.000,0.000,25,0.000,0.000,354,medication,relevant
+310,med_chloramphenicol,0.000,0.000,0.000,10,0.000,0.000,351,medication,relevant
+311,med_clotrimazole,0.000,0.000,0.000,7,0.000,0.000,145,medication,relevant
+312,med_acenocoumarol,0.000,0.000,0.000,14,0.000,0.000,330,medication,relevant
+313,med_alteplase,0.000,0.000,0.000,13,0.000,0.000,49,medication,relevant
+314,med_anidulafungin,0.000,0.000,0.000,14,0.000,0.000,881,medication,relevant
+315,med_cefazolin,0.000,0.000,0.000,19,0.000,0.000,238,medication,relevant
+316,med_darbepoetin_alfa,0.000,0.000,0.000,5,0.000,0.000,14,medication,relevant
+317,med_desmopressin,0.000,0.000,0.000,11,0.000,0.000,59,medication,relevant
+318,med_enoxaparin,0.000,0.000,0.000,8,0.000,0.000,2520,medication,relevant
+319,med_esmolol,0.000,0.000,0.000,7,0.000,0.000,21,medication,relevant
+320,med_esomeprazole,0.000,0.000,0.000,59,0.000,0.000,3643,medication,relevant
+321,med_phenylephrine,0.000,0.000,0.000,18,0.000,0.000,951,medication,relevant
+322,med_folic_acid,0.000,0.000,0.000,25,0.000,0.000,833,medication,relevant
+323,med_phytomenadione,0.000,0.000,0.000,11,0.000,0.000,113,medication,relevant
+324,med_hydroxychloroquine,0.000,0.000,0.000,14,0.000,0.000,486,medication,relevant
+325,med_insulin_detemir,0.000,0.000,0.000,8,0.000,0.000,63,medication,relevant
+326,med_irbesartan,0.000,0.000,0.000,22,0.000,0.000,279,medication,relevant
+327,med_isoprenaline,0.000,0.000,0.000,8,0.000,0.000,132,medication,relevant
+328,med_lactulose,0.000,0.000,0.000,18,0.000,0.000,516,medication,relevant
+329,med_levetiracetam,0.000,0.000,0.000,25,0.000,0.000,826,medication,relevant
+330,med_loperamide,0.000,0.000,0.000,25,0.000,0.000,446,medication,relevant
+331,med_levosimendan,0.000,0.000,0.000,1,0.000,0.000,4,medication,relevant
+332,med_lidocaine,0.000,0.000,0.000,37,0.000,0.000,163,medication,relevant
+333,med_magnesium_hydroxide,0.000,0.000,0.000,13,0.000,0.000,6573,medication,relevant
+334,med_metronidazole,0.000,0.000,0.000,29,0.000,0.000,1029,medication,relevant
+335,med_neostigmine,0.000,0.000,0.000,8,0.000,0.000,64,medication,relevant
+336,med_nortriptyline,0.000,0.000,0.000,13,0.000,0.000,178,medication,relevant
+337,med_ondansetron,0.000,0.000,0.000,38,0.000,0.000,444,medication,relevant
+338,med_oseltamivir,0.000,0.000,0.000,6,0.000,0.000,25,medication,relevant
+339,med_blood_coagulation_factors,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+340,med_sotalol,0.000,0.000,0.000,20,0.000,0.000,387,medication,relevant
+341,med_tamsulosin,0.000,0.000,0.000,17,0.000,0.000,402,medication,relevant
+342,med_tiotropium_bromide,0.000,0.000,0.000,30,0.000,0.000,388,medication,relevant
+343,med_tobramycin,0.000,0.000,0.000,6,0.000,0.000,50,medication,relevant
+344,med_valproic_acid,0.000,0.000,0.000,21,0.000,0.000,289,medication,relevant
+345,med_bisacodyl,0.000,0.000,0.000,12,0.000,0.000,188,medication,relevant
+346,med_domperidone,0.000,0.000,0.000,5,0.000,0.000,39,medication,relevant
+347,med_physostigmine,0.000,0.000,0.000,2,0.000,0.000,2,medication,relevant
+348,med_sumatriptan,0.000,0.000,0.000,6,0.000,0.000,10,medication,relevant
+349,med_calcium_gluconate,0.000,0.000,0.000,18,0.000,0.000,340,medication,relevant
+350,med_multivitamins_other_combinations,0.000,0.000,0.000,3,0.000,0.000,482,medication,relevant
+351,med_antiinfectives_and_antiseptics_for_local_oral_treatment,0.000,0.000,0.000,20,0.000,0.000,40606,medication,relevant
+352,med_macrogol_combinations,0.000,0.000,0.000,1,0.000,0.000,2,medication,relevant
+353,med_sulfamethoxazole_and_trimethoprim,0.000,0.000,0.000,16,0.000,0.000,472,medication,relevant
+354,med_hypromellose,0.000,0.000,0.000,2,0.000,0.000,36,medication,relevant
+355,med_omeprazole,0.000,0.000,0.000,46,0.000,0.000,1655,medication,relevant
+356,med_glycine,0.000,0.000,0.000,1,0.000,0.000,386,medication,relevant
+357,med_other_mineral_products,0.000,0.000,0.000,7,0.000,0.000,100,medication,relevant
+358,med_vasopressin_and_analogues,0.000,0.000,0.000,1,0.000,0.000,6,medication,relevant
+359,med_benzylpenicillin,0.000,0.000,0.000,12,0.000,0.000,466,medication,relevant
+360,med_baclofen,0.000,0.000,0.000,10,0.000,0.000,66,medication,relevant
+361,med_eplerenone,0.000,0.000,0.000,4,0.000,0.000,12,medication,relevant
+362,med_argatroban,0.000,0.000,0.000,8,0.000,0.000,321,medication,relevant
+363,med_ascorbic_acid_(vitamin_c)_combinations,0.000,0.000,0.000,2,0.000,0.000,476,medication,relevant
+364,so2_capillary,0.000,0.000,0.000,4,0.000,0.000,21,laboratory value,relevant
+365,temperature_axillary,0.000,0.000,0.000,3,0.000,0.000,114,infectiology,relevant
+366,inspiratory_pressure_set,0.000,0.000,0.000,1,0.000,0.000,26,respiratory,relevant
+367,osmolality_urine,0.000,0.000,0.000,8,0.000,0.000,110,laboratory value,relevant
+368,urine_specific_gravity,0.000,0.000,0.000,10,0.000,0.000,229,laboratory value,relevant
+369,fluid_out_defecation_frequency,0.000,0.000,0.000,5,0.000,0.000,5535,fluid balance,relevant
+370,nice_confirm_infection,0.000,0.000,0.000,5,0.000,0.000,910,nice data,relevant
+371,creatine_kinase_unspecified,0.000,0.000,0.000,14,0.000,0.000,674,laboratory value,relevant
+372,nice_adm_type,0.000,0.000,0.000,4,0.000,0.000,742,nice data,relevant
+373,glucose_blood,0.000,0.000,0.000,28,0.000,0.000,318,laboratory value,relevant
+374,insp_exp_ratio_set,0.000,0.000,0.000,17,0.000,0.000,922778,respiratory,relevant
+375,backup_apnea_interval,0.000,0.000,0.000,2,0.000,0.000,169786,respiratory,relevant
+376,glucose_measured_unspecified,0.000,0.000,0.000,541,0.000,0.000,8896,laboratory value,relevant
+377,transferrin_blood,0.000,0.000,0.000,4,0.000,0.000,9,laboratory value,relevant
+378,tidal_volume_set,0.000,0.000,0.000,9,0.000,0.000,5473,respiratory,relevant
+379,o2_flow_high_flow_oxygen,0.091,0.045,0.061,22,0.045,0.045,6700,respiratory,relevant
+380,bicarbonate_actual_blood,0.000,0.000,0.000,10,0.000,0.000,184,laboratory value,relevant
+381,sodium_unspecified,0.000,0.000,0.000,10,0.000,0.000,182,laboratory value,relevant
+382,potassium_unspecified,0.000,0.000,0.000,6,0.000,0.000,249,laboratory value,relevant
+383,calcium_unspecified,0.000,0.000,0.000,9,0.000,0.000,294,laboratory value,relevant
+384,phosphate_unspecified,0.000,0.000,0.000,3,0.000,0.000,450,laboratory value,relevant
+385,magnesium_unspecified,0.000,0.000,0.000,3,0.000,0.000,1213,laboratory value,relevant
+386,peak_flow_set,0.000,0.000,0.000,1,0.000,0.000,9,respiratory,relevant
+387,bilirubin_direct,0.000,0.000,0.000,14,0.000,0.000,598,laboratory value,relevant
+388,ferritin_unspecified,0.000,0.000,0.000,9,0.000,0.000,394,laboratory value,relevant
+389,amylase_unspecified,0.000,0.000,0.000,14,0.000,0.000,229,laboratory value,relevant
+390,base_excess_capillary,0.000,0.000,0.000,6,0.000,0.000,42,laboratory value,relevant
+391,pco2_capillary,0.000,0.000,0.000,6,0.000,0.000,38,laboratory value,relevant
+392,ph_capillary,0.000,0.000,0.000,6,0.000,0.000,42,laboratory value,relevant
+393,calcium_ionised_arterial,0.059,0.083,0.069,12,0.083,0.083,5242,laboratory value,relevant
+394,chloride_unspecified,0.000,0.000,0.000,8,0.000,0.000,281,laboratory value,relevant
+395,osmolality_unspecified,0.000,0.000,0.000,19,0.000,0.000,218,laboratory value,relevant
+396,bicarbonate_actual_capillary,0.000,0.000,0.000,5,0.000,0.000,34,laboratory value,relevant
+397,hemoglobin_venous,0.000,0.000,0.000,1,0.000,0.000,1,laboratory value,relevant
+398,sodium_urine,0.000,0.000,0.000,15,0.000,0.000,343,laboratory value,relevant
+399,potassium_urine,0.000,0.000,0.000,14,0.000,0.000,74,laboratory value,relevant
+400,aptt_unspecified,0.000,0.000,0.000,4,0.000,0.000,194,laboratory value,relevant
+401,creatinine_urine,0.000,0.000,0.000,16,0.000,0.000,405,laboratory value,relevant
+402,creatinine_clearance,0.000,0.000,0.000,11,0.000,0.000,64,laboratory value,relevant
+403,bilirubin_total,0.000,0.000,0.000,8,0.000,0.000,367,laboratory value,relevant
+404,asat_unspecified,0.000,0.000,0.000,3,0.000,0.000,65,laboratory value,relevant
+405,inspiratory_pressure_measured,0.000,0.000,0.000,1,0.000,0.000,2,respiratory,relevant
+406,fluid_out_defecation_text,0.000,0.000,0.000,30,0.000,0.000,30942,fluid balance,relevant
+407,lung_compliance_dynamic,0.000,0.000,0.000,4,0.000,0.000,145,respiratory,relevant
+408,backup_apnea_frequency,0.000,0.000,0.000,2,0.000,0.000,53,respiratory,relevant
+409,ecg_pvc,0.000,0.000,0.000,2,0.000,0.000,1201831,hemodynamics,relevant
+410,flow_trigger_set,0.000,0.000,0.000,16,0.000,0.000,2134100,respiratory,relevant
+411,temperature_blood,1.000,0.048,0.091,21,0.048,0.048,231,infectiology,relevant
+412,protein_total_blood,0.000,0.000,0.000,16,0.000,0.000,392,laboratory value,relevant
+413,vent_mode_invasive,0.000,0.000,0.000,16,0.000,0.000,19147,respiratory,relevant
+414,tracheobronchial_toilet_frequency,0.000,0.000,0.000,12,0.000,0.000,25043,respiratory,relevant
+415,fluid_in_oral,0.000,0.000,0.000,1096,0.000,0.000,6790,fluid balance,relevant
+416,fluid_in_iv_infusion_and_medications,0.000,0.000,0.000,112,0.000,0.000,2369,fluid balance,relevant
+417,fluid_in_tube,0.000,0.000,0.000,217,0.000,0.000,1021,fluid balance,relevant
+418,fluid_in_blood_products,0.000,0.000,0.000,16,0.000,0.000,69,fluid balance,relevant
+419,fluid_out_blood_loss,0.000,0.000,0.000,25,0.000,0.000,141,fluid balance,relevant
+420,apacheiv_predicted_mortality,0.000,0.000,0.000,5,0.000,0.000,224,clinical score,relevant
+421,aps,0.000,0.000,0.000,5,0.000,0.000,224,clinical score,relevant
+422,avpu_score,0.000,0.000,0.000,22,0.000,0.000,9104,clinical score,relevant
+423,bmi,0.000,0.000,0.000,9,0.000,0.000,379,demographics,relevant
+424,cardiac_index_continuous_unspecified,0.000,0.000,0.000,3,0.000,0.000,100,hemodynamics,relevant
+425,cardiac_input_continuous_unspecified,0.000,0.000,0.000,1,0.000,0.000,44,hemodynamics,relevant
+426,cardiac_output_continuous_unspecified,0.000,0.000,0.000,2,0.000,0.000,57,hemodynamics,relevant
+427,calcium_suppletion_dosage_cvvhd,0.000,0.000,0.000,7,0.000,0.000,25444,renal replacement therapy,relevant
+428,dos_total,0.000,0.000,0.000,8,0.000,0.000,151,clinical score,relevant
+429,dos_evening,0.000,0.000,0.000,6,0.000,0.000,225,clinical score,relevant
+430,dos_day,0.000,0.000,0.000,5,0.000,0.000,131,clinical score,relevant
+431,dos_night,0.000,0.000,0.000,7,0.000,0.000,239,clinical score,relevant
+432,dialysate_flow,0.000,0.000,0.000,11,0.000,0.000,16649,renal replacement therapy,relevant
+433,gcs_total,0.000,0.000,0.000,10,0.000,0.000,9991,neurology,relevant
+434,weight_measured,0.000,0.000,0.000,17,0.000,0.000,303,demographics,relevant
+435,weight_text,0.000,0.000,0.000,23,0.000,0.000,559,demographics,relevant
+436,clinical_gut_feeling_text,0.000,0.000,0.000,6,0.000,0.000,2657,clinical score,relevant
+437,pain_score_repos,0.000,0.000,0.000,2,0.000,0.000,9,clinical score,relevant
+438,respiratory_rate_measured_ventilator,0.000,0.000,0.000,1,0.000,0.000,52,respiratory,relevant
+439,sofa_liver,0.000,0.000,0.000,8,0.000,0.000,5019,sofa score,relevant
+440,sofa_nervous,0.000,0.000,0.000,7,0.000,0.000,4604,sofa score,relevant
+441,tracheobronchial_toilet_aspect,0.000,0.000,0.000,9,0.000,0.000,16195,respiratory,relevant
+442,tracheobronchial_toilet_quantity,0.000,0.000,0.000,10,0.000,0.000,23933,respiratory,relevant
+443,swallowing_text,0.000,0.000,0.000,13,0.000,0.000,6857,respiratory,relevant
+444,tidal_volume_spontaneous,0.000,0.000,0.000,3,0.000,0.000,107,respiratory,relevant
+445,temperature_groin,0.000,0.000,0.000,7,0.000,0.000,112,infectiology,relevant
+446,temperature_source_text,0.000,0.000,0.000,32,0.000,0.000,24626,infectiology,relevant
+447,med_ordinary_salt_combinations,0.000,0.000,0.000,5,0.000,0.000,15,medication,relevant
+448,med_aliskiren,0.000,0.000,0.000,1,0.000,0.000,4,medication,relevant
+449,med_barnidipine,0.000,0.000,0.000,10,0.000,0.000,164,medication,relevant
+450,med_darifenacin,0.000,0.000,0.000,2,0.000,0.000,4,medication,relevant
+451,med_dobutamine,0.000,0.000,0.000,15,0.000,0.000,210,medication,relevant
+452,med_dutasteride,0.000,0.000,0.000,7,0.000,0.000,76,medication,relevant
+453,med_simvastatin_and_ezetimibe,0.000,0.000,0.000,7,0.000,0.000,25,medication,relevant
+454,med_fondaparinux,0.000,0.000,0.000,8,0.000,0.000,69,medication,relevant
+455,med_combinations_of_electrolytes,0.000,0.000,0.000,9,0.000,0.000,539,medication,relevant
+456,med_ganciclovir,0.000,0.000,0.000,2,0.000,0.000,16,medication,relevant
+457,med_gentamicin,0.000,0.000,0.000,16,0.000,0.000,144,medication,relevant
+458,med_glimepiride,0.000,0.000,0.000,14,0.000,0.000,128,medication,relevant
+459,med_electrolytes_with_carbohydrates,0.000,0.000,0.000,17,0.000,0.000,15169,medication,relevant
+460,med_combinations,0.000,0.000,0.000,34,0.000,0.000,640,medication,relevant
+461,med_insulin_(human),0.000,0.000,0.000,13,0.000,0.000,1460,medication,relevant
+462,med_isosorbide_mononitrate,0.000,0.000,0.000,24,0.000,0.000,244,medication,relevant
+463,med_lisinopril,0.000,0.000,0.000,30,0.000,0.000,252,medication,relevant
+464,med_lisinopril_and_diuretics,0.000,0.000,0.000,3,0.000,0.000,18,medication,relevant
+465,med_milrinone,0.000,0.000,0.000,7,0.000,0.000,221,medication,relevant
+466,med_nadroparin,0.000,0.000,0.000,14,0.000,0.000,4050,medication,relevant
+467,med_sodium_phosphate,0.000,0.000,0.000,27,0.000,0.000,3158,medication,relevant
+468,med_norepinephrine,0.000,0.000,0.000,36,0.000,0.000,53472,medication,relevant
+469,med_pyridoxine_(vit_b6),0.000,0.000,0.000,4,0.000,0.000,11,medication,relevant
+470,med_other_antivirals,0.000,0.000,0.000,3,0.000,0.000,85,medication,relevant
+471,med_rivaroxaban,0.000,0.000,0.000,32,0.000,0.000,751,medication,relevant
+472,med_rocuronium_bromide,0.000,0.000,0.000,32,0.000,0.000,8823,medication,relevant
+473,med_sitagliptin,0.000,0.000,0.000,9,0.000,0.000,49,medication,relevant
+474,med_sufentanil,0.000,0.000,0.000,30,0.000,0.000,15043,medication,relevant
+475,med_timolol_combinations,0.000,0.000,0.000,6,0.000,0.000,70,medication,relevant
+476,med_tinzaparin,0.000,0.000,0.000,7,0.000,0.000,252,medication,relevant
+477,med_vitamin_b-complex_incl_combinations,0.000,0.000,0.000,18,0.000,0.000,1260,medication,relevant
+478,med_voriconazole,0.000,0.000,0.000,31,0.000,0.000,2416,medication,relevant
+479,med_iobitridol,0.000,0.000,0.000,4,0.000,0.000,137,medication,relevant
+480,med_zinc_products,0.000,0.000,0.000,3,0.000,0.000,52,medication,relevant
+481,med_zolpidem,0.000,0.000,0.000,14,0.000,0.000,138,medication,relevant
+482,reticulocytes_unspecified,0.000,0.000,0.000,14,0.000,0.000,254,laboratory value,relevant
+483,neutrophils_unspecified,0.000,0.000,0.000,3,0.000,0.000,81,laboratory value,relevant
+484,hdl_cholesterol_unspecified,0.000,0.000,0.000,17,0.000,0.000,77,laboratory value,relevant
+485,ldl_cholesterol_unspecified,0.000,0.000,0.000,18,0.000,0.000,76,laboratory value,relevant
+486,triglycerides_unspecified,0.000,0.000,0.000,18,0.000,0.000,202,laboratory value,relevant
+487,vancomycin_trough_level,0.000,0.000,0.000,11,0.000,0.000,169,laboratory value,relevant
+488,vancomycin_peak_level,0.000,0.000,0.000,9,0.000,0.000,35,laboratory value,relevant
+489,lactate_bloodgas_unspecified,0.000,0.000,0.000,3,0.000,0.000,33,laboratory value,relevant
+490,nitrite_urine_text,0.000,0.000,0.000,14,0.000,0.000,492,laboratory value,relevant
+491,blood_group,0.000,0.000,0.000,17,0.000,0.000,7669,laboratory value,relevant
+492,antithrombin_unspecified,0.000,0.000,0.000,9,0.000,0.000,33,laboratory value,relevant
+493,bacteria_urine,0.000,0.000,0.000,7,0.000,0.000,168,laboratory value,relevant
+494,basophils_unspecified,0.000,0.000,0.000,7,0.000,0.000,920,laboratory value,relevant
+495,base_excess_unspecified,0.000,0.000,0.000,8,0.000,0.000,2084,laboratory value,relevant
+496,protein_urine_text,0.000,0.000,0.000,10,0.000,0.000,282,laboratory value,relevant
+497,eosinophils_unspecified,0.000,0.000,0.000,6,0.000,0.000,216,laboratory value,relevant
+498,folic_acid_unspecified,0.000,0.000,0.000,19,0.000,0.000,140,laboratory value,relevant
+499,ketones_urine,0.000,0.000,0.000,8,0.000,0.000,305,laboratory value,relevant
+500,creatinine_urine_24hours,0.000,0.000,0.000,9,0.000,0.000,132,laboratory value,relevant
+501,leukocytes_urine_text,0.000,0.000,0.000,14,0.000,0.000,609,laboratory value,relevant
+502,lymphocytes_unspecified,0.000,0.000,0.000,5,0.000,0.000,215,laboratory value,relevant
+503,monocytes_unspecified,0.000,0.000,0.000,6,0.000,0.000,216,laboratory value,relevant
+504,erythroblasts_perc_unspecified,0.000,0.000,0.000,7,0.000,0.000,205,laboratory value,relevant
+505,segmented_neutrophils_unspecified,0.000,0.000,0.000,5,0.000,0.000,129,laboratory value,relevant
+506,band_neutrophils_unspecified,0.000,0.000,0.000,7,0.000,0.000,166,laboratory value,relevant
+507,troponin_t_hs,0.000,0.000,0.000,4,0.000,0.000,139,laboratory value,relevant
+508,ganciclovir_level,0.000,0.000,0.000,4,0.000,0.000,19,laboratory value,relevant
+509,fluid_in_cvvh_dialysis,0.000,0.000,0.000,25,0.000,0.000,57,fluid balance,relevant
+510,arterial_bp_unspecified,0.000,0.000,0.000,9,0.000,0.000,16259,hemodynamics,relevant
+511,activated_clotting_time,0.000,0.000,0.000,6,0.000,0.000,144,laboratory value,relevant
+512,bias_flow_set,0.000,0.000,0.000,1,0.000,0.000,49,respiratory,relevant
+513,cpot_score,0.000,0.000,0.000,9,0.000,0.000,15267,clinical score,relevant
+514,gcs_eye_estimated,0.000,0.000,0.000,4,0.000,0.000,6,neurology,relevant
+515,heart_rate_unspecified,0.000,0.000,0.000,129,0.000,0.000,609,hemodynamics,relevant
+516,height_estimated,0.000,0.000,0.000,5,0.000,0.000,9,demographics,relevant
+517,height_text,0.000,0.000,0.000,4,0.000,0.000,8,demographics,relevant
+518,o2_flow_nasal_cannula,0.000,0.000,0.000,8,0.000,0.000,4171,respiratory,relevant
+519,o2_flow_cpap,0.000,0.000,0.000,3,0.000,0.000,18,respiratory,relevant
+520,o2_flow_deep_nasal,0.000,0.000,0.000,10,0.000,0.000,125,respiratory,relevant
+521,p01_measured,0.000,0.000,0.000,4,0.000,0.000,2595,respiratory,relevant
+522,peep_total,0.000,0.000,0.000,4,0.000,0.000,184042,respiratory,relevant
+523,pain_score_unspecified,0.000,0.000,0.000,27,0.000,0.000,8773,clinical score,relevant
+524,plateau_time,0.000,0.000,0.000,1,0.000,0.000,368,respiratory,relevant
+525,inspiratory_rise_time_sec,0.000,0.000,0.000,4,0.000,0.000,832541,respiratory,relevant
+526,inspiratory_rise_time_set,0.000,0.000,0.000,2,0.000,0.000,268,respiratory,relevant
+527,ramsay_sedation_scale,0.000,0.000,0.000,8,0.000,0.000,22,clinical score,relevant
+528,resistance_unspecified,0.000,0.000,0.000,3,0.000,0.000,101,respiratory,relevant
+529,sofa_score,0.000,0.000,0.000,2,0.000,0.000,51,clinical score,relevant
+530,sofa_cardiovascular,0.000,0.000,0.000,1,0.000,0.000,1,sofa score,relevant
+531,sofa_renal,0.000,0.000,0.000,3,0.000,0.000,694,sofa score,relevant
+532,sofa_respiratory,0.000,0.000,0.000,3,0.000,0.000,770,sofa score,relevant
+533,saturation_o2_peripheral,0.000,0.000,0.000,226,0.000,0.000,1059,respiratory,relevant
+534,temperature_ear,0.000,0.000,0.000,7,0.000,0.000,37,infectiology,relevant
+535,temperature_nasopharyngeal,0.000,0.000,0.000,7,0.000,0.000,108,infectiology,relevant
+536,temperature_peripheral_right_arm,0.000,0.000,0.000,3,0.000,0.000,2896,infectiology,relevant
+537,temperature_peripheral_left_leg,0.000,0.000,0.000,4,0.000,0.000,1257,infectiology,relevant
+538,temperature_peripheral_right_leg,0.000,0.000,0.000,5,0.000,0.000,4292,infectiology,relevant
+539,med_formoterol_and_aclidinium_bromide,0.000,0.000,0.000,2,0.000,0.000,63,medication,relevant
+540,med_tacrolimus,0.000,0.000,0.000,13,0.000,0.000,189,medication,relevant
+541,med_alendronic_acid,0.000,0.000,0.000,9,0.000,0.000,57,medication,relevant
+542,med_alfentanil,0.000,0.000,0.000,6,0.000,0.000,101,medication,relevant
+543,med_alfuzosin,0.000,0.000,0.000,8,0.000,0.000,145,medication,relevant
+544,med_anakinra,0.000,0.000,0.000,5,0.000,0.000,155,medication,relevant
+545,med_aripiprazole,0.000,0.000,0.000,8,0.000,0.000,149,medication,relevant
+546,med_atenolol,0.000,0.000,0.000,18,0.000,0.000,136,medication,relevant
+547,med_other_blood_products,0.000,0.000,0.000,4,0.000,0.000,81,medication,relevant
+548,med_azathioprine,0.000,0.000,0.000,4,0.000,0.000,85,medication,relevant
+549,med_fluticasone_combinations,0.000,0.000,0.000,9,0.000,0.000,29,medication,relevant
+550,med_mupirocin,0.000,0.000,0.000,5,0.000,0.000,111,medication,relevant
+551,med_formoterol_glycopyrronium_bromide_and_beclometasone,0.000,0.000,0.000,9,0.000,0.000,207,medication,relevant
+552,med_formoterol_and_beclometasone,0.000,0.000,0.000,27,0.000,0.000,802,medication,relevant
+553,med_benzbromarone,0.000,0.000,0.000,4,0.000,0.000,9,medication,relevant
+554,med_fenoterol_and_ipratropium_bromide,0.000,0.000,0.000,3,0.000,0.000,199,medication,relevant
+555,med_betahistine,0.000,0.000,0.000,8,0.000,0.000,166,medication,relevant
+556,med_betamethasone,0.000,0.000,0.000,10,0.000,0.000,53,medication,relevant
+557,med_brimonidine,0.000,0.000,0.000,4,0.000,0.000,48,medication,relevant
+558,med_formoterol_and_budesonide,0.000,0.000,0.000,17,0.000,0.000,249,medication,relevant
+559,med_bupivacaine_combinations,0.000,0.000,0.000,3,0.000,0.000,19,medication,relevant
+560,med_bupropion,0.000,0.000,0.000,2,0.000,0.000,29,medication,relevant
+561,med_butylscopolamine,0.000,0.000,0.000,9,0.000,0.000,102,medication,relevant
+562,med_calcium_carbonate,0.000,0.000,0.000,8,0.000,0.000,196,medication,relevant
+563,med_cardioplegia_solutions,0.000,0.000,0.000,1,0.000,0.000,29,medication,relevant
+564,med_carvedilol,0.000,0.000,0.000,7,0.000,0.000,70,medication,relevant
+565,med_other_emollients_and_protectives,0.000,0.000,0.000,26,0.000,0.000,353,medication,relevant
+566,med_chlorprothixene,0.000,0.000,0.000,1,0.000,0.000,32,medication,relevant
+567,med_chlortalidone,0.000,0.000,0.000,8,0.000,0.000,54,medication,relevant
+568,med_chloral_hydrate,0.000,0.000,0.000,2,0.000,0.000,2,medication,relevant
+569,med_ciclesonide,0.000,0.000,0.000,11,0.000,0.000,96,medication,relevant
+570,med_ciclopirox,0.000,0.000,0.000,2,0.000,0.000,47,medication,relevant
+571,med_cinacalcet,0.000,0.000,0.000,5,0.000,0.000,129,medication,relevant
+572,med_citalopram,0.000,0.000,0.000,23,0.000,0.000,149,medication,relevant
+573,med_clomipramine,0.000,0.000,0.000,7,0.000,0.000,89,medication,relevant
+574,med_clonazepam,0.000,0.000,0.000,3,0.000,0.000,94,medication,relevant
+575,med_clozapine,0.000,0.000,0.000,9,0.000,0.000,567,medication,relevant
+576,med_coagulation_factor_ix_ii_vii_and_x_in_combination,0.000,0.000,0.000,11,0.000,0.000,17,medication,relevant
+577,med_imatinib,0.000,0.000,0.000,3,0.000,0.000,55,medication,relevant
+578,med_cyanocobalamin,0.000,0.000,0.000,8,0.000,0.000,93,medication,relevant
+579,med_dabigatran_etexilate,0.000,0.000,0.000,13,0.000,0.000,264,medication,relevant
+580,med_danaparoid,0.000,0.000,0.000,5,0.000,0.000,116,medication,relevant
+581,med_dantrolene,0.000,0.000,0.000,1,0.000,0.000,5,medication,relevant
+582,med_dapagliflozin,0.000,0.000,0.000,4,0.000,0.000,32,medication,relevant
+583,med_clobetasol,0.000,0.000,0.000,7,0.000,0.000,94,medication,relevant
+584,med_desloratadine,0.000,0.000,0.000,10,0.000,0.000,50,medication,relevant
+585,med_dexamethasone_and_antiinfectives,0.000,0.000,0.000,10,0.000,0.000,258,medication,relevant
+586,med_diazepam,0.000,0.000,0.000,14,0.000,0.000,158,medication,relevant
+587,med_diclofenac_combinations,0.000,0.000,0.000,3,0.000,0.000,8,medication,relevant
+588,med_dolutegravir,0.000,0.000,0.000,2,0.000,0.000,35,medication,relevant
+589,med_droperidol,0.000,0.000,0.000,4,0.000,0.000,7,medication,relevant
+590,med_tamsulosin_and_dutasteride,0.000,0.000,0.000,3,0.000,0.000,13,medication,relevant
+591,med_edoxaban,0.000,0.000,0.000,15,0.000,0.000,118,medication,relevant
+592,med_ephedrine,0.000,0.000,0.000,17,0.000,0.000,147,medication,relevant
+593,med_emtricitabine_and_tenofovir_alafenamide,0.000,0.000,0.000,2,0.000,0.000,35,medication,relevant
+594,med_escitalopram,0.000,0.000,0.000,6,0.000,0.000,61,medication,relevant
+595,med_etoricoxib,0.000,0.000,0.000,6,0.000,0.000,23,medication,relevant
+596,med_famotidine,0.000,0.000,0.000,4,0.000,0.000,87,medication,relevant
+597,med_phenprocoumon,0.000,0.000,0.000,5,0.000,0.000,34,medication,relevant
+598,med_fibrinogen_human,0.000,0.000,0.000,3,0.000,0.000,7,medication,relevant
+599,med_fluticasone,0.000,0.000,0.000,32,0.000,0.000,275,medication,relevant
+600,med_fludrocortisone,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+601,med_flunitrazepam,0.000,0.000,0.000,1,0.000,0.000,6,medication,relevant
+602,med_fluticasone_furoate,0.000,0.000,0.000,10,0.000,0.000,114,medication,relevant
+603,med_vilanterol_and_fluticasone_furoate,0.000,0.000,0.000,6,0.000,0.000,76,medication,relevant
+604,med_formoterol,0.000,0.000,0.000,9,0.000,0.000,168,medication,relevant
+605,med_fusidic_acid,0.000,0.000,0.000,11,0.000,0.000,171,medication,relevant
+606,med_gadoteridol,0.000,0.000,0.000,1,0.000,0.000,2,medication,relevant
+607,med_gemfibrozil,0.000,0.000,0.000,5,0.000,0.000,11,medication,relevant
+608,med_formoterol_and_glycopyrronium_bromide,0.000,0.000,0.000,1,0.000,0.000,2,medication,relevant
+609,med_granisetron,0.000,0.000,0.000,7,0.000,0.000,76,medication,relevant
+610,med_hydroxocobalamin,0.000,0.000,0.000,7,0.000,0.000,19,medication,relevant
+611,med_hydrocortisone_and_antiinfectives,0.000,0.000,0.000,4,0.000,0.000,19,medication,relevant
+612,med_hydroxyethylstarch,0.000,0.000,0.000,4,0.000,0.000,11,medication,relevant
+613,med_iloprost,0.000,0.000,0.000,5,0.000,0.000,291,medication,relevant
+614,med_immunoglobulins_normal_human_for_intravascular_adm,0.000,0.000,0.000,9,0.000,0.000,236,medication,relevant
+615,med_umeclidinium_bromide,0.000,0.000,0.000,3,0.000,0.000,43,medication,relevant
+616,med_indacaterol_and_glycopyrronium_bromide,0.000,0.000,0.000,4,0.000,0.000,25,medication,relevant
+617,med_ivermectin,0.000,0.000,0.000,2,0.000,0.000,10,medication,relevant
+618,med_iomeprol,0.000,0.000,0.000,5,0.000,0.000,148,medication,relevant
+619,med_potassium_chloride_combinations,0.000,0.000,0.000,2,0.000,0.000,9,medication,relevant
+620,med_ketoconazole,0.000,0.000,0.000,9,0.000,0.000,210,medication,relevant
+621,med_lactitol,0.000,0.000,0.000,3,0.000,0.000,73,medication,relevant
+622,med_lercanidipine,0.000,0.000,0.000,3,0.000,0.000,53,medication,relevant
+623,med_levocetirizine,0.000,0.000,0.000,10,0.000,0.000,59,medication,relevant
+624,med_levodopa_and_decarboxylase_inhibitor,0.000,0.000,0.000,12,0.000,0.000,158,medication,relevant
+625,med_linagliptin,0.000,0.000,0.000,3,0.000,0.000,16,medication,relevant
+626,med_lithium,0.000,0.000,0.000,6,0.000,0.000,58,medication,relevant
+627,med_magnesium_chloride,0.000,0.000,0.000,5,0.000,0.000,155,medication,relevant
+628,med_melatonin,0.000,0.000,0.000,16,0.000,0.000,282,medication,relevant
+629,med_methotrexate,0.000,0.000,0.000,6,0.000,0.000,11,medication,relevant
+630,med_methyldopa_(levorotatory),0.000,0.000,0.000,2,0.000,0.000,68,medication,relevant
+631,med_methylphenidate,0.000,0.000,0.000,13,0.000,0.000,180,medication,relevant
+632,med_methylnaltrexone_bromide,0.000,0.000,0.000,1,0.000,0.000,5,medication,relevant
+633,med_mirabegron,0.000,0.000,0.000,6,0.000,0.000,59,medication,relevant
+634,med_mometasone,0.000,0.000,0.000,14,0.000,0.000,112,medication,relevant
+635,med_montelukast,0.000,0.000,0.000,6,0.000,0.000,60,medication,relevant
+636,med_vitamin_b-complex_with_vitamin_c,0.000,0.000,0.000,6,0.000,0.000,223,medication,relevant
+637,med_morphine_combinations,0.000,0.000,0.000,4,0.000,0.000,61,medication,relevant
+638,med_naproxen,0.000,0.000,0.000,19,0.000,0.000,273,medication,relevant
+639,med_antacids_with_sodium_bicarbonate,0.000,0.000,0.000,9,0.000,0.000,148,medication,relevant
+640,med_nebivolol,0.000,0.000,0.000,9,0.000,0.000,66,medication,relevant
+641,med_ciclosporin,0.000,0.000,0.000,1,0.000,0.000,25,medication,relevant
+642,med_nimodipine,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+643,med_nintedanib,0.000,0.000,0.000,1,0.000,0.000,18,medication,relevant
+644,med_nitrofurantoin,0.000,0.000,0.000,10,0.000,0.000,85,medication,relevant
+645,med_olmesartan_medoxomil,0.000,0.000,0.000,4,0.000,0.000,32,medication,relevant
+646,med_omalizumab,0.000,0.000,0.000,3,0.000,0.000,5,medication,relevant
+647,med_oxcarbazepine,0.000,0.000,0.000,1,0.000,0.000,7,medication,relevant
+648,med_oxybuprocaine,0.000,0.000,0.000,1,0.000,0.000,8,medication,relevant
+649,med_oxycodone,0.000,0.000,0.000,65,0.000,0.000,1787,medication,relevant
+650,med_mesalazine,0.500,0.133,0.211,15,0.133,0.133,177,medication,relevant
+651,med_pipamperone,0.000,0.000,0.000,2,0.000,0.000,78,medication,relevant
+652,med_ispaghula_(psylla_seeds),0.000,0.000,0.000,12,0.000,0.000,414,medication,relevant
+653,med_pramipexole,0.000,0.000,0.000,6,0.000,0.000,84,medication,relevant
+654,med_prasugrel,0.000,0.000,0.000,3,0.000,0.000,9,medication,relevant
+655,med_propranolol,0.000,0.000,0.000,6,0.000,0.000,27,medication,relevant
+656,med_pyridostigmine,0.000,0.000,0.000,8,0.000,0.000,207,medication,relevant
+657,med_protamine,0.000,0.000,0.000,4,0.000,0.000,57,medication,relevant
+658,med_regadenoson,0.000,0.000,0.000,1,0.000,0.000,2,medication,relevant
+659,med_remifentanil,0.000,0.000,0.000,20,0.000,0.000,12115,medication,relevant
+660,med_repaglinide,0.000,0.000,0.000,1,0.000,0.000,20,medication,relevant
+661,med_rifampicin,0.000,0.000,0.000,4,0.000,0.000,38,medication,relevant
+662,med_rupatadine,0.000,0.000,0.000,1,0.000,0.000,5,medication,relevant
+663,med_valsartan_and_sacubitril,0.000,0.000,0.000,6,0.000,0.000,116,medication,relevant
+664,med_salmeterol_and_fluticasone,0.000,0.000,0.000,22,0.000,0.000,332,medication,relevant
+665,med_silodosin,0.000,0.000,0.000,2,0.000,0.000,21,medication,relevant
+666,med_solifenacin,0.000,0.000,0.000,14,0.000,0.000,115,medication,relevant
+667,med_tamsulosin_and_solifenacin,0.000,0.000,0.000,3,0.000,0.000,27,medication,relevant
+668,med_sulfasalazine,0.000,0.000,0.000,8,0.000,0.000,42,medication,relevant
+669,med_suxamethonium,0.000,0.000,0.000,6,0.000,0.000,29,medication,relevant
+670,med_tafluprost,0.000,0.000,0.000,1,0.000,0.000,17,medication,relevant
+671,med_tapentadol,0.000,0.000,0.000,3,0.000,0.000,67,medication,relevant
+672,med_carbamazepine,0.000,0.000,0.000,17,0.000,0.000,379,medication,relevant
+673,med_telmisartan,0.000,0.000,0.000,8,0.000,0.000,34,medication,relevant
+674,med_tetanus_toxoid,0.000,0.000,0.000,2,0.000,0.000,2,medication,relevant
+675,med_thiamazole,0.000,0.000,0.000,2,0.000,0.000,32,medication,relevant
+676,med_olodaterol_and_tiotropium_bromide,0.000,0.000,0.000,9,0.000,0.000,99,medication,relevant
+677,med_tocilizumab,0.000,0.000,0.000,5,0.000,0.000,117,medication,relevant
+678,med_topiramate,0.000,0.000,0.000,6,0.000,0.000,82,medication,relevant
+679,med_tramadol,0.000,0.000,0.000,20,0.000,0.000,140,medication,relevant
+680,med_travoprost,0.000,0.000,0.000,3,0.000,0.000,18,medication,relevant
+681,med_insulin_degludec,0.000,0.000,0.000,7,0.000,0.000,59,medication,relevant
+682,med_tri1inolone,0.000,0.000,0.000,9,0.000,0.000,103,medication,relevant
+683,med_valaciclovir,0.000,0.000,0.000,7,0.000,0.000,97,medication,relevant
+684,med_verapamil,0.000,0.000,0.000,16,0.000,0.000,102,medication,relevant
+685,med_vildagliptin,0.000,0.000,0.000,6,0.000,0.000,39,medication,relevant
+686,med_solvents_and_diluting_agents_incl_irrigating_solutions,0.000,0.000,0.000,8,0.000,0.000,2542,medication,relevant
+687,med_zofenopril,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+688,prothrombin_time_sec,0.000,0.000,0.000,14,0.000,0.000,411,laboratory value,relevant
+689,hba1c_unspecified,0.000,0.000,0.000,11,0.000,0.000,67,laboratory value,relevant
+690,transferrin_saturation,0.000,0.000,0.000,11,0.000,0.000,61,laboratory value,relevant
+691,gentamicin_trough_level,0.000,0.000,0.000,4,0.000,0.000,10,laboratory value,relevant
+692,tsh_unspecified,0.000,0.000,0.000,21,0.000,0.000,294,laboratory value,relevant
+693,cortisol_unspecified,0.000,0.000,0.000,15,0.000,0.000,61,laboratory value,relevant
+694,ana_unspecified,0.000,0.000,0.000,4,0.000,0.000,10,laboratory value,relevant
+695,ph_urine,0.091,0.071,0.080,14,0.071,0.071,2244,laboratory value,relevant
+696,crp_unspecified,0.000,0.000,0.000,4,0.000,0.000,12,laboratory value,relevant
+697,thrombin_time_unspecified,0.000,0.000,0.000,4,0.000,0.000,9,laboratory value,relevant
+698,ft4_unspecified,0.000,0.000,0.000,19,0.000,0.000,186,laboratory value,relevant
+699,albumin_pv,0.000,0.000,0.000,2,0.000,0.000,3,laboratory value,relevant
+700,red_blood_cell_distribution_width_sd,0.000,0.000,0.000,1,0.000,0.000,1,laboratory value,relevant
+701,eosinophils_microscope,0.000,0.000,0.000,1,0.000,0.000,60,laboratory value,relevant
+702,basophils_microscope,0.000,0.000,0.000,1,0.000,0.000,59,laboratory value,relevant
+703,lymphocytes_microscopy,0.000,0.000,0.000,1,0.000,0.000,61,laboratory value,relevant
+704,monocytes_microscopy,0.000,0.000,0.000,1,0.000,0.000,61,laboratory value,relevant
+705,erythroblasts_unspecified,0.000,0.000,0.000,5,0.000,0.000,226,laboratory value,relevant
+706,osmol_gap_unspecified,0.000,0.000,0.000,2,0.000,0.000,6,laboratory value,relevant
+707,temperature_lab,0.000,0.000,0.000,2,0.000,0.000,10986,infectiology,relevant
+708,fio2_measured,0.000,0.000,0.000,4,0.000,0.000,10467,respiratory,relevant
+709,analysis_source_bloodgas_venous_text,0.000,0.000,0.000,2,0.000,0.000,3775,laboratory value,relevant
+710,analysis_source_bloodgas_capillary_text,0.000,0.000,0.000,3,0.000,0.000,31,laboratory value,relevant
+711,analysis_source_whole_blood_arterial,0.000,0.000,0.000,1,0.000,0.000,10584,laboratory value,relevant
+712,analysis_source_whole_blood_venous,0.000,0.000,0.000,1,0.000,0.000,240,laboratory value,relevant
+713,segmented_neutrophils_perc,0.000,0.000,0.000,8,0.000,0.000,114,laboratory value,relevant
+714,fluid_in_drain,0.000,0.000,0.000,3,0.000,0.000,7,fluid balance,relevant
+715,fluid_out_urine,0.000,0.000,0.000,42,0.000,0.000,1027,fluid balance,relevant
+716,fio2_set,0.000,0.000,0.000,50,0.000,0.000,332969,respiratory,relevant
+717,weight_unspecified,0.000,0.000,0.000,8,0.000,0.000,223,demographics,relevant
+718,intrathoracic_blood_volume_index,0.000,0.000,0.000,6,0.000,0.000,126,hemodynamics,relevant
+719,height_unspecified,0.000,0.000,0.000,1,0.000,0.000,1,demographics,relevant
+720,fluid_out_urine_frequency,0.000,0.000,0.000,1,0.000,0.000,1,fluid balance,relevant
+721,nibp_unspecified,0.000,0.000,0.000,18,0.000,0.000,24339,hemodynamics,relevant
+722,pulmonary_artery_pressure_unspecified,0.000,0.000,0.000,6,0.000,0.000,242,hemodynamics,relevant
+723,pulse_rate,0.000,0.000,0.000,4,0.000,0.000,76,hemodynamics,relevant
+724,picco_pulse_pressure_variation,0.000,0.000,0.000,3,0.000,0.000,92,hemodynamics,relevant
+725,respiratory_rate_measured_ecg,0.000,0.000,0.000,4,0.000,0.000,111,respiratory,relevant
+726,substitution_flow_cvvh,0.000,0.000,0.000,7,0.000,0.000,63810,renal replacement therapy,relevant
+727,inspiratory_rise_time_perc,0.000,0.000,0.000,9,0.000,0.000,132761,respiratory,relevant
+728,fluid_out_netto_ultrafiltration_dialysis,0.000,0.000,0.000,3,0.000,0.000,94,renal replacement therapy,relevant
+729,ultrafiltration_cvvh_set,0.000,0.000,0.000,7,0.000,0.000,31053,renal replacement therapy,relevant
+730,med_multienzymes_(lipase_protease_etc),0.000,0.000,0.000,7,0.000,0.000,465,medication,relevant
+731,med_atovaquone,0.000,0.000,0.000,1,0.000,0.000,11,medication,relevant
+732,med_intestinal_antiinflammatory_agents,0.000,0.000,0.000,1,0.000,0.000,6,medication,relevant
+733,med_calcipotriol_combinations,0.000,0.000,0.000,4,0.000,0.000,20,medication,relevant
+734,med_bupivacaine,0.000,0.000,0.000,4,0.000,0.000,8,medication,relevant
+735,med_calcitriol,0.000,0.000,0.000,2,0.000,0.000,12,medication,relevant
+736,med_caspofungin,0.000,0.000,0.000,5,0.000,0.000,154,medication,relevant
+737,med_cinnarizine,0.000,0.000,0.000,1,0.000,0.000,4,medication,relevant
+738,med_clobazam,0.000,0.000,0.000,4,0.000,0.000,73,medication,relevant
+739,med_cyclophosphamide,0.000,0.000,0.000,4,0.000,0.000,20,medication,relevant
+740,med_desoximetasone,0.000,0.000,0.000,2,0.000,0.000,6,medication,relevant
+741,med_dornase_alfa_(desoxyribonuclease),0.000,0.000,0.000,2,0.000,0.000,25,medication,relevant
+742,med_emedastine,0.000,0.000,0.000,1,0.000,0.000,9,medication,relevant
+743,med_enoximone,0.000,0.000,0.000,8,0.000,0.000,559,medication,relevant
+744,med_phenytoin,0.000,0.000,0.000,9,0.000,0.000,154,medication,relevant
+745,med_fexofenadine,0.000,0.000,0.000,2,0.000,0.000,44,medication,relevant
+746,med_flucytosine,0.000,0.000,0.000,1,0.000,0.000,18,medication,relevant
+747,med_fluoxetine,0.000,0.000,0.000,4,0.000,0.000,66,medication,relevant
+748,med_fluvoxamine,0.000,0.000,0.000,2,0.000,0.000,16,medication,relevant
+749,med_fosinopril,0.000,0.000,0.000,8,0.000,0.000,50,medication,relevant
+750,med_fosinopril_and_diuretics,0.000,0.000,0.000,1,0.000,0.000,8,medication,relevant
+751,med_glycopyrronium_bromide,0.000,0.000,0.000,2,0.000,0.000,87,medication,relevant
+752,med_hydroxycarbamide,0.000,0.000,0.000,2,0.000,0.000,22,medication,relevant
+753,med_ibuprofen,0.000,0.000,0.000,12,0.000,0.000,138,medication,relevant
+754,med_isavuconazole,0.000,0.000,0.000,2,0.000,0.000,48,medication,relevant
+755,med_isosorbide_dinitrate,0.000,0.000,0.000,6,0.000,0.000,24,medication,relevant
+756,med_lacosamide,0.000,0.000,0.000,3,0.000,0.000,166,medication,relevant
+757,med_lamotrigine,0.000,0.000,0.000,4,0.000,0.000,155,medication,relevant
+758,med_levocabastine,0.000,0.000,0.000,3,0.000,0.000,8,medication,relevant
+759,med_levomepromazine,0.000,0.000,0.000,13,0.000,0.000,162,medication,relevant
+760,med_lidocaine_combinations,0.000,0.000,0.000,4,0.000,0.000,14,medication,relevant
+761,med_mannitol,0.000,0.000,0.000,4,0.000,0.000,6,medication,relevant
+762,med_meclozine_combinations,0.000,0.000,0.000,2,0.000,0.000,3,medication,relevant
+763,med_meloxicam,0.000,0.000,0.000,4,0.000,0.000,38,medication,relevant
+764,med_mesna,0.000,0.000,0.000,1,0.000,0.000,6,medication,relevant
+765,med_moxifloxacin,0.000,0.000,0.000,9,0.000,0.000,70,medication,relevant
+766,med_nandrolone,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+767,med_other_drugs_for_obstructive_airway_diseases_inhalants,0.000,0.000,0.000,3,0.000,0.000,8,medication,relevant
+768,med_noscapine,0.000,0.000,0.000,2,0.000,0.000,84,medication,relevant
+769,med_perindopril_and_diuretics,0.000,0.000,0.000,4,0.000,0.000,27,medication,relevant
+770,med_ranitidine,0.000,0.000,0.000,9,0.000,0.000,44,medication,relevant
+771,med_rasburicase,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+772,med_roflumilast,0.000,0.000,0.000,2,0.000,0.000,39,medication,relevant
+773,med_ropivacaine,0.000,0.000,0.000,5,0.000,0.000,15,medication,relevant
+774,med_senna_glycosides,0.000,0.000,0.000,2,0.000,0.000,60,medication,relevant
+775,med_teicoplanin,0.000,0.000,0.000,4,0.000,0.000,60,medication,relevant
+776,med_terlipressin,0.000,0.000,0.000,3,0.000,0.000,50,medication,relevant
+777,med_testosterone,0.000,0.000,0.000,6,0.000,0.000,23,medication,relevant
+778,med_thiopental,0.000,0.000,0.000,3,0.000,0.000,6,medication,relevant
+779,med_tioguanine,0.000,0.000,0.000,1,0.000,0.000,15,medication,relevant
+780,med_trazodone,0.000,0.000,0.000,4,0.000,0.000,19,medication,relevant
+781,med_selective_immunosuppressants,0.000,0.000,0.000,1,0.000,0.000,9,medication,relevant
+782,med_enzymes,0.000,0.000,0.000,1,0.000,0.000,3,medication,relevant
+783,med_vilanterol_and_umeclidinium_bromide,0.000,0.000,0.000,1,0.000,0.000,13,medication,relevant
+784,med_carbamide,0.000,0.000,0.000,1,0.000,0.000,3,medication,relevant
+785,med_ursodeoxycholic_acid,0.000,0.000,0.000,4,0.000,0.000,68,medication,relevant
+786,med_soft_paraffin_and_fat_products,0.000,0.000,0.000,5,0.000,0.000,28,medication,relevant
+787,anti_xa_lmwh,0.000,0.000,0.000,2,0.000,0.000,28,laboratory value,relevant
+788,ph_unspecified,0.000,0.000,0.000,11,0.000,0.000,216,laboratory value,relevant
+789,mcv_unspecified,0.000,0.000,0.000,5,0.000,0.000,163,laboratory value,relevant
+790,calcium_ionised,0.000,0.000,0.000,10,0.000,0.000,1902,laboratory value,relevant
+791,pco2_unspecified,0.000,0.000,0.000,7,0.000,0.000,2027,laboratory value,relevant
+792,carboxyhemoglobin_arterial,0.000,0.000,0.000,2,0.000,0.000,7,laboratory value,relevant
+793,po2_unspecified,0.000,0.000,0.000,5,0.000,0.000,1976,laboratory value,relevant
+794,lactate_unspecified,0.000,0.000,0.000,6,0.000,0.000,1804,laboratory value,relevant
+795,mch_unspecified,0.000,0.000,0.000,5,0.000,0.000,211,laboratory value,relevant
+796,mchc_unspecified,0.000,0.000,0.000,5,0.000,0.000,141,laboratory value,relevant
+797,glucose_bloodgas,0.000,0.000,0.000,2,0.000,0.000,24,laboratory value,relevant
+798,protein_urine_24hours,0.000,0.000,0.000,5,0.000,0.000,75,laboratory value,relevant
+799,bicarbonate_actual_unspecified,0.000,0.000,0.000,14,0.000,0.000,2164,laboratory value,relevant
+800,so2_bloodgas,0.000,0.000,0.000,2,0.000,0.000,98,laboratory value,relevant
+801,vancomycin_level,0.000,0.000,0.000,8,0.000,0.000,206,laboratory value,relevant
+802,lactate_capillary,0.000,0.000,0.000,2,0.000,0.000,7,laboratory value,relevant
+803,erythrocytes_urine,0.000,0.000,0.000,8,0.000,0.000,157,laboratory value,relevant
+804,basophils_perc_unspecified,0.000,0.000,0.000,8,0.000,0.000,579,laboratory value,relevant
+805,creatinine_blood,0.000,0.000,0.000,13,0.000,0.000,165,laboratory value,relevant
+806,lda_catheter_arterial,0.000,0.000,0.000,4,0.000,0.000,597,lda,relevant
+807,lda_catheter_central_venous,0.000,0.000,0.000,7,0.000,0.000,153,lda,relevant
+808,lda_catheter_picc,0.000,0.000,0.000,4,0.000,0.000,14,lda,relevant
+809,peep_set,0.000,0.000,0.000,5,0.000,0.000,401,respiratory,relevant
+810,cam_icu_score_q2,0.000,0.000,0.000,2,0.000,0.000,1638,clinical score,relevant
+811,pressure_trigger,0.000,0.000,0.000,5,0.000,0.000,16401,respiratory,relevant
+812,ecg_v,0.000,0.000,0.000,1,0.000,0.000,3,hemodynamics,relevant
+813,med_acetylsalicylic_acid_combinations_excl_psycholeptics,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+814,med_acipimox,0.000,0.000,0.000,1,0.000,0.000,2,medication,relevant
+815,med_acitretin,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+816,med_insulin_glulisine,0.000,0.000,0.000,2,0.000,0.000,5,medication,relevant
+817,med_etanercept,0.000,0.000,0.000,1,0.000,0.000,2,medication,relevant
+818,med_bromhexine,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+819,med_budesonide,0.000,0.000,0.000,15,0.000,0.000,38,medication,relevant
+820,med_calcium_acetate_and_magnesium_carbonate,0.000,0.000,0.000,1,0.000,0.000,2,medication,relevant
+821,med_cannabinoids,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+822,med_carbetocin,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+823,med_clarithromycin,0.000,0.000,0.000,4,0.000,0.000,16,medication,relevant
+824,med_caffeine,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+825,med_creosote,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+826,med_omega-3-triglycerides_incl_other_esters_and_acids,0.000,0.000,0.000,2,0.000,0.000,2,medication,relevant
+827,med_multivitamins_and_other_minerals_incl_combinations,0.000,0.000,0.000,9,0.000,0.000,137,medication,relevant
+828,med_dimethyl_fumarate,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+829,med_docusate_sodium,0.000,0.000,0.000,2,0.000,0.000,2,medication,relevant
+830,med_dorzolamide,0.000,0.000,0.000,2,0.000,0.000,12,medication,relevant
+831,med_empagliflozin,0.000,0.000,0.000,1,0.000,0.000,3,medication,relevant
+832,med_felodipine,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+833,med_iron_parenteral_preparations,0.000,0.000,0.000,9,0.000,0.000,25,medication,relevant
+834,med_vitamin_d_and_analogues,0.000,0.000,0.000,7,0.000,0.000,7,medication,relevant
+835,med_glucagon,0.000,0.000,0.000,3,0.000,0.000,6,medication,relevant
+836,med_glucosamine,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+837,med_cough_and_cold_preparations,0.000,0.000,0.000,2,0.000,0.000,8,medication,relevant
+838,med_insulin_lispro,0.000,0.000,0.000,5,0.000,0.000,60,medication,relevant
+839,med_indometacin,0.000,0.000,0.000,3,0.000,0.000,19,medication,relevant
+840,med_iodixanol,0.000,0.000,0.000,2,0.000,0.000,5,medication,relevant
+841,med_leflunomide,0.000,0.000,0.000,3,0.000,0.000,4,medication,relevant
+842,med_levonorgestrel,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+843,med_liraglutide,0.000,0.000,0.000,5,0.000,0.000,11,medication,relevant
+844,med_loratadine,0.000,0.000,0.000,2,0.000,0.000,2,medication,relevant
+845,med_lormetazepam,0.000,0.000,0.000,8,0.000,0.000,509,medication,relevant
+846,med_cannabidiol,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+847,med_other_antiinflammatory_and_antirheumatic_agents_non-steroids,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+848,med_magnesium,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+849,med_mizolastine,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+850,med_multivitamins_plain,0.000,0.000,0.000,8,0.000,0.000,1297,medication,relevant
+851,med_multivitamins_with_minerals,0.000,0.000,0.000,2,0.000,0.000,14,medication,relevant
+852,med_magnesium_(different_salts_in_combination),0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+853,med_oral_rehydration_salt_formulations,0.000,0.000,0.000,2,0.000,0.000,45,medication,relevant
+854,med_risedronic_acid,0.000,0.000,0.000,3,0.000,0.000,7,medication,relevant
+855,med_ruxolitinib,0.000,0.000,0.000,5,0.000,0.000,45,medication,relevant
+856,med_semaglutide,0.000,0.000,0.000,2,0.000,0.000,4,medication,relevant
+857,med_tadalafil,0.000,0.000,0.000,2,0.000,0.000,2,medication,relevant
+858,med_tenecteplase,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+859,med_timolol,0.000,0.000,0.000,7,0.000,0.000,47,medication,relevant
+860,med_solutions_for_parenteral_nutrition,0.000,0.000,0.000,10,0.000,0.000,49,medication,relevant
+861,med_trimethoprim,0.000,0.000,0.000,3,0.000,0.000,9,medication,relevant
+862,med_amino_acids,0.000,0.000,0.000,2,0.000,0.000,4,medication,relevant
+863,med_vosaroxin,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+864,med_zuclopenthixol,0.000,0.000,0.000,1,0.000,0.000,2,medication,relevant
+865,thrombocytes_unspecified,0.000,0.000,0.000,3,0.000,0.000,10,laboratory value,relevant
+866,ecg_qtc_time,0.000,0.000,0.000,5,0.000,0.000,145,hemodynamics,relevant
+867,chloride_arterial,0.000,0.000,0.000,4,0.000,0.000,110,laboratory value,relevant
+868,potassium_arterial,0.000,0.000,0.000,8,0.000,0.000,50,laboratory value,relevant
+869,sodium_whole_blood,0.000,0.000,0.000,4,0.000,0.000,15,laboratory value,relevant
+870,calcium_ionised_venous,0.000,0.000,0.000,6,0.000,0.000,24,laboratory value,relevant
+871,chloride_venous,0.000,0.000,0.000,2,0.000,0.000,12,laboratory value,relevant
+872,potassium_venous,0.000,0.000,0.000,5,0.000,0.000,26,laboratory value,relevant
+873,eosinophils_perc_unspecified,0.000,0.000,0.000,3,0.000,0.000,128,laboratory value,relevant
+874,galactomannan_bronchial_text,0.000,0.000,0.000,3,0.000,0.000,14,laboratory value,relevant
+875,galactomannan_unspecified_index,0.000,0.000,0.000,5,0.000,0.000,54,laboratory value,relevant
+876,calcium_ionised_post_filter_cvvh,0.000,0.000,0.000,9,0.000,0.000,184,renal replacement therapy,relevant
+877,glucose_measured_whole_blood,0.000,0.000,0.000,1,0.000,0.000,6,laboratory value,relevant
+878,leukocytes_unspecified,0.000,0.000,0.000,3,0.000,0.000,501,laboratory value,relevant
+879,alat_unspecified,0.000,0.000,0.000,2,0.000,0.000,4,laboratory value,relevant
+880,alkaline_phosphatase_unspecified,0.000,0.000,0.000,4,0.000,0.000,55,laboratory value,relevant
+881,gamma_gt_unspecified,0.000,0.000,0.000,2,0.000,0.000,4,laboratory value,relevant
+882,lopinavir_level,0.000,0.000,0.000,2,0.000,0.000,19,laboratory value,relevant
+883,lymphocytes_absolute,0.000,0.000,0.000,22,0.000,0.000,322,laboratory value,relevant
+884,lymphocytes_perc_unspecified,0.000,0.000,0.000,5,0.000,0.000,136,laboratory value,relevant
+885,monocytes_perc_unspecified,0.000,0.000,0.000,5,0.000,0.000,137,laboratory value,relevant
+886,neutrophils_absolute,0.000,0.000,0.000,7,0.000,0.000,202,laboratory value,relevant
+887,band_neutrophils_perc_unspecified,0.000,0.000,0.000,4,0.000,0.000,55,laboratory value,relevant
+888,valproic_acid_level,0.000,0.000,0.000,5,0.000,0.000,11,laboratory value,relevant
+889,bicarbonate_actual_bloodgas,0.000,0.000,0.000,1,0.000,0.000,8,laboratory value,relevant
+890,po2_capillary,0.000,0.000,0.000,3,0.000,0.000,19,laboratory value,relevant
+891,access_pressure_cvvh,0.000,0.000,0.000,2,0.000,0.000,4,renal replacement therapy,relevant
+892,extravascular_lung_water,0.000,0.000,0.000,4,0.000,0.000,34,hemodynamics,relevant
+893,bipap_low_pressure,0.000,0.000,0.000,2,0.000,0.000,109,respiratory,relevant
+894,global_end_diastolic_volume,0.000,0.000,0.000,3,0.000,0.000,14,hemodynamics,relevant
+895,expiratory_time_unspecified,0.000,0.000,0.000,1,0.000,0.000,776,respiratory,relevant
+896,inspiratory_time_unspecified,0.000,0.000,0.000,5,0.000,0.000,2723,respiratory,relevant
+897,bipap_high_pressure,0.000,0.000,0.000,4,0.000,0.000,113,respiratory,relevant
+898,break_time_set,0.000,0.000,0.000,2,0.000,0.000,407,respiratory,relevant
+899,mean_airway_pressure,0.000,0.000,0.000,3,0.000,0.000,290,respiratory,relevant
+900,temperature_bladder,0.000,0.000,0.000,6,0.000,0.000,73,infectiology,relevant
+901,med_hydrochlorothiazide_and_potassium-sparing_agents,0.000,0.000,0.000,3,0.000,0.000,16,medication,relevant
+902,med_preparations_for_treatment_of_wounds_and_ulcers,0.000,0.000,0.000,1,0.000,0.000,12,medication,relevant
+903,med_entecavir,0.000,0.000,0.000,2,0.000,0.000,67,medication,relevant
+904,med_bezafibrate,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+905,med_vitamins,0.000,0.000,0.000,3,0.000,0.000,120,medication,relevant
+906,med_cinnarizine_combinations,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+907,med_gadoteric_acid,0.000,0.000,0.000,2,0.000,0.000,4,medication,relevant
+908,med_colestyramine,0.000,0.000,0.000,2,0.000,0.000,46,medication,relevant
+909,med_docusate_sodium_incl_combinations,0.000,0.000,0.000,7,0.000,0.000,142,medication,relevant
+910,med_enalapril_and_diuretics,0.000,0.000,0.000,3,0.000,0.000,17,medication,relevant
+911,med_fluorometholone,0.000,0.000,0.000,3,0.000,0.000,230,medication,relevant
+912,med_hemodialytics_concentrates,0.000,0.000,0.000,2,0.000,0.000,19,medication,relevant
+913,med_hyaluronidase,0.000,0.000,0.000,2,0.000,0.000,3,medication,relevant
+914,med_peritoneal_dialytics,0.000,0.000,0.000,1,0.000,0.000,8,medication,relevant
+915,med_potassium_perchlorate,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+916,med_other_therapeutic_products,0.000,0.000,0.000,2,0.000,0.000,28,medication,relevant
+917,med_magnesium_gluconate,0.000,0.000,0.000,1,0.000,0.000,26,medication,relevant
+918,med_naloxone,0.000,0.000,0.000,2,0.000,0.000,9,medication,relevant
+919,med_octreotide,0.000,0.000,0.000,6,0.000,0.000,30,medication,relevant
+920,med_codeine_and_paracetamol,0.000,0.000,0.000,1,0.000,0.000,11,medication,relevant
+921,med_pethidine,0.000,0.000,0.000,3,0.000,0.000,3,medication,relevant
+922,med_pioglitazone,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+923,med_pizotifen,0.000,0.000,0.000,2,0.000,0.000,24,medication,relevant
+924,med_prilocaine,0.000,0.000,0.000,3,0.000,0.000,3,medication,relevant
+925,med_hemofiltrates,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+926,med_ramipril,0.000,0.000,0.000,9,0.000,0.000,58,medication,relevant
+927,med_multivitamins_combinations,0.000,0.000,0.000,6,0.000,0.000,150,medication,relevant
+928,med_theophylline,0.000,0.000,0.000,2,0.000,0.000,2,medication,relevant
+929,active_b12_unspecified,0.000,0.000,0.000,1,0.000,0.000,16,laboratory value,relevant
+930,bnp_unspecified,0.000,0.000,0.000,2,0.000,0.000,34,laboratory value,relevant
+931,lactate_arterial,0.000,0.000,0.000,6,0.000,0.000,175,laboratory value,relevant
+932,calcium_corrected,0.000,0.000,0.000,3,0.000,0.000,64,laboratory value,relevant
+933,protein_urine,0.000,0.000,0.000,12,0.000,0.000,332,laboratory value,relevant
+934,albumin_urine,0.000,0.000,0.000,11,0.000,0.000,78,laboratory value,relevant
+935,erythrocytes_urine_text,0.000,0.000,0.000,11,0.000,0.000,271,laboratory value,relevant
+936,ureum_unspecified,0.000,0.000,0.000,5,0.000,0.000,463,laboratory value,relevant
+937,reticulocytes_absolute,0.000,0.000,0.000,11,0.000,0.000,48,laboratory value,relevant
+938,pain_score_nrs,0.000,0.000,0.000,4,0.000,0.000,3156,clinical score,relevant
+939,inspiratory_co2_measured,0.000,0.000,0.000,2,0.000,0.000,15318,respiratory,relevant
+940,nice_own_diagnosis_1,0.000,0.000,0.000,2,0.000,0.000,1341,nice data,relevant
+941,nice_reintubatie,0.000,0.000,0.000,3,0.000,0.000,228,nice data,relevant
+942,nice_aki,0.000,0.000,0.000,7,0.000,0.000,926,nice data,relevant
+943,nice_vasdrug,0.000,0.000,0.000,4,0.000,0.000,4869,nice data,relevant
+944,nice_mech_ventil_0,0.000,0.000,0.000,4,0.000,0.000,804,nice data,relevant
+945,sofa_resp_support,0.000,0.000,0.000,1,0.000,0.000,75568,sofa score,relevant
+946,picco_global_ejection_fraction,0.000,0.000,0.000,2,0.000,0.000,656,hemodynamics,relevant
+947,temperature_set,0.000,0.000,0.000,2,0.000,0.000,472,infectiology,relevant
+948,carbon_monoxide_unspecified,0.000,0.000,0.000,3,0.000,0.000,6,laboratory value,relevant
+949,procalcitonin_unspecified,0.000,0.000,0.000,11,0.000,0.000,519,laboratory value,relevant
+950,ureum_urine,0.000,0.000,0.000,7,0.000,0.000,92,laboratory value,relevant
+951,readmission_unspecified,0.000,0.000,0.000,2,0.000,0.000,81,admission information,relevant
+952,ureum_urine_24hours,0.000,0.000,0.000,8,0.000,0.000,80,laboratory value,relevant
+953,substitution_anticoagulants_cvvhd,0.000,0.000,0.000,1,0.000,0.000,3881,renal replacement therapy,relevant
+954,albumin_unspecified,0.000,0.000,0.000,4,0.000,0.000,65,laboratory value,relevant
+955,ews_score,0.000,0.000,0.000,4,0.000,0.000,326,clinical score,relevant
+956,anti_xa_unspecified,0.000,0.000,0.000,1,0.000,0.000,2,laboratory value,relevant
+957,insp_exp_ratio_inspiratory_part,0.000,0.000,0.000,3,0.000,0.000,352587,respiratory,relevant
+958,insp_exp_ratio_expiratory_part,0.000,0.000,0.000,3,0.000,0.000,121645,respiratory,relevant
+959,lung_compliance_static,0.000,0.000,0.000,2,0.000,0.000,183883,respiratory,relevant
+960,carboxyhemoglobin_unspecified,0.000,0.000,0.000,4,0.000,0.000,5417,laboratory value,relevant
+961,methemoglobin_unspecified,0.000,0.000,0.000,5,0.000,0.000,12316,laboratory value,relevant
+962,tobramycin_level,0.000,0.000,0.000,3,0.000,0.000,27,laboratory value,relevant
+963,minute_volume_set,0.000,0.000,0.000,1,0.000,0.000,63,respiratory,relevant
+964,pacemaker_unspecified,0.000,0.000,0.000,6,0.000,0.000,359,hemodynamics,relevant
+965,potassium_urine_24hours,0.000,0.000,0.000,6,0.000,0.000,11,laboratory value,relevant
+966,flucloxacillin_level,0.000,0.000,0.000,1,0.000,0.000,27,laboratory value,relevant
+967,level_of_consciousness_text,0.000,0.000,0.000,5,0.000,0.000,383,neurology,relevant
+968,med_bimatoprost,0.000,0.000,0.000,3,0.000,0.000,27,medication,relevant
+969,med_methylcellulose,0.000,0.000,0.000,2,0.000,0.000,144,medication,relevant
+970,med_mycophenolic_acid,0.000,0.000,0.000,5,0.000,0.000,20,medication,relevant
+971,med_vitamin_k,0.000,0.000,0.000,3,0.000,0.000,4,medication,relevant
+972,med_levonorgestrel_and_ethinylestradiol,0.000,0.000,0.000,6,0.000,0.000,37,medication,relevant
+973,med_latanoprost,0.000,0.000,0.000,5,0.000,0.000,82,medication,relevant
+974,med_diatrizoic_acid,0.000,0.000,0.000,1,0.000,0.000,3,medication,relevant
+975,fluid_in_parenteral_nutrition,0.000,0.000,0.000,2,0.000,0.000,92,fluid balance,relevant
+976,med_bromazepam,0.000,0.000,0.000,2,0.000,0.000,24,medication,relevant
+977,med_cimetidine,0.000,0.000,0.000,1,0.000,0.000,14,medication,relevant
+978,med_cisatracurium,0.000,0.000,0.000,3,0.000,0.000,1365,medication,relevant
+979,med_clobetasone,0.000,0.000,0.000,3,0.000,0.000,44,medication,relevant
+980,med_erythropoietin,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+981,med_atorvastatin_and_ezetimibe,0.000,0.000,0.000,2,0.000,0.000,4,medication,relevant
+982,med_sodium_glycerophosphate,0.333,0.500,0.400,2,0.500,0.500,85,medication,relevant
+983,med_hydralazine,0.000,0.000,0.000,3,0.000,0.000,220,medication,relevant
+984,med_irbesartan_and_diuretics,0.000,0.000,0.000,4,0.000,0.000,28,medication,relevant
+985,med_sodium_selenite,0.000,0.000,0.000,2,0.000,0.000,60,medication,relevant
+986,med_iohexol,0.000,0.000,0.000,3,0.000,0.000,32,medication,relevant
+987,med_unknown,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+988,med_terazosin,0.000,0.000,0.000,3,0.000,0.000,20,medication,relevant
+989,med_tretinoin_combinations,0.000,0.000,0.000,1,0.000,0.000,6,medication,relevant
+990,sars_cov_2_igg,0.000,0.000,0.000,2,0.000,0.000,4,infectiology,relevant
+991,carboxyhemoglobin_blood,0.000,0.000,0.000,1,0.000,0.000,3,laboratory value,relevant
+992,bicarbonate_actual_arterial,0.000,0.000,0.000,5,0.000,0.000,147,laboratory value,relevant
+993,potassium_bloodgas,0.000,0.000,0.000,1,0.000,0.000,21,laboratory value,relevant
+994,sodium_bloodgas,0.000,0.000,0.000,1,0.000,0.000,20,laboratory value,relevant
+995,leukocytes_urine,0.000,0.000,0.000,7,0.000,0.000,117,laboratory value,relevant
+996,lactate_dehydrogenase_unspecified,0.000,0.000,0.000,18,0.000,0.000,282,laboratory value,relevant
+997,aspergillus_pcr,0.000,0.000,0.000,1,0.000,0.000,1,laboratory value,relevant
+998,substitution_volume_cvvh,0.000,0.000,0.000,2,0.000,0.000,65313,renal replacement therapy,relevant
+999,heparin_bolus_cvvh_total,0.000,0.000,0.000,1,0.000,0.000,61281,renal replacement therapy,relevant
+1000,neutrophils_blood,0.000,0.000,0.000,2,0.000,0.000,66,laboratory value,relevant
+1001,ecg_ii,0.000,0.000,0.000,3,0.000,0.000,2182,hemodynamics,relevant
+1002,ecg_iii,0.000,0.000,0.000,2,0.000,0.000,4959,hemodynamics,relevant
+1003,ecg_avr,0.000,0.000,0.000,2,0.000,0.000,2898,hemodynamics,relevant
+1004,ecg_avf,0.000,0.000,0.000,2,0.000,0.000,2711,hemodynamics,relevant
+1005,apacheiv_score,0.000,0.000,0.000,1,0.000,0.000,80,clinical score,relevant
+1006,calcium_ratio,0.000,0.000,0.000,2,0.000,0.000,18,laboratory value,relevant
+1007,fio2_unspecified,0.000,0.000,0.000,4,0.000,0.000,7177,respiratory,relevant
+1008,transmembrane_pressure_cvvhd,0.000,0.000,0.000,1,0.000,0.000,4969,renal replacement therapy,relevant
+1009,ecg_avl,0.000,0.000,0.000,2,0.000,0.000,4218,hemodynamics,relevant
+1010,erythroblasts_blood,0.000,0.000,0.000,2,0.000,0.000,36,laboratory value,relevant
+1011,iron_saturation_blood,0.000,0.000,0.000,1,0.000,0.000,1,laboratory value,relevant
+1012,basophils_blood,0.000,0.000,0.000,1,0.000,0.000,285,laboratory value,relevant
+1013,eosinophils_blood,0.000,0.000,0.000,4,0.000,0.000,231,laboratory value,relevant
+1014,fibrinogen_blood,0.000,0.000,0.000,6,0.000,0.000,157,laboratory value,relevant
+1015,lymphocytes_blood,0.000,0.000,0.000,3,0.000,0.000,96,laboratory value,relevant
+1016,monocytes_blood,0.000,0.000,0.000,1,0.000,0.000,48,laboratory value,relevant
+1017,segmented_neutrophils_blood,0.000,0.000,0.000,1,0.000,0.000,37,laboratory value,relevant
+1018,band_neutrophils_blood,0.000,0.000,0.000,14,0.000,0.000,141,laboratory value,relevant
+1019,sedimentation_rate_blood,0.000,0.000,0.000,3,0.000,0.000,17,laboratory value,relevant
+1020,sodium_urine_24hours,0.000,0.000,0.000,6,0.000,0.000,84,laboratory value,relevant
+1021,erythrocytes_blood,0.000,0.000,0.000,29,0.000,0.000,478,laboratory value,relevant
+1022,vent_mode_machine,0.000,0.000,0.000,3,0.000,0.000,7526,respiratory,relevant
+1023,heparin_bolus_cvvh,0.000,0.000,0.000,3,0.000,0.000,30,renal replacement therapy,relevant
+1024,crrt_dialysate_solution,0.000,0.000,0.000,2,0.000,0.000,190,renal replacement therapy,relevant
+1025,med_protein_supplements,0.000,0.000,0.000,1,0.000,0.000,9,medication,relevant
+1026,med_sodium_lauryl_sulfoacetate_incl_combinations,0.000,0.000,0.000,1,0.000,0.000,4,medication,relevant
+1027,crrt_filter_change,0.000,0.000,0.000,1,0.000,0.000,411,renal replacement therapy,relevant
+1028,end_tidal_co2_measured,0.000,0.000,0.000,8,0.000,0.000,251,respiratory,relevant
+1029,peak_inspiratory_pressure,0.000,0.000,0.000,3,0.000,0.000,23,respiratory,relevant
+1030,peep_measured,0.000,0.000,0.000,9,0.000,0.000,766,respiratory,relevant
+1031,postdilution_flow_cvvh,0.000,0.000,0.000,2,0.000,0.000,798,renal replacement therapy,relevant
+1032,inspiratory_rise_time_unspecified,0.000,0.000,0.000,4,0.000,0.000,473510,respiratory,relevant
+1033,med_potassium_clorazepate,0.000,0.000,0.000,4,0.000,0.000,36,medication,relevant
+1034,med_dosulepin,0.000,0.000,0.000,2,0.000,0.000,10,medication,relevant
+1035,med_estradiol,0.000,0.000,0.000,4,0.000,0.000,7,medication,relevant
+1036,med_electrolytes_in_combination_with_other_drugs,0.000,0.000,0.000,4,0.000,0.000,409,medication,relevant
+1037,med_ofloxacin,0.000,0.000,0.000,4,0.000,0.000,100,medication,relevant
+1038,med_pamidronic_acid,0.500,0.333,0.400,3,0.333,0.333,4,medication,relevant
+1039,monocytes_absolute,0.000,0.000,0.000,21,0.000,0.000,315,laboratory value,relevant
+1040,eosinophils_absolute,0.000,0.000,0.000,20,0.000,0.000,264,laboratory value,relevant
+1041,basophils_absolute,0.000,0.000,0.000,22,0.000,0.000,347,laboratory value,relevant
+1042,neutrophils_perc_unspecified,0.000,0.000,0.000,1,0.000,0.000,44,laboratory value,relevant
+1043,sodium_blood,0.000,0.000,0.000,5,0.000,0.000,103,laboratory value,relevant
+1044,potassium_blood,0.000,0.000,0.000,10,0.000,0.000,105,laboratory value,relevant
+1045,galactomannan_blood_text,0.000,0.000,0.000,1,0.000,0.000,1,laboratory value,relevant
+1046,osmolality_blood,0.000,0.000,0.000,3,0.000,0.000,22,laboratory value,relevant
+1047,position__prone__unknown__unknown__unknown__unknown,0.000,0.000,0.000,1,0.000,0.000,1017,position,relevant
+1048,chloride_urine,0.000,0.000,0.000,6,0.000,0.000,22,laboratory value,relevant
+1049,calcium_suppletion_dosage_cvvh,0.000,0.000,0.000,3,0.000,0.000,957,renal replacement therapy,relevant
+1050,lung_compliance_unspecified,0.000,0.000,0.000,4,0.000,0.000,36,respiratory,relevant
+1051,minute_volume_expiratory,0.000,0.000,0.000,1,0.000,0.000,77,respiratory,relevant
+1052,ecg_v1,0.000,0.000,0.000,1,0.000,0.000,8,hemodynamics,relevant
+1053,ecg_v2,0.000,0.000,0.000,1,0.000,0.000,2,hemodynamics,relevant
+1054,ecg_v3,0.000,0.000,0.000,1,0.000,0.000,2,hemodynamics,relevant
+1055,ecg_v4,0.000,0.000,0.000,1,0.000,0.000,2,hemodynamics,relevant
+1056,ecg_v5,0.000,0.000,0.000,1,0.000,0.000,2,hemodynamics,relevant
+1057,ecg_v6,0.000,0.000,0.000,1,0.000,0.000,2,hemodynamics,relevant
+1058,nava_edi_peak,0.000,0.000,0.000,1,0.000,0.000,183879,respiratory,relevant
+1059,nava_edi_min,0.000,0.000,0.000,1,0.000,0.000,183879,respiratory,relevant
+1060,so2_central_venous,0.000,0.000,0.000,2,0.000,0.000,6,laboratory value,relevant
+1061,hemoglobin_unspecified,0.000,0.000,0.000,5,0.000,0.000,487,laboratory value,relevant
+1062,tidal_volume_inspiratory_set,0.000,0.000,0.000,1,0.000,0.000,29,respiratory,relevant
+1063,med_ascorbic_acid,0.167,1.000,0.286,1,1.000,1.000,10,medication,relevant
+1064,med_levobupivacaine,0.000,0.000,0.000,5,0.000,0.000,63,medication,relevant
+1065,urine_culture_ordered,0.000,0.000,0.000,1,0.000,0.000,5,laboratory value,relevant
+1066,med_aclidinium_bromide,0.000,0.000,0.000,1,0.000,0.000,8,medication,relevant
+1067,med_buprenorphine,0.000,0.000,0.000,6,0.000,0.000,9,medication,relevant
+1068,med_duloxetine,0.000,0.000,0.000,4,0.000,0.000,26,medication,relevant
+1069,med_febuxostat,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+1070,med_formoterol_and_fluticasone,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+1071,med_iopromide,0.000,0.000,0.000,2,0.000,0.000,137,medication,relevant
+1072,med_ketorolac,0.000,0.000,0.000,1,0.000,0.000,18,medication,relevant
+1073,med_nepafenac,0.000,0.000,0.000,1,0.000,0.000,19,medication,relevant
+1074,med_all_other_therapeutic_products,0.000,0.000,0.000,2,0.000,0.000,23,medication,relevant
+1075,med_nucleosides_and_nucleotides_excl_reverse_transcriptase_inhibitors,0.000,0.000,0.000,1,0.000,0.000,2,medication,relevant
+1076,med_tolbutamide,0.000,0.000,0.000,5,0.000,0.000,41,medication,relevant
+1077,total_iron_binding_capacity,0.000,0.000,0.000,5,0.000,0.000,35,laboratory value,relevant
+1078,po2_mixed_venous,0.000,0.000,0.000,3,0.000,0.000,19,laboratory value,relevant
+1079,egfr_ckd_epi,0.000,0.000,0.000,14,0.000,0.000,138,laboratory value,relevant
+1080,hemoglobin_bloodgas,0.000,0.000,0.000,1,0.000,0.000,66,laboratory value,relevant
+1081,volume_unspecified,0.000,0.000,0.000,1,0.000,0.000,47,fluid balance,relevant
+1082,creatinine_unspecified,0.000,0.000,0.000,3,0.000,0.000,17,laboratory value,relevant
+1083,inspiratory_time_set,0.000,0.000,0.000,3,0.000,0.000,10909,respiratory,relevant
+1084,ultrafiltration_cvvh_measured,0.000,0.000,0.000,2,0.000,0.000,155,renal replacement therapy,relevant
+1085,red_blood_cell_distribution_width_unspecified,0.000,0.000,0.000,16,0.000,0.000,230,laboratory value,relevant
+1086,creatine_kinase_mb_mass,0.000,0.000,0.000,1,0.000,0.000,38,laboratory value,relevant
+1087,intracranial_pressure,0.000,0.000,0.000,3,0.000,0.000,5,neurology,relevant
+1088,nice_burns,0.000,0.000,0.000,3,0.000,0.000,976,nice data,relevant
+1089,nice_mi_before_icu,0.000,0.000,0.000,3,0.000,0.000,679,nice data,relevant
+1090,tidal_volume_measured,0.000,0.000,0.000,1,0.000,0.000,59,respiratory,relevant
+1091,respiratory_rate_measured_spontaneous,0.000,0.000,0.000,1,0.000,0.000,3559,respiratory,relevant
+1092,base_excess_arterial,0.000,0.000,0.000,8,0.000,0.000,124,laboratory value,relevant
+1093,nice_trach,0.000,0.000,0.000,3,0.000,0.000,313,nice data,relevant
+1094,hemoglobin_blood,0.000,0.000,0.000,16,0.000,0.000,159,laboratory value,relevant
+1095,hematocrit_blood,0.000,0.000,0.000,23,0.000,0.000,398,laboratory value,relevant
+1096,lactate_blood,0.000,0.000,0.000,3,0.000,0.000,57,laboratory value,relevant
+1097,insp_exp_ratio_unspecified,0.000,0.000,0.000,1,0.000,0.000,404704,respiratory,relevant
+1098,med_dopamine,0.000,0.000,0.000,3,0.000,0.000,20,medication,relevant
+1099,med_epinephrine_combinations,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+1100,med_mivacurium_chloride,0.000,0.000,0.000,1,0.000,0.000,2,medication,relevant
+1101,med_levodopa,0.000,0.000,0.000,1,0.000,0.000,32,medication,relevant
+1102,med_rivastigmine,0.000,0.000,0.000,3,0.000,0.000,12,medication,relevant
+1103,arterial_bp_mean,0.000,0.000,0.000,1,0.000,0.000,1,hemodynamics,relevant
+1104,calcium_flow_cvvh,0.000,0.000,0.000,1,0.000,0.000,6,renal replacement therapy,relevant
+1105,intrathoracic_blood_volume,0.000,0.000,0.000,2,0.000,0.000,4,hemodynamics,relevant
+1106,tidal_volume_expiratory,0.000,0.000,0.000,1,0.000,0.000,6,respiratory,relevant
+1107,med_blood_substitutes_and_plasma_protein_fractions,0.000,0.000,0.000,1,0.000,0.000,73,medication,relevant
+1108,med_bortezomib,0.000,0.000,0.000,1,0.000,0.000,3,medication,relevant
+1109,med_celecoxib,0.000,0.000,0.000,6,0.000,0.000,21,medication,relevant
+1110,med_chlorhexidine,0.000,0.000,0.000,5,0.000,0.000,199,medication,relevant
+1111,med_dapsone,0.000,0.000,0.000,2,0.000,0.000,3,medication,relevant
+1112,med_potassium_citrate,0.000,0.000,0.000,1,0.000,0.000,10,medication,relevant
+1113,med_losartan_and_diuretics,0.000,0.000,0.000,5,0.000,0.000,10,medication,relevant
+1114,med_miconazole_combinations,0.000,0.000,0.000,1,0.000,0.000,12,medication,relevant
+1115,med_thalidomide,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+1116,med_hydroxyzine,0.000,0.000,0.000,3,0.000,0.000,18,medication,relevant
+1117,iron_saturation,0.000,0.000,0.000,2,0.000,0.000,6,laboratory value,relevant
+1118,sars_cov_2_igm,0.000,0.000,0.000,2,0.000,0.000,7,infectiology,relevant
+1119,vent_mechanics_paw_peep_tot,0.333,1.000,0.500,1,1.000,1.000,88,respiratory,relevant
+1120,vent_mechanics_ptranspulm_insp,0.000,0.000,0.000,1,0.000,0.000,40,respiratory,relevant
+1121,vent_mechanics_ptranspulm_exp,0.000,0.000,0.000,1,0.000,0.000,40,respiratory,relevant
+1122,vent_mechanics_compliance_respiratory,0.000,0.000,0.000,1,0.000,0.000,1,respiratory,relevant
+1123,vent_mechanics_mechanical_power,0.000,0.000,0.000,1,0.000,0.000,561,respiratory,relevant
+1124,med_anastrozole,0.000,0.000,0.000,2,0.000,0.000,15,medication,relevant
+1125,med_biperiden,0.000,0.000,0.000,3,0.000,0.000,5,medication,relevant
+1126,med_ceftazidime_and_beta-lactamase_inhibitor,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+1127,med_secretin,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+1128,med_dexamethasone_and_antibiotics,0.000,0.000,0.000,1,0.000,0.000,8,medication,relevant
+1129,med_evolocumab,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+1130,med_fludeoxyglucose_(18f),0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+1131,med_phentolamine,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+1132,med_icatibant,0.000,0.000,0.000,2,0.000,0.000,9,medication,relevant
+1133,med_isoniazid,0.000,0.000,0.000,2,0.000,0.000,3,medication,relevant
+1134,med_itraconazole,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+1135,med_ioxitalamic_acid,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+1136,med_ketanserin,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+1137,med_lanthanum_carbonate,0.000,0.000,0.000,4,0.000,0.000,32,medication,relevant
+1138,med_midodrine,0.000,0.000,0.000,1,0.000,0.000,2,medication,relevant
+1139,med_perphenazine,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+1140,med_hemodialytics_and_hemofiltrates,0.000,0.000,0.000,1,0.000,0.000,8,medication,relevant
+1141,med_urokinase,0.000,0.000,0.000,3,0.000,0.000,4,medication,relevant
+1142,med_valganciclovir,0.000,0.000,0.000,1,0.000,0.000,3,medication,relevant
+1143,segmented_neutrophils_absolute,0.000,0.000,0.000,19,0.000,0.000,194,laboratory value,relevant
+1144,eosinophils_manual_diff,0.000,0.000,0.000,2,0.000,0.000,70,laboratory value,relevant
+1145,lymphocytes_manual_diff,0.000,0.000,0.000,2,0.000,0.000,70,laboratory value,relevant
+1146,monocytes_manual_diff,0.000,0.000,0.000,2,0.000,0.000,70,laboratory value,relevant
+1147,segmented_neutrophils_manual_diff,0.000,0.000,0.000,1,0.000,0.000,39,laboratory value,relevant
+1148,calcium_total,0.000,0.000,0.000,1,0.000,0.000,15,laboratory value,relevant
+1149,cortisol_free,0.000,0.000,0.000,1,0.000,0.000,1,laboratory value,relevant
+1150,urine_output_24hours,0.100,0.333,0.154,6,0.333,0.333,54,fluid balance,relevant
+1151,carboxyhemoglobin_bloodgas,0.000,0.000,0.000,1,0.000,0.000,4155,laboratory value,relevant
+1152,citrate_dosage_cvvhd,0.000,0.000,0.000,1,0.000,0.000,2868,renal replacement therapy,relevant
+1153,med_dydrogesterone_and_estrogen,0.000,0.000,0.000,2,0.000,0.000,49,medication,relevant
+1154,med_finasteride,0.000,0.000,0.000,4,0.000,0.000,16,medication,relevant
+1155,med_immunoglobulins_normal_human_for_extravascular_adm,0.000,0.000,0.000,2,0.000,0.000,3,medication,relevant
+1156,med_methylthioninium_chloride,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+1157,med_emtricitabine_tenofovir_alafenamide_and_rilpivirine,0.000,0.000,0.000,1,0.000,0.000,2,medication,relevant
+1158,med_sodium_picosulfate_combinations,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+1159,med_insulin_degludec_and_insulin_aspart,0.000,0.000,0.000,2,0.000,0.000,50,medication,relevant
+1160,med_telmisartan_and_diuretics,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+1161,med_valsartan_and_diuretics,0.000,0.000,0.000,6,0.000,0.000,38,medication,relevant
+1162,albumin_blood,0.000,0.000,0.000,7,0.000,0.000,182,laboratory value,relevant
+1163,galactomannan_blood_index,0.000,0.000,0.000,1,0.000,0.000,4,laboratory value,relevant
+1164,glucose_venous,0.000,0.000,0.000,3,0.000,0.000,4,laboratory value,relevant
+1165,hba1c_blood,0.000,0.000,0.000,1,0.000,0.000,5,laboratory value,relevant
+1166,leukocytes_blood,0.000,0.000,0.000,21,0.000,0.000,303,laboratory value,relevant
+1167,refill_leg_left,0.000,0.000,0.000,1,0.000,0.000,12,hemodynamics,relevant
+1168,refill_leg_right,0.000,0.000,0.000,1,0.000,0.000,16,hemodynamics,relevant
+1169,fio2_optiflow,0.000,0.000,0.000,1,0.000,0.000,1,respiratory,relevant
+1170,tidal_volume_per_kg,0.000,0.000,0.000,1,0.000,0.000,38,respiratory,relevant
+1171,med_rotigotine,0.000,0.000,0.000,1,0.000,0.000,5,medication,relevant
+1172,med_sevoflurane,0.000,0.000,0.000,2,0.000,0.000,130,medication,relevant
+1173,med_urapidil,0.000,0.000,0.000,2,0.000,0.000,39,medication,relevant
+1174,hematocrit_unspecified,0.000,0.000,0.000,2,0.000,0.000,538,laboratory value,relevant
+1175,potassium_whole_blood,0.000,0.000,0.000,1,0.000,0.000,1750,laboratory value,relevant
+1176,lda_catheter_cvvh,0.000,0.000,0.000,3,0.000,0.000,51,lda,relevant
+1177,inspiratory_time_perc,0.000,0.000,0.000,1,0.000,0.000,1094,respiratory,relevant
+1178,insp_exp_ratio_unspecified_text,0.000,0.000,0.000,1,0.000,0.000,5,respiratory,relevant
+1179,sofa_coagulation,0.000,0.000,0.000,1,0.000,0.000,415,sofa score,relevant
+1180,med_alirocumab,0.000,0.000,0.000,1,0.000,0.000,2,medication,relevant
+1181,med_amlodipine_and_diuretics,0.000,0.000,0.000,1,0.000,0.000,3,medication,relevant
+1182,med_glucose_combinations,0.000,0.000,0.000,2,0.000,0.000,13,medication,relevant
+1183,med_rabeprazole,0.000,0.000,0.000,2,0.000,0.000,5,medication,relevant
+1184,med_terbutaline,0.000,0.000,0.000,2,0.000,0.000,6,medication,relevant
+1185,med_tetracosactide,0.000,0.000,0.000,2,0.000,0.000,2,medication,relevant
+1186,ammonia_blood,0.000,0.000,0.000,2,0.000,0.000,5,laboratory value,relevant
+1187,anion_gap_unspecified,0.000,0.000,0.000,1,0.000,0.000,8,laboratory value,relevant
+1188,erythrocytes_unspecified,0.000,0.000,0.000,3,0.000,0.000,169,laboratory value,relevant
+1189,leukocytes_manual_diff,0.000,0.000,0.000,1,0.000,0.000,2,laboratory value,relevant
+1190,methemoglobin_arterial,0.000,0.000,0.000,1,0.000,0.000,3,laboratory value,relevant
+1191,sodium_venous,0.000,0.000,0.000,1,0.000,0.000,4,laboratory value,relevant
+1192,mcv_blood,0.000,0.000,0.000,21,0.000,0.000,394,laboratory value,relevant
+1193,thrombocytes_blood,0.000,0.000,0.000,20,0.000,0.000,439,laboratory value,relevant
+1194,lda_canula_ecls,0.000,0.000,0.000,1,0.000,0.000,2,lda,relevant
+1195,lda_sheath_venous,0.000,0.000,0.000,1,0.000,0.000,1,lda,relevant
+1196,ecmo_flow,0.000,0.000,0.000,2,0.000,0.000,140,hemodynamics,relevant
+1197,temperature_skin,0.000,0.000,0.000,1,0.000,0.000,27,infectiology,relevant
+1198,temperature_oesophageal,0.000,0.000,0.000,1,0.000,0.000,56,infectiology,relevant
+1199,med_aprepitant,0.000,0.000,0.000,2,0.000,0.000,5,medication,relevant
+1200,med_atenolol_and_thiazides,0.000,0.000,0.000,1,0.000,0.000,2,medication,relevant
+1201,med_atracurium,0.000,0.000,0.000,4,0.000,0.000,95,medication,relevant
+1202,med_azelastine,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+1203,med_tri1inolone_and_antiinfectives,0.000,0.000,0.000,1,0.000,0.000,2,medication,relevant
+1204,med_bevacizumab,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+1205,med_bicalutamide,0.000,0.000,0.000,2,0.000,0.000,4,medication,relevant
+1206,med_bromfenac,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+1207,med_calcium_(different_salts_in_combination),0.000,0.000,0.000,1,0.000,0.000,33,medication,relevant
+1208,med_calcium_phosphate,0.000,0.000,0.000,1,0.000,0.000,3,medication,relevant
+1209,med_carmustine,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+1210,med_cisplatin,0.000,0.000,0.000,1,0.000,0.000,3,medication,relevant
+1211,med_cytarabine,0.000,0.000,0.000,2,0.000,0.000,29,medication,relevant
+1212,med_daunorubicin,0.000,0.000,0.000,1,0.000,0.000,3,medication,relevant
+1213,med_drospirenone_and_ethinylestradiol,0.000,0.000,0.000,1,0.000,0.000,2,medication,relevant
+1214,med_etoposide,0.000,0.000,0.000,1,0.000,0.000,8,medication,relevant
+1215,med_exenatide,0.000,0.000,0.000,1,0.000,0.000,2,medication,relevant
+1216,med_fampridine,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+1217,med_pheneticillin,0.000,0.000,0.000,2,0.000,0.000,6,medication,relevant
+1218,med_filgrastim,0.000,0.000,0.000,1,0.000,0.000,2,medication,relevant
+1219,med_fluorouracil,0.000,0.000,0.000,1,0.000,0.000,2,medication,relevant
+1220,med_fosfomycin,0.000,0.000,0.000,1,0.000,0.000,2,medication,relevant
+1221,med_galantamine,0.000,0.000,0.000,1,0.000,0.000,2,medication,relevant
+1222,med_glibenclamide,0.000,0.000,0.000,1,0.000,0.000,3,medication,relevant
+1223,med_ibrutinib,0.000,0.000,0.000,2,0.000,0.000,3,medication,relevant
+1224,med_iron_in_other_combinations,0.000,0.000,0.000,2,0.000,0.000,4,medication,relevant
+1225,med_immunoglobulins_normal_human,0.000,0.000,0.000,3,0.000,0.000,5,medication,relevant
+1226,med_indapamide,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+1227,med_lenalidomide,0.000,0.000,0.000,1,0.000,0.000,4,medication,relevant
+1228,med_leuprorelin,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+1229,med_medroxyprogesterone,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+1230,med_melphalan,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+1231,med_mepolizumab,0.000,0.000,0.000,1,0.000,0.000,2,medication,relevant
+1232,med_metformin_and_sulfonylureas,0.000,0.000,0.000,2,0.000,0.000,2,medication,relevant
+1233,med_micafungin,0.000,0.000,0.000,1,0.000,0.000,4,medication,relevant
+1234,med_misoprostol,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+1235,med_modafinil,0.000,0.000,0.000,1,0.000,0.000,4,medication,relevant
+1236,med_mucolytics,0.000,0.000,0.000,1,0.000,0.000,2,medication,relevant
+1237,med_natalizumab,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+1238,med_insulins_and_analogues_for_injection_intermediate-_or_long-acting_combined_with_fast-acting,0.000,0.000,0.000,1,0.000,0.000,3,medication,relevant
+1239,med_obinutuzumab,0.000,0.000,0.000,1,0.000,0.000,3,medication,relevant
+1240,med_olmesartan_medoxomil_amlodipine_and_hydrochlorothiazide,0.000,0.000,0.000,1,0.000,0.000,2,medication,relevant
+1241,med_pegfilgrastim,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+1242,med_pentamidine_isethionate,0.000,0.000,0.000,2,0.000,0.000,6,medication,relevant
+1243,med_pimozide,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+1244,med_povidone-iodine,0.000,0.000,0.000,1,0.000,0.000,4,medication,relevant
+1245,med_sirolimus,0.000,0.000,0.000,2,0.000,0.000,8,medication,relevant
+1246,med_rituximab,0.000,0.000,0.000,2,0.000,0.000,3,medication,relevant
+1247,med_rizatriptan,0.000,0.000,0.000,1,0.000,0.000,3,medication,relevant
+1248,med_salmeterol,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+1249,med_sildenafil,0.000,0.000,0.000,2,0.000,0.000,183,medication,relevant
+1250,med_terbinafine,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+1251,med_tetracaine,0.000,0.000,0.000,1,0.000,0.000,2,medication,relevant
+1252,med_tolterodine,0.000,0.000,0.000,3,0.000,0.000,39,medication,relevant
+1253,med_various,0.000,0.000,0.000,1,0.000,0.000,2,medication,relevant
+1254,med_triptorelin,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+1255,alat_blood,0.000,0.000,0.000,6,0.000,0.000,195,laboratory value,relevant
+1256,alkaline_phosphatase_blood,0.000,0.000,0.000,7,0.000,0.000,109,laboratory value,relevant
+1257,aptt_blood,0.000,0.000,0.000,9,0.000,0.000,137,laboratory value,relevant
+1258,asat_blood,0.000,0.000,0.000,7,0.000,0.000,196,laboratory value,relevant
+1259,glucose_arterial,0.000,0.000,0.000,4,0.000,0.000,23,laboratory value,relevant
+1260,sodium_arterial,0.000,0.000,0.000,8,0.000,0.000,70,laboratory value,relevant
+1261,calcium_ionised_blood,0.000,0.000,0.000,1,0.000,0.000,1,laboratory value,relevant
+1262,chloride_blood,0.000,0.000,0.000,2,0.000,0.000,5,laboratory value,relevant
+1263,cholesterol_blood,0.000,0.000,0.000,2,0.000,0.000,6,laboratory value,relevant
+1264,crp_blood,0.000,0.000,0.000,12,0.000,0.000,248,laboratory value,relevant
+1265,erythroblasts_absolute,0.000,0.000,0.000,21,0.000,0.000,2591,laboratory value,relevant
+1266,bilirubin_direct_blood,0.000,0.000,0.000,2,0.000,0.000,2,laboratory value,relevant
+1267,folic_acid_blood,0.000,0.000,0.000,1,0.000,0.000,3,laboratory value,relevant
+1268,aciclovir_trough_level,0.000,0.000,0.000,1,0.000,0.000,1,laboratory value,relevant
+1269,aciclovir_level,0.000,0.000,0.000,1,0.000,0.000,1,laboratory value,relevant
+1270,gamma_gt_blood,0.000,0.000,0.000,6,0.000,0.000,94,laboratory value,relevant
+1271,ureum_blood,0.000,0.000,0.000,12,0.000,0.000,190,laboratory value,relevant
+1272,haptoglobin_blood,0.000,0.000,0.000,3,0.000,0.000,6,laboratory value,relevant
+1273,ferritin_blood,0.000,0.000,0.000,8,0.000,0.000,199,laboratory value,relevant
+1274,egfr_mdrd,0.000,0.000,0.000,16,0.000,0.000,137,laboratory value,relevant
+1275,bilirubin_total_blood,0.000,0.000,0.000,6,0.000,0.000,67,laboratory value,relevant
+1276,calcium_blood,0.500,0.143,0.222,7,0.143,0.143,101,laboratory value,relevant
+1277,phosphate_blood,0.000,0.000,0.000,6,0.000,0.000,46,laboratory value,relevant
+1278,glucose_measured_blood,0.000,0.000,0.000,1,0.000,0.000,4,laboratory value,relevant
+1279,anion_gap_arterial,0.000,0.000,0.000,2,0.000,0.000,9,laboratory value,relevant
+1280,antithrombin_blood,0.000,0.000,0.000,5,0.000,0.000,108,laboratory value,relevant
+1281,magnesium_blood,0.000,0.000,0.000,3,0.000,0.000,22,laboratory value,relevant
+1282,d_dimer_blood,0.000,0.000,0.000,3,0.000,0.000,56,laboratory value,relevant
+1283,sars_cov_2_sputum_text,0.000,0.000,0.000,3,0.000,0.000,33,infectiology,relevant
+1284,sars_cov_2_bal_text,0.000,0.000,0.000,3,0.000,0.000,27,infectiology,relevant
+1285,sars_cov_2_bronchial_text,0.000,0.000,0.000,2,0.000,0.000,2,infectiology,relevant
+1286,sars_cov_2_swab_text,0.000,0.000,0.000,1,0.000,0.000,69,infectiology,relevant
+1287,sars_cov_2_nose_throat_text,0.000,0.000,0.000,3,0.000,0.000,374,infectiology,relevant
+1288,ntpro_bnp_blood,0.000,0.000,0.000,1,0.000,0.000,2,laboratory value,relevant
+1289,gentamicin_level,0.000,0.000,0.000,2,0.000,0.000,27,laboratory value,relevant
+1290,tsh_blood,0.000,0.000,0.000,1,0.000,0.000,6,laboratory value,relevant
+1291,ph_mixed_venous,0.000,0.000,0.000,2,0.000,0.000,18,laboratory value,relevant
+1292,pco2_mixed_venous,0.000,0.000,0.000,2,0.000,0.000,18,laboratory value,relevant
+1293,bicarbonate_actual_mixed_venous,0.000,0.000,0.000,3,0.000,0.000,24,laboratory value,relevant
+1294,base_excess_mixed_venous,0.000,0.000,0.000,2,0.000,0.000,18,laboratory value,relevant
+1295,so2_mixed_venous,0.000,0.000,0.000,1,0.000,0.000,6,laboratory value,relevant
+1296,ph_central_venous,0.000,0.000,0.000,2,0.000,0.000,35,laboratory value,relevant
+1297,pco2_central_venous,0.000,0.000,0.000,2,0.000,0.000,35,laboratory value,relevant
+1298,po2_central_venous,0.000,0.000,0.000,2,0.000,0.000,35,laboratory value,relevant
+1299,bicarbonate_actual_central_venous,0.000,0.000,0.000,3,0.000,0.000,40,laboratory value,relevant
+1300,base_excess_central_venous,0.000,0.000,0.000,2,0.000,0.000,35,laboratory value,relevant
+1301,vitamin_b12_blood,0.000,0.000,0.000,1,0.000,0.000,6,laboratory value,relevant
+1302,bicarbonate_standard_unspecified,0.000,0.000,0.000,2,0.000,0.000,30,laboratory value,relevant
+1303,hematocrit_arterial,0.000,0.000,0.000,1,0.000,0.000,13,laboratory value,relevant
+1304,calcium_urine,0.000,0.000,0.000,1,0.000,0.000,1,laboratory value,relevant
+1305,phosphate_urine,0.000,0.000,0.000,1,0.000,0.000,1,laboratory value,relevant
+1306,cam_icu_score_q1,0.000,0.000,0.000,2,0.000,0.000,2680,clinical score,relevant
+1307,cam_icu_score_q3,0.000,0.000,0.000,1,0.000,0.000,345,clinical score,relevant
+1308,cam_icu_score_q4,0.000,0.000,0.000,1,0.000,0.000,18,clinical score,relevant
+1309,fluid_out_stoma,0.000,0.000,0.000,1,0.000,0.000,2,fluid balance,relevant
+1310,nibp_mean,0.000,0.000,0.000,1,0.000,0.000,7,hemodynamics,relevant
+1311,gcs_verbal_estimated,0.000,0.000,0.000,1,0.000,0.000,1,neurology,relevant
+1312,nava_level,0.000,0.000,0.000,1,0.000,0.000,61,respiratory,relevant
+1313,med_apraclonidine,0.000,0.000,0.000,1,0.000,0.000,4,medication,relevant
+1314,med_all_other_non-therapeutic_products,0.000,0.000,0.000,2,0.000,0.000,4811,medication,relevant
+1315,med_collagenase,0.000,0.000,0.000,1,0.000,0.000,2,medication,relevant
+1316,med_distigmine,0.000,0.000,0.000,1,0.000,0.000,8,medication,relevant
+1317,med_medicated_shampoos,0.000,0.000,0.000,1,0.000,0.000,2,medication,relevant
+1318,med_chlorpromazine,0.000,0.000,0.000,1,0.000,0.000,11,medication,relevant
+1319,med_pilocarpine,0.000,0.000,0.000,1,0.000,0.000,2,medication,relevant
+1320,med_procainamide,0.000,0.000,0.000,1,0.000,0.000,30,medication,relevant
+1321,med_silver_sulfadiazine,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+1322,reticulocytes_perc_unspecified,0.000,0.000,0.000,1,0.000,0.000,3,laboratory value,relevant
+1323,osmolality_urine_24hours,0.000,0.000,0.000,1,0.000,0.000,4,laboratory value,relevant
+1324,galactomannan_bal_index,0.000,0.000,0.000,1,0.000,0.000,2,laboratory value,relevant
+1325,bilirubin_unspecified,0.000,0.000,0.000,1,0.000,0.000,3,laboratory value,relevant
+1326,med_acamprosate,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+1327,med_apremilast,0.000,0.000,0.000,1,0.000,0.000,10,medication,relevant
+1328,med_atenolol_and_other_diuretics,0.000,0.000,0.000,1,0.000,0.000,6,medication,relevant
+1329,med_brinzolamide,0.000,0.000,0.000,1,0.000,0.000,16,medication,relevant
+1330,med_capecitabine,0.000,0.000,0.000,1,0.000,0.000,2,medication,relevant
+1331,med_cocaine,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+1332,med_acidifiers,0.000,0.000,0.000,1,0.000,0.000,4,medication,relevant
+1333,med_ferrous_gluconate,0.000,0.000,0.000,1,0.000,0.000,12,medication,relevant
+1334,med_flunarizine,0.000,0.000,0.000,1,0.000,0.000,6,medication,relevant
+1335,med_indocyanine_green,0.000,0.000,0.000,1,0.000,0.000,2,medication,relevant
+1336,med_infliximab,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+1337,med_ketotifen,0.000,0.000,0.000,1,0.000,0.000,8,medication,relevant
+1338,med_other_antipruritics,0.000,0.000,0.000,1,0.000,0.000,11,medication,relevant
+1339,med_mepivacaine,0.000,0.000,0.000,1,0.000,0.000,2,medication,relevant
+1340,med_nicorandil,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+1341,med_nitrazepam,0.000,0.000,0.000,1,0.000,0.000,29,medication,relevant
+1342,med_olaparib,0.000,0.000,0.000,1,0.000,0.000,4,medication,relevant
+1343,med_saxagliptin,0.000,0.000,0.000,1,0.000,0.000,8,medication,relevant
+1344,med_tamoxifen,0.000,0.000,0.000,2,0.000,0.000,6,medication,relevant
+1345,med_venetoclax,0.000,0.000,0.000,1,0.000,0.000,7,medication,relevant
+1346,med_vortioxetine,0.000,0.000,0.000,1,0.000,0.000,11,medication,relevant
+1347,med_oxygen,0.000,0.000,0.000,1,0.000,0.000,3,medication,relevant
+1348,gentamicin_peak_level,0.000,0.000,0.000,1,0.000,0.000,6,laboratory value,relevant
+1349,restrictive_policy_crrt,0.000,0.000,0.000,1,0.000,0.000,56,admission information,relevant
+1350,restrictive_policy_nit,0.000,0.000,0.000,1,0.000,0.000,50,admission information,relevant
+1351,restrictive_policy_ntbr,0.000,0.000,0.000,1,0.000,0.000,265,admission information,relevant
+1352,fio2_hiflow,0.000,0.000,0.000,1,0.000,0.000,1239,respiratory,relevant
+1353,ecg_st_segment,0.000,0.000,0.000,1,0.000,0.000,11,hemodynamics,relevant
+1354,mews_score,0.000,0.000,0.000,1,0.000,0.000,186,clinical score,relevant
+1355,cpot_score_intubated,0.000,0.000,0.000,1,0.000,0.000,3634,clinical score,relevant
+1356,nice_Eol_cpr_24,0.000,0.000,0.000,1,0.000,0.000,598,nice data,relevant
+1357,nice_Eol_RRT_24,0.000,0.000,0.000,1,0.000,0.000,598,nice data,relevant
+1358,nice_Eol_beadem_dis,0.000,0.000,0.000,1,0.000,0.000,326,nice data,relevant
+1359,nice_Eol_cpr_dis,0.000,0.000,0.000,1,0.000,0.000,326,nice data,relevant
+1360,nice_Eol_RRT_dis,0.000,0.000,0.000,1,0.000,0.000,325,nice data,relevant
+1361,nice_Eol_readm_dis,0.000,0.000,0.000,1,0.000,0.000,323,nice data,relevant
+1362,lactate_whole_blood,0.000,0.000,0.000,1,0.000,0.000,82,laboratory value,relevant
+1363,nice_katheter,0.000,0.000,0.000,1,0.000,0.000,954,nice data,relevant
+1364,nice_pneumothorax,0.000,0.000,0.000,1,0.000,0.000,69,nice data,relevant
+1365,nice_lijnsepsis,0.000,0.000,0.000,1,0.000,0.000,133,nice data,relevant
+1366,med_multivitamins_and_trace_elements,0.000,0.000,0.000,1,0.000,0.000,1007,medication,relevant
+1367,med_salicylic_acid_preparations,0.000,0.000,0.000,1,0.000,0.000,78,medication,relevant
+1368,med_phenobarbital,0.000,0.000,0.000,1,0.000,0.000,4,medication,relevant
+1369,med_loprazolam,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+1370,med_mercaptopurine,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
+1371,med_ropinirole,0.000,0.000,0.000,2,0.000,0.000,3,medication,relevant
+1372,med_ethinylestradiol,0.000,0.000,0.000,1,0.000,0.000,2,medication,relevant
+1373,crrt_circuit_change,0.000,0.000,0.000,1,0.000,0.000,6,renal replacement therapy,relevant
+1374,med_enemas,0.000,0.000,0.000,1,0.000,0.000,1,medication,relevant
