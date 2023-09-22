@@ -1,6 +1,10 @@
-# AutoMap
-This utility is intended to facilitate and improve the mapping process of hospital parameter names to a common ontology for use in research on the Intensive Care Unit. During COVID-Predict, a lot of manual labor resulted in the Dutch Data Warehouse, a dataset of 25 Intensive Care Units sharing their data and allowing for insights in COVID and also creating a national collaboration resulting in ICUdata, intending to share data outside of COVID as well. 
+# Augmented intelligence facilitates concept mapping across different electronic health records
+This utility is intended to facilitate and improve the mapping process of hospital parameter names to a common ontology for use in research on the Intensive Care Unit. During COVID-Predict, a lot of manual labor resulted in the Dutch Data Warehouse, a dataset of 25 Intensive Care Units sharing their data and allowing for insights in COVID and also creating a national collaboration resulting in ICUdata, intending to share data outside of COVID as well.
 
+## Article
+Published article can be found at [https://doi.org/10.1016/j.ijmedinf.2023.105233](https://doi.org/10.1016/j.ijmedinf.2023.105233)
+
+## Future research
 For ICUdata, more hospitals will be added and given the labor intensive workload, we attempt to learn from our earlier work and use a supervised classification algorithm to provide most likely mapping relationships. Based on parameter name processing, we can find our own provided label in the top 3 suggestions for all parameters. 
 
 We will expand this work by including distribution data:
